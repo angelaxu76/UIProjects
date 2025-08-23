@@ -1,0 +1,14 @@
+﻿{
+  "Name": "中国码",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "06VbJAawsUqaS_oEKAaLfQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/06VbJAawsUqaS_oEKAaLfQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T23:15:48.395121Z",
+  "Updated": "2025-08-16T23:15:48.395121Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Hhvfyu1Vk0iAMnzW27NfnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="553f0d3c-7f31-4c4a-8e13-d31bdff3d302" CvElementArea="624, 551, 75, 38" CvType="InputBox" DesignTimeRectangle="626, 553, 70, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122640606' tag='INPUT' type='' class='' placeholder='数字' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9dcba5b1-0576-49d5-a0f3-010ae27c9ffa" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="553f0d3c-7f31-4c4a-8e13-d31bdff3d302" CvTextArea="623, 532, 50, 14" CvTextArgument="ExEEx6" CvType="Text" DesignTimeRectangle="625, 531, 240, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='长x宽x高' parentid='struct-p-122640606' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='长x宽x高' parentid='struct-p-122640606' tag='DIV' type='' class='sell-rich-text info-top' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='长x宽x高' /&gt;" Guid="c1cc0fd0-5385-42cd-b990-e73927808531" SearchSteps="Selector, FuzzySelector, CV" />
+          <Target DesignTimeRectangle="569, 532, 48, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122640606' tag='LABEL' type='' class='label' aaname='包装体积' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='包装体积' /&gt;" Guid="77602ca4-715a-4ed8-ad49-ed59f59db8a5" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9eaa4b5953039282dedf6b2f5685ea5f.png" xmlns="">0n8X-F6RL3U2HitvAkdWyAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

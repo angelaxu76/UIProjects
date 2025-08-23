@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="O8JVHzTUjEOvK5tpmeHpIw" Reference="d8TXjNWSJ0-3WMGxBOkBOg/wpvqVfAPD0qgCXwti6WXIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="2dd629b1-a3ca-488e-8839-9b484eb8df3d" CvTextArea="1055, 799, 27, 14" CvTextArgument="##D" CvType="Text" DesignTimeRectangle="1057, 793, 24, 28" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;衣长&quot;).ToString+&quot;' class='info-content' tag='DIV' /&gt;&quot;]" Guid="3c32955a-49b4-462f-90a2-3c08f9dcbcd4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="2dd629b1-a3ca-488e-8839-9b484eb8df3d" CvTextArea="954, 765, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="956, 764, 73, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216347' tag='LABEL' type='' class='label required' aaname='上市年份季节' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='上市年份季节' /&gt;" Guid="fca61bd1-1347-4328-bbc6-91ea02f56664" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7094ea4d7115ac8152fac428412d6f62.png" xmlns="">095Za_6eXdEOMtli78_aWQw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

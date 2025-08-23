@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nUApHE_TH0etNjxMPUFXHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="6c2105b2-08ef-4bdb-a515-0161c3426f83" CvElementArea="624, 713, 243, 38" CvType="InputBox" DesignTimeRectangle="636, 715, 199, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-1626698' tag='INPUT' type='' class='' placeholder='请选择' aaname='' /&gt;" Guid="16380bd7-114e-4c39-a39b-01b4715f7e70" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6c2105b2-08ef-4bdb-a515-0161c3426f83" CvTextArea="571, 724, 47, 13" CvTextArgument="* FF" CvType="Text" DesignTimeRectangle="572, 722, 46, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-1626698' tag='LABEL' type='' class='label required important' aaname='后跟高' check:innerText='后跟高' /&gt;" Guid="bf42e391-24ed-4221-bc31-5365215c041c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7ae1acd798993337adb2b043a7cda15b.png" xmlns="">0oMJi6ojQQUKaEtiSIs8IDw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

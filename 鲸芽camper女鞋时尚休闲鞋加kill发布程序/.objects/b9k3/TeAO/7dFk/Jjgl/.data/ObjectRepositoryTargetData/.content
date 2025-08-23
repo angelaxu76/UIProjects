@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JEJjK8crrUK-w5BnHMyrIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="3d69f542-4d44-43e6-9477-aff3012ef65c" CvElementArea="1043, 363, 243, 38" CvType="InputBox" DesignTimeRectangle="1046, 365, 238, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-122216562' tag='INPUT' type='' class='' placeholder='请输入' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8051b7f5-ad23-4a31-bbfa-27ab226401f5" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3d69f542-4d44-43e6-9477-aff3012ef65c" CvTextArea="1002, 373, 35, 14" CvTextArgument="* *K" CvType="Text" DesignTimeRectangle="1003, 372, 34, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216562' tag='LABEL' type='' class='label required' aaname='衣长' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='衣长' /&gt;" Guid="e856a41d-b503-4ee8-9dae-a4579c82b536" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a2a21426c97a4d4cdaccf6ddd5556b2c.png" xmlns="">0ikNuM8yfvEG7Z2zsmATKlg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

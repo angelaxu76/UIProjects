@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JfGsXxsaX0WoWkEkNCN7lg" Reference="d8TXjNWSJ0-3WMGxBOkBOg/6DUQ_gQspUuPwW8-PcssTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="a238504f-844f-4842-bbb9-f1552c020037" CvTextArea="1064, 571, 38, 14" CvTextArgument="J¥E" CvType="Text" DesignTimeRectangle="1066, 565, 36, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;款式&quot;).ToString+&quot;' class='info-content' tag='DIV' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl aaname='丁字鞋' class='info-content' tag='DIV' type='' check:innerText='丁字鞋' /&gt;" Guid="9c157535-aee5-4ce7-80b0-07b139fd9060" NativeTextArgument="[product(&quot;款式&quot;).ToString]" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, TextNative, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0f94b1d9bcb7acf3b4d29170568130eb.png" xmlns="">0oXZEhHMVJUy6FnxHrk4K0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

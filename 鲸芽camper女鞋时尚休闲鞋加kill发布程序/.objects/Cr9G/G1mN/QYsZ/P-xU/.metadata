@@ -1,0 +1,13 @@
+﻿{
+  "Name": "确定",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "P-xUPMqKIk28K12VHnjbeQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/P-xUPMqKIk28K12VHnjbeQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/QYsZYSVjjEWKXdBgIy5sGA",
+  "Created": "2025-08-03T05:38:55.5244702Z",
+  "Updated": "2025-08-03T05:38:55.5244702Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

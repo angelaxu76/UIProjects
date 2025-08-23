@@ -1,0 +1,14 @@
+﻿{
+  "Name": "款式",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "L872wtxlCkys8BlgWxMwIQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/L872wtxlCkys8BlgWxMwIQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T21:53:47.8112899Z",
+  "Updated": "2025-04-25T21:53:47.8112899Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

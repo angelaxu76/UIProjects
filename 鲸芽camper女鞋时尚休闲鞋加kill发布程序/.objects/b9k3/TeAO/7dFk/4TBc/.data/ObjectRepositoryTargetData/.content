@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tlMLTxUvLEOZa_pijZsCMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="808e7a9c-c9bd-4ca9-96fe-a1104bd80f3b" CvElementArea="626, 680, 168, 39" CvType="InputBox" DesignTimeRectangle="629, 683, 143, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="6a04674e-ec58-4114-91c9-47906f12ed12" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="808e7a9c-c9bd-4ca9-96fe-a1104bd80f3b" CvTextArea="499, 690, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="497, 690, 61, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='库存类型' parentid='sell-field-globalStock' tag='SPAN' type='' class='sellhoc-label sellhoc-required-label' check:innerText='库存类型' /&gt;" Guid="97e48f18-4930-4eb4-9b44-935d7cb7c3a7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6a12df0182ea88c1d149e5fcef550b6b.png" xmlns="">0c3iSi2lnE06rPj-PDSzr-g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

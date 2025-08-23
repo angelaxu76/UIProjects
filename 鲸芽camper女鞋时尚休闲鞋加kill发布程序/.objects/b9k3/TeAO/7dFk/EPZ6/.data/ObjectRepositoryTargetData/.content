@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g0FdIvPFdEmKi_ScwphKAA" Reference="d8TXjNWSJ0-3WMGxBOkBOg/EPZ60cpwFkeDt_-lyV41ng" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="1066, 335, 24, 28" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;版型&quot;).ToString+&quot;' class='info-content' tag='DIV' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='标准' /&gt;&quot;]" Guid="84cc2fcc-9967-4eea-9c52-5087c37782ed" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9d736ad4-7c02-4f5f-9718-da1b237f4445" CvTextArea="978, 314, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="979, 312, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216608' tag='LABEL' type='' class='label required' aaname='适用对象' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='适用对象' /&gt;" Guid="fca65da5-d4c7-4e8e-8b2c-636e6c427ba4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a2c01b4fa7facf91bfa0be5a911a38ef.png" xmlns="">0DIbpMComa0KpY38wUbTLXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="M7LVLLll0EG9ROfrJx6LDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="d565b8fe-bb0b-4da6-ace3-0a066c75bdb8" CvTextArea="644, 446, 38, 14" CvTextArgument="Nt9" CvType="Text" DesignTimeRectangle="646, 440, 36, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='有机棉' class='info-content' tag='DIV' /&gt;" Guid="68ef9c91-7ec1-418d-8da4-deda3be58efa" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b0c4545bfc7872c1a39c5090ffa9499d.png" xmlns="">0S4MTPrq2uUeYTdvLLORA-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

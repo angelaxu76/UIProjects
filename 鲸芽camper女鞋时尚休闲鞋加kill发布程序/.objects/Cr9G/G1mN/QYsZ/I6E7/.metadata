@@ -1,0 +1,13 @@
+﻿{
+  "Name": "销售单位",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "I6E7rx83gEO3Ljn8itx1jw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/I6E7rx83gEO3Ljn8itx1jw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/QYsZYSVjjEWKXdBgIy5sGA",
+  "Created": "2025-08-03T05:38:54.9974768Z",
+  "Updated": "2025-08-03T05:38:54.9974768Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

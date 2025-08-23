@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="q1hhw5kFREyryDiPhu79Pw" Reference="d8TXjNWSJ0-3WMGxBOkBOg/D3OQ-0HYyUaXgjLHLYq5rA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="5fa80279-0bf6-471c-a4c6-0d95653dca29" CvElementArea="830, 282, 153, 39" CvType="InputBox" DesignTimeRectangle="834, 284, 146, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' parentid='sell-field-sku' tag='INPUT' class='' placeholder='价格（元）' aaname='' /&gt;" Guid="3286c349-0636-4ab7-b61e-40db9ed81458" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="715, 291, 104, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-sku' tag='P' type='' class='sell-sku-cell-text-content' aaname='颜色分类图' check:innerText='颜色分类图' /&gt;" Guid="cf865f09-21f0-41a3-bbed-d974489527c9" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="069fb58ef15959e32c0d10db761b83bf.png" xmlns="">0dCjeDsvdK06kEpR7gkg_tw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
