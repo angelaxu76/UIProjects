@@ -1,0 +1,14 @@
+﻿{
+  "Name": "季节",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "TGotJY92UE-C2PrpYEzIkw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/TGotJY92UE-C2PrpYEzIkw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-31T01:08:01.3262506Z",
+  "Updated": "2025-07-31T01:08:01.3262506Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

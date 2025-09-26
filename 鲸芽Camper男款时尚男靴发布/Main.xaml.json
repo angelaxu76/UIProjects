@@ -1,0 +1,81 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "excelPath",
+      "DisplayName": "excelPath",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "detailPage",
+      "DisplayName": "detailPage",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "淘经销详情",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "sizeChatname",
+      "DisplayName": "sizeChatname",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "CAMPER女鞋尺码表",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "successLog",
+      "DisplayName": "successLog",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "d:/success.txt",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "storeIntr",
+      "DisplayName": "storeIntr",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "店铺简介",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "shopProcess",
+      "DisplayName": "shopProcess",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "代购流程",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

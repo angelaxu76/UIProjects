@@ -1,0 +1,14 @@
+﻿{
+  "Name": "取消(3)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "3Eo28_4kF0K5qsA8lf4MtA",
+  "Reference": "FzIA2_RpJ06HXfvqZLEOKA/3Eo28_4kF0K5qsA8lf4MtA",
+  "ParentRef": "FzIA2_RpJ06HXfvqZLEOKA/jQM4q6zV10qOkRWVKnHkmw",
+  "Created": "2025-05-01T15:34:34.6735766Z",
+  "Updated": "2025-05-01T15:34:34.6735766Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

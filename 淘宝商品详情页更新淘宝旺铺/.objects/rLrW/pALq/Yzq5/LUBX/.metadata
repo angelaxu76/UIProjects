@@ -1,0 +1,14 @@
+﻿{
+  "Name": "应用",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "LUBXJFgHMk2iCSvJd9Lnsw",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/LUBXJFgHMk2iCSvJd9Lnsw",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-06-13T19:56:57.7502507Z",
+  "Updated": "2025-06-13T19:56:57.7502507Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

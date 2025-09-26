@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="himyEgDO00aOLzBu1f-Y9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="507, 266, 660, 2400" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='https://img.alicdn.com/imgextra/i4/2219163936872/O1CN01J2MIaT20dQpGpPyOH_!!2219163936872.png' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='https://img.alicdn.com/imgextra/i4/2219163936872/O1CN01J2MIaT20dQpGpPyOH_!!2219163936872.png' tag='IMG' type='' class='' aaname='' /&gt;" Guid="3048219c-1688-4e6e-8fc0-3d0a6576722a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="599, 181, 86, 44" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl aria-role='option' type='' tabindex='-1' tag='LI' class='next-menu-item next-nav-item sell-component-navigation-bar-nav-item' aaname='' check:innerText='物流信息' /&gt;" Guid="b1f494de-e1d8-4093-9510-95e28b8f4418" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a42cb3267bcdd9c8119ca2b87c85013d.png" xmlns="">0cTqV3K4LRkORbwUoyocfWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

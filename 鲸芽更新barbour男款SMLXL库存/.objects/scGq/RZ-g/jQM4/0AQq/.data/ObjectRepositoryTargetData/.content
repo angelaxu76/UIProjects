@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="r2nCnP4IvU-0iWzYKMFgbQ" Reference="FzIA2_RpJ06HXfvqZLEOKA/0AQqe7-fiUWTssLG_cxwjQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="c8eb6a2c-9d73-49fc-8383-79de64bc6088" CvElementArea="1241, 684, 82, 26" CvType="InputBox" DesignTimeRectangle="1243, 686, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_087228' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="53116b46-3e7e-41a3-a2d3-552228729115" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b15639CoKEs' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="728, 673, 70, 47" ElementType="Text" FullSelectorArgument="&lt;webctrl id='iframe_087228' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' tag='TABLE' /&gt;&lt;webctrl tableRow='4' tag='DIV' /&gt;" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_*' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，XL' check:innerText='&quot;+productCode+&quot;，XL' /&gt;&quot;]" Guid="a08fe828-623b-4288-af20-95d05012c64a" SearchSteps="Selector, FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f1d230e2afc7db13bf424222c845fcc7.png" xmlns="">0ZjZzEhQrcUiTpJordsrl7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JRDv8oUgVUio5atOzMgOVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="507, 542, 750, 3216" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='https://img.alicdn.com/imgextra/i1/2219163936872/O1CN01ZOIVkm20dQpbAuc7c_!!2219163936872.png' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='https://img.alicdn.com/imgextra/i1/2219163936872/O1CN01ZOIVkm20dQpbAuc7c_!!2219163936872.png' tag='IMG' type='' class='' aaname='' /&gt;" Guid="f8bb4777-ae30-4067-af9d-3a059a04b8be" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9ee93eedd16db3755484b521d815680b.png" xmlns="">0aXD1TOrx4kSDGvNJm6Yi2A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

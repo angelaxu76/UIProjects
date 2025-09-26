@@ -1,0 +1,14 @@
+﻿{
+  "Name": "棉靴毛靴",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Jv6y9hK3gE6xBtel_LFd7w",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/Jv6y9hK3gE6xBtel_LFd7w",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-31T01:07:00.4191503Z",
+  "Updated": "2025-07-31T01:07:00.4191503Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

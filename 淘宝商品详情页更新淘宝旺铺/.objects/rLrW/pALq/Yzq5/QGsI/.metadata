@@ -1,0 +1,14 @@
+﻿{
+  "Name": "隐藏不可用图片",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "QGsInCjE8kq2tz6xEvBrgA",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/QGsInCjE8kq2tz6xEvBrgA",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-06-11T23:37:22.3029655Z",
+  "Updated": "2025-06-11T23:37:22.3029655Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

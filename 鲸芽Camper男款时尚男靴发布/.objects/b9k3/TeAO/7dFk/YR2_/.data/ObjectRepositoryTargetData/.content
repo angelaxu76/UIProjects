@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="64R1aB5l40WZpGRuyQW5vQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="d61223db-7073-48c3-b503-db3fa9b44e92" CvElementArea="1043, 526, 244, 38" CvType="InputBox" DesignTimeRectangle="1055, 528, 199, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-122216561' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-122216561' tag='INPUT' type='' class='' placeholder='请选择' aaname='' /&gt;" Guid="1bc7bb4c-ba46-4e1d-a54b-3ff945f86223" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831Pnmj3c' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d61223db-7073-48c3-b503-db3fa9b44e92" CvTextArea="978, 537, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="979, 535, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216561' tag='LABEL' type='' class='label required' aaname='鞋跟款式' check:innerText='鞋跟款式' /&gt;" Guid="6afc8042-b51e-400f-a7d6-68a8212a8415" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="31cfd6817af375ae2689491d3880f083.png" xmlns="">0vVqutK9XyUGCzvshIcKISQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

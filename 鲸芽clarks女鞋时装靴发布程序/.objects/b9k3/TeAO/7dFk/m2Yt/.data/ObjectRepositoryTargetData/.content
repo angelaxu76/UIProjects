@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MgVsl3UaHUumbgtXHXT8CQ" Reference="d8TXjNWSJ0-3WMGxBOkBOg/m2YtoJpW-kuSPs6AwyD06A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="646, 451, 48, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='&amp;quot;+product(&amp;quot;靴筒内里材质&amp;quot;).ToString+&amp;quot;' class='info-content' tag='DIV' /&gt;" Guid="288271e7-c0c3-4329-b3be-d01a8f1f1aba" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="79f680c0dc4ee75c40ae2a3a85fb94ff.png" xmlns="">0GCEtAJYkvUG6HiGmN_dWjg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

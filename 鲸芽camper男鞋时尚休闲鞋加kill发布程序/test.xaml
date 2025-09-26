@@ -1,0 +1,436 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="test" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="1535,4844" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 淘宝网 - 商品发布" sap:VirtualizedContainerService.HintSize="518,4821" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a6f9ce49-0765-4062-88c7-da2436c4e54b" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="484,4579" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,4517" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="scg:IEnumerable(ui:UiElement)" Name="childData" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(pgdn)][u(hk)]" Version="V4">
+                <uix:NKeyboardShortcuts.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NKeyboardShortcuts.VerifyOptions>
+              </uix:NKeyboardShortcuts>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(pgdn)][u(hk)]" Version="V4">
+                <uix:NKeyboardShortcuts.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NKeyboardShortcuts.VerifyOptions>
+              </uix:NKeyboardShortcuts>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(pgdn)][u(hk)]" Version="V4">
+                <uix:NKeyboardShortcuts.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NKeyboardShortcuts.VerifyOptions>
+              </uix:NKeyboardShortcuts>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" Shortcuts="[d(hk)][k(pgdn)][u(hk)]" Version="V4">
+                <uix:NKeyboardShortcuts.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NKeyboardShortcuts.VerifyOptions>
+              </uix:NKeyboardShortcuts>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '主图图片'" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6f9ce49-0765-4062-88c7-da2436c4e54b" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="079adc68-8946-427f-9998-159b4ef60c15" ContentHash="9HgR0BzYpESPXU4do8_AwA" CvElementArea="496, 279, 102, 98" CvType="Button" DesignTimeRectangle="508, 280, 78, 98" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='image-empty' parentid='sell-field-images' tag='DIV' type='' aaname='' check:innerText='上传图片' /&gt;" Guid="73826489-ed76-417c-8a4d-e2709e8051f9" InformativeScreenshot="5854026635c5f9ac2fccfab74e789f24.png" Reference="d8TXjNWSJ0-3WMGxBOkBOg/d2qGerfddEudgw50CujcUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="365, 250, 56, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-images' tag='SPAN' type='' class='sell-component-info-wrapper-label' aaname='主图图片' check:innerText='主图图片' /&gt;" Guid="ad71f3db-6f2b-4d45-bd1c-3dd65e5c1892" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Label'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,292" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="a6f9ce49-0765-4062-88c7-da2436c4e54b" Text="K201253-037" Version="V4">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="item.upload.taobao.com/tbcp/publish.htm" ContentHash="eSdGGCt3bEyrp3at-PFeqQ" DesignTimeRectangle="865, 422, 148, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745678162551256932949041' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="7eaddd7e-a962-4e86-bdca-2cd8c3e3db32" InformativeScreenshot="3a1818e65ec2a2d3153b61da47acecc8.png" IsResponsive="True" Reference="d8TXjNWSJ0-3WMGxBOkBOg/4OZ1q4B1kUm8SXSlSSRy-Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="079adc68-8946-427f-9998-159b4ef60c15" CvElementArea="682, 423, 25, 24" CvType="Icon" DesignTimeRectangle="687, 427, 16, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745678162551256932949041' tag='IFRAME' /&gt;&lt;webctrl aaname='' parentid='container' tag='SPAN' type='' class='active icon iconfont' check:innerText='' /&gt;" Guid="89a516ee-ebc1-4e31-a557-242881c5f008" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhP1VQ7CsJQEPReKuI91MLC1kvYWGnwBhHBxgMIFhbW3sAoJCLEL0iUfHTMPIi8BAuLDejAkM2yM7x9E1KAMPIxfMY05geU+haqg/WbxZ6FztSFHz0VWbOnz1BDLT0IZWifA9RMWz11nLwIjaGDpX1XZM2ejqxWGW6OAVrjLS639DDf66aDxcpTZP1phlp6EH9iyP2bIwfuNVTNBN/cITXUpu6QCXVne5QzKVcMC+3JDn4YpxyTNXv6DDXUplJO4PkPdfSE2fUI9vQZanTkYyi+sngoPPpvf4fihtxf9OfAhER/X5IQNgReSua5aPodnKMAAAAASUVORK5CYII=" SearchSteps="CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.VerifyOptions>
+                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                  </uix:VerifyExecutionTypeIntoOptions>
+                </uix:NTypeInto.VerifyOptions>
+              </uix:NTypeInto>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+                <uix:NKeyboardShortcuts.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NKeyboardShortcuts.VerifyOptions>
+              </uix:NKeyboardShortcuts>
+              <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="Delay_3" />
+              <ui:FindChildren Children="[childData]" DisplayName="Find Children 'DIV  items'" Filter="&lt;webctrl /&gt;" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="FindChildren_1" Scope="FIND_CHILDREN">
+                <ui:FindChildren.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a03ff787-3856-425a-a43d-4d7d456dfa07" InformativeScreenshot="67e44897143978121b3e501579fb967a" Selector="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=*' tag='IFRAME' /&gt;&lt;webctrl id='items' tag='DIV' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:FindChildren.Target>
+              </ui:FindChildren>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[childData.Count().ToString]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="416,211" sap2010:WorkflowViewState.IdRef="NClick_5" InUiElement="[childData.ElementAt(2)]" KeyModifiers="None" MouseButton="Left" Version="V4">
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="416,211" sap2010:WorkflowViewState.IdRef="NClick_6" InUiElement="[childData.ElementAt(0)]" KeyModifiers="None" MouseButton="Left" Version="V4">
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="416,211" sap2010:WorkflowViewState.IdRef="NClick_7" InUiElement="[childData.ElementAt(1)]" KeyModifiers="None" MouseButton="Left" Version="V4">
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="416,211" sap2010:WorkflowViewState.IdRef="NClick_8" InUiElement="[childData.ElementAt(3)]" KeyModifiers="None" MouseButton="Left" Version="V4">
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click" sap:VirtualizedContainerService.HintSize="416,211" sap2010:WorkflowViewState.IdRef="NClick_9" InUiElement="[childData.ElementAt(4)]" KeyModifiers="None" MouseButton="Left" Version="V4">
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '一'" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6f9ce49-0765-4062-88c7-da2436c4e54b" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="ff6e6d84-111f-43b3-8e9d-b51be0a6c4d5" ContentHash="Keo99kgeZ06FS33wWEp-sA" CvTextArea="1034, 569, 64, 12" CvTextArgument="1101x1101" CvType="Text" DesignTimeRectangle="1017, 486, 100, 100" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=*' tag='IFRAME' /&gt;&lt;webctrl src='https://img.alicdn.com/imgextra/i4/*' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745762360268898600565645' tag='IFRAME' /&gt;&lt;webctrl src='https://img.alicdn.com/imgextra/i1/2219163936872/O1CN01mX7jtE20dQocYnRkM_!!2219163936872.jpg_100x100' tag='IMG' type='' class='' aaname='' /&gt;" Guid="5f62e554-338e-4bc3-838c-f97ef3bfebde" InformativeScreenshot="36239745c80bb7f54b4f4b3248413ad1.png" Reference="d8TXjNWSJ0-3WMGxBOkBOg/pxW1Ek1i7Ui0Vr6o0eV-sA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="ff6e6d84-111f-43b3-8e9d-b51be0a6c4d5" CvTextArea="1016, 595, 99, 14" CvTextArgument="K201253-037_L..." CvType="Text" DesignTimeRectangle="1017, 585, 100, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745762360268898600565645' tag='IFRAME' /&gt;&lt;webctrl aaname='K201253-037_L.jpg' class='name' parentid='items' tag='DIV' type='' check:innerText='K201253-037_L.jpg' /&gt;" Guid="3d59aa09-97ed-45fb-a073-ecca0afa9de9" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NClick>
+              <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Delay_1">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Delay>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '二'" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6f9ce49-0765-4062-88c7-da2436c4e54b" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="ff6e6d84-111f-43b3-8e9d-b51be0a6c4d5" ContentHash="RGo8X5gXb0Wmypws3vQDjQ" CvTextArea="1144, 569, 65, 12" CvTextArgument="1089x1089" CvType="Text" DesignTimeRectangle="1127, 486, 100, 100" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=*' tag='IFRAME' /&gt;&lt;webctrl src='https://img.alicdn.com/imgextra/i3/*' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745762360268898600565645' tag='IFRAME' /&gt;&lt;webctrl src='https://img.alicdn.com/imgextra/i2/2219163936872/O1CN01lt1r0j20dQoc3UEsm_!!2219163936872.jpg_100x100' tag='IMG' type='' class='' aaname='' /&gt;" Guid="4f54dc2a-b4d8-4e15-b1e5-b80e85daf5d3" InformativeScreenshot="b5075958674955ea558374924260cf47.png" Reference="d8TXjNWSJ0-3WMGxBOkBOg/JOsoEVMc0UK6M1tomsaftw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="ff6e6d84-111f-43b3-8e9d-b51be0a6c4d5" CvTextArea="1126, 594, 101, 16" CvTextArgument="K201253-037_F...." CvType="Text" DesignTimeRectangle="1127, 585, 100, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745762360268898600565645' tag='IFRAME' /&gt;&lt;webctrl aaname='K201253-037_F.jpg' class='name' parentid='items' tag='DIV' type='' check:innerText='K201253-037_F.jpg' /&gt;" Guid="442b5b0b-1505-44c1-8890-00b5e4291ccb" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NClick>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Trace" Message="[&quot;NO 2&quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Delay_2">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Delay>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '第三'" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a6f9ce49-0765-4062-88c7-da2436c4e54b" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="item.upload.taobao.com/tbcp/publish.htm" ContentHash="C0_ETVav9kGkT_YmeGc_zw" DesignTimeRectangle="687, 485, 100, 100" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=*' tag='IFRAME' /&gt;&lt;webctrl src='https://img.alicdn.com/imgextra/i2/*' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745762360268898600565645' tag='IFRAME' /&gt;&lt;webctrl type='' parentid='items' tag='DIV' class='cover list-item' aaname='' check:innerText='750x1760' /&gt;" Guid="1428eecc-701c-4b9a-a1ab-2c32f48c5210" InformativeScreenshot="6e392ec0a344efcae62784f7f3509a04.png" Reference="d8TXjNWSJ0-3WMGxBOkBOg/DshKSJwuJkyBQD3nXzdtNQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NClick>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,172" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Trace" Message="[&quot;NO 3&quot;]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1928, -8, 1936, 1048" BrowserType="Chrome" ContentHash="ELpfWS0S1EipVLMklsE5eQ" IconBase64="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" InformativeScreenshot="4f1d93196a181a0411beec7ff16c25b7.jpg" Reference="d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ" Selector="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" Title="淘宝网 - 商品发布" Url="https://item.upload.taobao.com/tbcp/publish.htm?catId=202057706&amp;fx_sub_channel=taofxMarket_taobao&amp;keyProps=%7B%22p-20000%22%3A%7B%22value%22%3A3510691%2C%22text%22%3A%22Camper%22%7D%7D&amp;newRouter=1&amp;paramCacheId=merge_router_cache_2219163936872_1745596331809_385&amp;channelCode=taofxMarket&amp;x-gpf-submit-trace-id=213e022617455963317834021e1442" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="B3NW0eEAuUuRu0nomDghMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="_sMD9vos-U2ZP35ee7cSiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="20e8a0fe-d364-432b-a26a-d0319d915fa6" CvElementArea="831, 350, 153, 39" CvType="InputBox" DesignTimeRectangle="835, 352, 146, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' parentid='sell-field-sku' tag='INPUT' class='' placeholder='价格（元）' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="db7dfc6d-8253-4dec-a6fa-c2f10dfe3ad6" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="99c17d50-1369-46cd-a85e-7007bd2ec76e" CvElementArea="593, 348, 113, 42" CvType="InputBox" DesignTimeRectangle="596, 351, 108, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='skuPrice' tag='INPUT' /&gt;" Guid="c5e8c0cd-4ace-47d3-a4de-fc3b15b9b2a9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="20e8a0fe-d364-432b-a26a-d0319d915fa6" CvTextArea="715, 361, 38, 14" CvTextArgument="ÊÈS" CvType="Text" DesignTimeRectangle="717, 359, 103, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='sell-sku-cell-text-content' aaname='颜色图' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='颜色图' /&gt;" Guid="e95026e1-27ef-4b8c-ba83-659c857177c3" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="675, 320, 112, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-sku' tag='A' type='' class='' aaname=' 点击查看具体说明 ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='点击查看具体说明' /&gt;" Guid="90775192-d6a6-4019-8822-ea1b178cea55" SearchSteps="FuzzySelector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="b9d540344fad39fe21d0581896a4aefb.png" xmlns="">0iTerIYqbB0WqtJRVZ_5dXg</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="3496f0cdbdeb2e51ca1972ae27b6a81f.png" xmlns="">0lBS9Yjmzm0eXcgyx7e8-GQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>

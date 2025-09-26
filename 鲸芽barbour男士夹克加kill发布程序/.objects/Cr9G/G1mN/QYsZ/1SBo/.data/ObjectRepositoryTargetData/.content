@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kA3DxZ6TnUKn7zCzh8K3qA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ae3222fa-b7af-4057-aab0-4a60b06d4dbb" CvElementArea="720, 536, 303, 38" CvType="InputBox" DesignTimeRectangle="1000, 547, 21, 15" DesignTimeScaleFactor="1" ElementType="ArrowButton" FullSelectorArgument="&lt;webctrl class='next-input-control' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;span' tag='SPAN' /&gt;" Guid="e19af746-4a9a-4466-a40a-a5c3112d3006" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABkAAAATCAYAAABlcqYFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACcSURBVEhL7dIxCoAgFMbx7n8DB88gTuJFnJ2ipVVQlBdfUFRgKhVB9IcI3xN+ix09WD+M8787Lu7sR5p6H0kpkff+OJ7DHPuaskgIgYQQxDknY8xuhzPm2ONeqSwSYySlFDHGdtACYI497pXKIsg5R1LKFdJarwDm2Nd0iqAttHwtACoiaAu1AqgKQXhN1trsazurGrnSjzT1PWQCrKlCVySOTg8AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ef38d9ec2b155bc9b8088e0b9a3c7ee6.png" xmlns="">0rqgHuzGelkSe7wzjySVUjg</imageRef>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

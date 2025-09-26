@@ -1,0 +1,13 @@
+﻿{
+  "Name": "鞋面材料",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "mnoQIUSLa02QD64wOFEDbw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/mnoQIUSLa02QD64wOFEDbw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/QYsZYSVjjEWKXdBgIy5sGA",
+  "Created": "2025-08-03T05:38:55.2594738Z",
+  "Updated": "2025-08-03T05:38:55.2594738Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

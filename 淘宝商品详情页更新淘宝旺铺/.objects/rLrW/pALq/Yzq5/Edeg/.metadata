@@ -1,0 +1,14 @@
+﻿{
+  "Name": "保存",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "Edeg2hCH70KW4nIZHRTwEA",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/Edeg2hCH70KW4nIZHRTwEA",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-06-13T19:57:36.2679328Z",
+  "Updated": "2025-06-13T19:57:36.2679328Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

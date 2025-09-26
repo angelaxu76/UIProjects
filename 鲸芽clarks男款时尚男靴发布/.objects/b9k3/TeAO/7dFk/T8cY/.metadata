@@ -1,0 +1,14 @@
+﻿{
+  "Name": "厚薄",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "T8cYn6pz_kaeQgGP4zVJ7Q",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/T8cYn6pz_kaeQgGP4zVJ7Q",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T21:07:22.2384449Z",
+  "Updated": "2025-08-23T21:07:22.2384449Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="siiMOYeBV0ui2Mgt610VUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="7dc7b8b1-fcc7-46a4-ae80-132430fb9471" CvElementArea="1135, 270, 23, 22" CvType="CheckBox" DesignTimeRectangle="1137, 272, 18, 18" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl class='next-checkbox-input' parentid='sell-field-p-20549' tag='INPUT' type='checkbox' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b62fb49e-56f7-4840-b0da-da974780c48b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7dc7b8b1-fcc7-46a4-ae80-132430fb9471" CvTextArea="1161, 274, 17, 13" CvTextArgument="39" CvType="Text" DesignTimeRectangle="1163, 273, 15, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='39' class='normal-content' parentid='sell-field-p-20549' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='39' /&gt;" Guid="e3934445-b0f0-4d16-8117-ab2cce344b4b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="27c86423b6b3b1c782bc38cd77a1b913.png" xmlns="">0xCQEfSddZ06VKI6Dx5T9Ug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

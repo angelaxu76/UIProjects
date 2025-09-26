@@ -1,0 +1,13 @@
+﻿{
+  "Name": "克隆宝贝",
+  "Type": "Element",
+  "Id": "7XbGe-GknEiiuR6tuV8gow",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/7XbGe-GknEiiuR6tuV8gow",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-09-24T20:28:06.6337522Z",
+  "Updated": "2025-09-24T20:28:06.6337522Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

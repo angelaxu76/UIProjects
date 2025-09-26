@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DqdVv2aFMUaSJndI2sKa8Q" Reference="FzIA2_RpJ06HXfvqZLEOKA/-4Wp5lbxJEevUzyOiPqtGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="86c2b19a-4ad2-4f6f-869a-5233654d76bf" CvElementArea="1561, 605, 82, 26" CvType="InputBox" DesignTimeRectangle="1563, 607, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="f4b9e10b-133d-4878-8bf4-3c592550ef79" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="1048, 587, 70, 62" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，L' check:innerText='&quot;+productCode+&quot;，L' /&gt;&quot;]" Guid="875acff5-289c-42ea-8ddb-6495e799cdbf" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c6d8057caab0094dcafb9cda5a8e1c4c.png" xmlns="">0QYzUiWXNF0aWJLZRVu2w6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VrBaToVZtUar_Myg3WD61Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="20b380db-f8cf-4d62-839a-1c6f6dfcb8b2" CvTextArea="1417, 527, 12, 14" CvTextArgument="C" CvType="Text" DesignTimeRectangle="1413, 527, 20, 18" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='next-icon next-icon-edit next-medium' tag='I' aaname='' /&gt;" Guid="26bb897f-8ed5-43b4-8712-247d284bc7f3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1394, 464, 147, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='商品可售库存' type='' tag='DIV' class='next-table-cell-wrapper' check:innerText='商品可售库存' /&gt;" Guid="1eecf613-2c38-44db-8bc2-fe303fb35866" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6ca4e7869e0ec8f485b55c97dd4051ba.png" xmlns="">0bW-FoA9-akGIRvxoyDTRMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

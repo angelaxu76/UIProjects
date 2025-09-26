@@ -1,0 +1,13 @@
+﻿{
+  "Name": "商品可售库存",
+  "Type": "Element",
+  "Id": "Qow-_gJZJk-fX-n5V5DXew",
+  "Reference": "FzIA2_RpJ06HXfvqZLEOKA/Qow-_gJZJk-fX-n5V5DXew",
+  "ParentRef": "FzIA2_RpJ06HXfvqZLEOKA/jQM4q6zV10qOkRWVKnHkmw",
+  "Created": "2025-04-30T15:56:19.1676401Z",
+  "Updated": "2025-04-30T15:56:19.1676401Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

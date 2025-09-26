@@ -1,0 +1,14 @@
+﻿{
+  "Name": "K100885-008_F.jpg",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "xXwRc-I6jkm-iYITXR0bxw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/xXwRc-I6jkm-iYITXR0bxw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T23:52:00.5484706Z",
+  "Updated": "2025-04-25T23:52:00.5484706Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

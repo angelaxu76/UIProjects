@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome 淘分销-渠道产品管理",
+  "Type": "Screen",
+  "Id": "jQM4q6zV10qOkRWVKnHkmw",
+  "Reference": "FzIA2_RpJ06HXfvqZLEOKA/jQM4q6zV10qOkRWVKnHkmw",
+  "ParentRef": "FzIA2_RpJ06HXfvqZLEOKA/RZ-g5JNzu0qgQYc7836uZA",
+  "Created": "2025-04-30T15:50:04.7316813Z",
+  "Updated": "2025-04-30T15:50:04.7316813Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

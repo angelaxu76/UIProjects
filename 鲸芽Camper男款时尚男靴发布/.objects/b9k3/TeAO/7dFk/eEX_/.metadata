@@ -1,0 +1,14 @@
+﻿{
+  "Name": "鞋跟高度",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "eEX_F4goYUy1xMgfYfbpJg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/eEX_F4goYUy1xMgfYfbpJg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-28T12:24:19.8448999Z",
+  "Updated": "2025-07-28T12:24:19.8448999Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

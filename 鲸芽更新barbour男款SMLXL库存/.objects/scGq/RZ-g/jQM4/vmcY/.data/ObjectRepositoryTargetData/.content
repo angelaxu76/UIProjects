@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fqj0vcN16E-P4s5SQkMjsg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="3e58cd15-75d3-423e-a9d9-5b0a0186f711" CvElementArea="1337, 941, 53, 31" CvType="Button" DesignTimeRectangle="1339, 942, 50, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' tag='BUTTON' type='button' class='next-btn next-medium next-btn-normal dialog-cancel-btn' check:innerText='取消' /&gt;" Guid="80cfd8fb-7d6b-4244-8989-76368bdffe12" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3e58cd15-75d3-423e-a9d9-5b0a0186f711" CvElementArea="1337, 941, 53, 31" CvType="Button" DesignTimeRectangle="1352, 950, 24, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' class='next-btn-helper' tag='SPAN' type='' check:innerText='取消' /&gt;" Guid="341a4f3c-5cf9-4ef8-96fc-26ab660b486f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c1b3fe4e9ae48c423ff6f0e7db1d185a.png" xmlns="">0YYktCIswJEmQEdm9D0oaKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

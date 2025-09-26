@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gy75tbbWLUiZ9JjHjI5YiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="9e6b4e44-3f03-4b2d-9c88-fa218d4de431" CvElementArea="829, 350, 154, 39" CvType="InputBox" DesignTimeRectangle="834, 352, 146, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' parentid='sell-field-sku' tag='INPUT' class='' placeholder='价格（元）' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8dbc0b0a-52c8-4542-aca8-6f00c992c288" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="715, 359, 104, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-sku' tag='P' type='' class='sell-sku-cell-text-content' aaname='颜色分类图' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='颜色分类图' /&gt;" Guid="a4af0b0c-a5e1-4d47-b9ff-f011a7057f19" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="50985562dbf695776459607ddcb53ef8.png" xmlns="">0t6AGcodYZUi5gID_1nWNoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

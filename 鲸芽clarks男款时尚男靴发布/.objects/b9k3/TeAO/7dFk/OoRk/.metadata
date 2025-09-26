@@ -1,0 +1,14 @@
+﻿{
+  "Name": "吊牌价",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "OoRkBC-bb0WchpmeMNncsg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/OoRkBC-bb0WchpmeMNncsg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T21:08:15.0241567Z",
+  "Updated": "2025-08-23T21:08:15.0241567Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="wiyGiGD96U-YOeFTyx2X4Q" Reference="d8TXjNWSJ0-3WMGxBOkBOg/wXFttW7JoEmXk2GGRR1EHw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="Zv_PfTAhe0O-Sb-ki7LzWg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="08781516-a4a1-4960-ae0a-44c7f64b44f5" CvElementArea="720, 444, 303, 38" CvType="InputBox" DesignTimeRectangle="723, 446, 298, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="b59b6111-37a5-4a19-9ff9-7a321ee32452" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="CV" Version="V4" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="447937fc-ea27-4209-b84b-bfc2e16775b6" CvElementArea="687, 464, 334, 42" CvType="InputBox" DesignTimeRectangle="691, 466, 328, 38" ElementType="InputBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="5567b587-9c4a-4190-9ace-d1abd4a5a2b8" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
       <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="2">
-          <Target CVScreenId="08781516-a4a1-4960-ae0a-44c7f64b44f5" CvTextArea="628, 447, 8, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="630, 445, 5, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='hscode-formItem-required' tag='SPAN' type='' aaname='*' check:innerText='*' /&gt;" Guid="a781ec74-c486-4e39-99dd-42bab203af47" SearchSteps="FuzzySelector, CV" />
-          <Target DesignTimeRectangle="640, 445, 72, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='hscode-formItem-label' tag='LABEL' type='' aaname='第一计量单位' check:innerText='第一计量单位' /&gt;" Guid="d4d82abd-ce88-4fe7-ae44-241a815dcbfe" SearchSteps="FuzzySelector" />
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="600, 465, 79, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='hscode-formItem-label' tag='LABEL' type='' aaname='第一计量单位' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='第一计量单位' /&gt;" Guid="e51c8131-608c-48f3-8b22-000e234a556e" SearchSteps="FuzzySelector" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="9068a21fee3e3e6303c74beee694683a.png" xmlns="">0I-q_qQmISkWGqkaT7klzFQ</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="3e5fea4041bfd91003553abfad6226fa.png" xmlns="">0DzeGwpR8xE24OGhTBVC4PQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>

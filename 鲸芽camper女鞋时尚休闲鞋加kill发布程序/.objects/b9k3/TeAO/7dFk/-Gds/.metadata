@@ -1,0 +1,14 @@
+﻿{
+  "Name": "'自行查找后填写'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "-GdsOu3EEkuuZVNvyLlc_A",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/-GdsOu3EEkuuZVNvyLlc_A",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-09-25T20:29:37.4080421Z",
+  "Updated": "2025-09-25T20:29:37.4080421Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

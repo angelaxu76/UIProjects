@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="O8Zp9OVbZU6ZW4fBE1BW6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="8040418c-ca69-4043-a692-c175f82b093a" CvElementArea="959, 286, 235, 48" CvType="Button" DesignTimeRectangle="973, 301, 208, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl class='next-message-title' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl class='next-message-title' tag='DIV' type='' aaname='请至少修改一条数据提交！' check:innerText='请至少修改一条数据提交！' /&gt;" Guid="695fad69-c364-42f6-86e9-f8400fac4e44" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5d6e17e52e0be7497947d7aa79f6baee.png" xmlns="">0o7dG5VJiZkOT9lQNLI0RNg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

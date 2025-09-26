@@ -1,0 +1,14 @@
+﻿{
+  "Name": "'外底材料'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "buzR3IlqPEOEYf45s8sROw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/buzR3IlqPEOEYf45s8sROw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-02T23:34:37.0104311Z",
+  "Updated": "2025-08-02T23:34:37.0104311Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

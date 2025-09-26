@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="85YQmjF9b0SbLqNi972_JQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="d97bef62-9dbe-43e9-93b5-f4f5770e601b" CvElementArea="1740, 334, 67, 31" CvTextArea="1754, 343, 39, 12" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1742, 336, 64, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl tag='BUTTON' type='submit' class='next-btn next-medium next-btn-primary' aaname='Search' check:innerText='Search' /&gt;" Guid="c3404cdc-5e50-4b3d-b3fc-af26f9525484" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d97bef62-9dbe-43e9-93b5-f4f5770e601b" CvElementArea="1740, 334, 67, 31" CvTextArea="1754, 343, 39, 12" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="1755, 344, 38, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl class='next-btn-helper' tag='SPAN' type='' aaname='Search' check:innerText='Search' /&gt;" Guid="0b66ce10-b7bb-497b-8ab4-24382c93391d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c4275100e3b2d6b8f7aa6b0cb478bce3.png" xmlns="">0h11MnmiOQkyRTJxcBRjHKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

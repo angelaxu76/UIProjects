@@ -1,0 +1,990 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" this:Main.sqlQuryList="SELECT DISTINCT product_code FROM barbour_inventory WHERE size ~ '^(XS|S|M|L|XL|XXL|3XL|4XL)$' AND product_code NOT IN  ('MWX0700OL51', 'MWX0700RU71', 'MWX0700NY51', 'MQU0240OL71', 'MQU0240BK11', 'MQU0240NY92', 'MWX0339OL71', 'MWX0339NY92', 'MWX0339BK72');" this:Main.successfulLog="D:\success.txt" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uue="clr-namespace:UiPath.UIAutomationNext.Exceptions;assembly=UiPath.UIAutomationNext" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="sqlQuryList" Type="InArgument(x:String)" />
+    <x:Property Name="successfulLog" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Exceptions</x:String>
+      <x:String>UiPath.Database</x:String>
+      <x:String>UiPath.Database.Activities</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Database</AssemblyReference>
+      <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="2208,7085" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 淘分销-渠道产品管理" sap:VirtualizedContainerService.HintSize="2208,7062" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="2174,6821" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="ui:DatabaseConnection" Name="postgreDBConn" />
+              <Variable x:TypeArguments="sd:DataTable" Name="channelIDs" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:DatabaseConnect DisplayName="Connect to Database" sap:VirtualizedContainerService.HintSize="2140,92" sap2010:WorkflowViewState.IdRef="DatabaseConnect_3" ProviderName="System.Data.Odbc" ConnectionString="Dsn=PostgreSQL35W;uid=postgres;pwd=516518" DatabaseConnection="[postgreDBConn]" />
+            <Delay Duration="00:00:15" sap:VirtualizedContainerService.HintSize="2140,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+            <ui:ExecuteQuery ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DataTable="[channelIDs]" DisplayName="Run Query" ExistingDbConnection="[postgreDBConn]" sap:VirtualizedContainerService.HintSize="2140,147" sap2010:WorkflowViewState.IdRef="ExecuteQuery_2" Sql="[sqlQuryList]">
+              <ui:ExecuteQuery.Parameters>
+                <scg:Dictionary x:TypeArguments="x:String, Argument" />
+              </ui:ExecuteQuery.Parameters>
+            </ui:ExecuteQuery>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[channelIDs]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="2140,6397" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="chanelId" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="2138,6222" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Sequence DisplayName="得到成功的记录列表" sap:VirtualizedContainerService.HintSize="2104,311" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="x:String" Name="successLogData" />
+                        <Variable x:TypeArguments="x:String" Name="successfulList" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ui:ReadTextFile File="{x:Null}" Content="[successLogData]" DisplayName="Read Text File" FileName="[successfulLog]" sap:VirtualizedContainerService.HintSize="434,113" sap2010:WorkflowViewState.IdRef="ReadTextFile_1">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </ui:ReadTextFile>
+                      <Assign sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="Assign_4">
+                        <Assign.To>
+                          <OutArgument x:TypeArguments="scg:List(x:String)">[logList]</OutArgument>
+                        </Assign.To>
+                        <Assign.Value>
+                          <InArgument x:TypeArguments="scg:List(x:String)">[successLogData.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries).ToList]</InArgument>
+                        </Assign.Value>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Assign>
+                    </Sequence>
+                    <Assign sap:VirtualizedContainerService.HintSize="2104,115" sap2010:WorkflowViewState.IdRef="Assign_3">
+                      <Assign.To>
+                        <OutArgument x:TypeArguments="x:String">[productCode]</OutArgument>
+                      </Assign.To>
+                      <Assign.Value>
+                        <InArgument x:TypeArguments="x:String">[chanelId("product_code").ToString]</InArgument>
+                      </Assign.Value>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </Assign>
+                    <If Condition="[logList.Contains(productCode)]" sap:VirtualizedContainerService.HintSize="2104,5736" sap2010:WorkflowViewState.IdRef="If_1">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="2102,108" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:Continue sap:VirtualizedContainerService.HintSize="2068,48" sap2010:WorkflowViewState.IdRef="Continue_1" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="2102,5498" sap2010:WorkflowViewState.IdRef="Sequence_28">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="2068,177" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;current pitem:::::::::&quot; + productCode]">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:LogMessage>
+                          <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="2068,123" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                          <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="2068,770" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                            <TryCatch.Try>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '商家编码'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="450,256" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[productCode]" Version="V4">
+                                <uix:NTypeInto.Target>
+                                  <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="fbf65a92-26eb-4a81-ad19-92fa10edbd32" ContentHash="0KMPMCo0qUGH3dvh4TkVkA" CvElementArea="681, 345, 239, 31" CvType="InputBox" DesignTimeRectangle="684, 348, 234, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_479818' tag='IFRAME' /&gt;&lt;webctrl type='' tag='INPUT' class='' placeholder='请输入' aaname='' /&gt;" Guid="2a9b4466-ef99-4d6b-84ce-efcefe605b46" InformativeScreenshot="44bb50730867da6e077d974eb11c5afb.png" IsResponsive="True" Reference="FzIA2_RpJ06HXfvqZLEOKA/SZDTtUNFyEC_TbI24A8oJA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Frestful%2Findex%2Fdistribution%2Fentrance%3Fv%3D2&amp;amp;refer_pv_id=13477bb3rYLUsf' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target DesignTimeRectangle="683, 319, 224, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='iframe_479818' tag='IFRAME' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname='' check:innerText='商家编码' /&gt;" Guid="cfcafd50-aad8-45bf-90fc-330bd965ea94" SearchSteps="FuzzySelector" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NTypeInto.Target>
+                                <uix:NTypeInto.VerifyOptions>
+                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  </uix:VerifyExecutionTypeIntoOptions>
+                                </uix:NTypeInto.VerifyOptions>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </uix:NTypeInto>
+                            </TryCatch.Try>
+                            <TryCatch.Catches>
+                              <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_6">
+                                <ActivityAction x:TypeArguments="s:Exception">
+                                  <ActivityAction.Argument>
+                                    <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                  </ActivityAction.Argument>
+                                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[exception.AsText]" />
+                                  </Sequence>
+                                </ActivityAction>
+                              </Catch>
+                            </TryCatch.Catches>
+                            <TryCatch.Finally>
+                              <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </TryCatch.Finally>
+                          </TryCatch>
+                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="2068,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V4">
+                            <uix:NKeyboardShortcuts.VerifyOptions>
+                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionOptions.Retry>
+                                <uix:VerifyExecutionOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionOptions.Timeout>
+                              </uix:VerifyExecutionOptions>
+                            </uix:NKeyboardShortcuts.VerifyOptions>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </uix:NKeyboardShortcuts>
+                          <uix:NCheckState DisplayName="Check App State 'DIV'" sap:VirtualizedContainerService.HintSize="2068,4119" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Version="V4">
+                            <uix:NCheckState.IfExists>
+                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="1564,3877" sap2010:WorkflowViewState.IdRef="Sequence_24">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <TryCatch DisplayName="设置库存TRY CATCH" sap:VirtualizedContainerService.HintSize="1530,3815" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <TryCatch.Try>
+                                    <Sequence DisplayName="设置库存" sap:VirtualizedContainerService.HintSize="1528,3384" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                      <Sequence.Variables>
+                                        <Variable x:TypeArguments="x:String" Name="queryURL" />
+                                        <Variable x:TypeArguments="sd:DataTable" Name="dbTable" />
+                                      </Sequence.Variables>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '编辑 商品可售库存'" sap:VirtualizedContainerService.HintSize="1494,227" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Version="V4">
+                                        <uix:NClick.Target>
+                                          <uix:TargetAnchorable BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="20b380db-f8cf-4d62-839a-1c6f6dfcb8b2" ContentHash="VrBaToVZtUar_Myg3WD61Q" CvTextArea="1417, 527, 12, 14" CvTextArgument="C" CvType="Text" DesignTimeRectangle="1413, 527, 20, 18" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='next-icon next-icon-edit next-medium' tag='I' aaname='' /&gt;" Guid="26bb897f-8ed5-43b4-8712-247d284bc7f3" InformativeScreenshot="6ca4e7869e0ec8f485b55c97dd4051ba.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/Qow-_gJZJk-fX-n5V5DXew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                            <uix:TargetAnchorable.Anchors>
+                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                <uix:Target DesignTimeRectangle="1394, 464, 147, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='商品可售库存' type='' tag='DIV' class='next-table-cell-wrapper' check:innerText='商品可售库存' /&gt;" Guid="1eecf613-2c38-44db-8bc2-fe303fb35866" SearchSteps="FuzzySelector" />
+                                              </scg:List>
+                                            </uix:TargetAnchorable.Anchors>
+                                          </uix:TargetAnchorable>
+                                        </uix:NClick.Target>
+                                        <uix:NClick.VerifyOptions>
+                                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                            <uix:VerifyExecutionOptions.Retry>
+                                              <InArgument x:TypeArguments="x:Boolean" />
+                                            </uix:VerifyExecutionOptions.Retry>
+                                            <uix:VerifyExecutionOptions.Timeout>
+                                              <InArgument x:TypeArguments="x:Double" />
+                                            </uix:VerifyExecutionOptions.Timeout>
+                                          </uix:VerifyExecutionOptions>
+                                        </uix:NClick.VerifyOptions>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </uix:NClick>
+                                      <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="1494,123" sap2010:WorkflowViewState.IdRef="Delay_2">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </Delay>
+                                      <Assign sap:VirtualizedContainerService.HintSize="1494,115" sap2010:WorkflowViewState.IdRef="Assign_2">
+                                        <Assign.To>
+                                          <OutArgument x:TypeArguments="x:String">[queryURL]</OutArgument>
+                                        </Assign.To>
+                                        <Assign.Value>
+                                          <InArgument x:TypeArguments="x:String">["select size, stock_count from "+brandDB+" where product_code = '"+ productCode+ "'"]</InArgument>
+                                        </Assign.Value>
+                                      </Assign>
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1494,177" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[queryURL]" />
+                                      <ui:ExecuteQuery ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DataTable="[dbTable]" DisplayName="Run Query" ExistingDbConnection="[postgreDBConn]" sap:VirtualizedContainerService.HintSize="1494,147" sap2010:WorkflowViewState.IdRef="ExecuteQuery_1" Sql="[queryURL]">
+                                        <ui:ExecuteQuery.Parameters>
+                                          <scg:Dictionary x:TypeArguments="x:String, Argument" />
+                                        </ui:ExecuteQuery.Parameters>
+                                      </ui:ExecuteQuery>
+                                      <ui:IfElseIfV2 Condition="[dbTable.RowCount =0]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="1494,1223" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
+                                        <ui:IfElseIfV2.Else>
+                                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="484,761" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <Sequence sap:VirtualizedContainerService.HintSize="450,701" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'S'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = 'S'&quot;).Length &gt; 0, dbTable.Select(&quot;size = 'S'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                <uix:NTypeInto.Target>
+                                                  <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="031bd3fa-203f-4a10-8b04-a643920be4f4" ContentHash="ZASOIYoKjEaydXstW7SAGg" CvElementArea="1561, 448, 82, 26" CvType="InputBox" DesignTimeRectangle="1563, 450, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="1180716a-7893-4350-92f5-1b3224c97397" InformativeScreenshot="8e522a93742bd844d36094305ddf2943.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/hRsAo9DfnES7p1phbpypKA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                    <uix:TargetAnchorable.Anchors>
+                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                        <uix:Target DesignTimeRectangle="1048, 430, 70, 62" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_*' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，S' check:innerText='&quot;+productCode+&quot;，S' /&gt;&quot;]" Guid="cc4c0950-702f-449f-937a-2a3b85d77a51" SearchSteps="FuzzySelector" />
+                                                      </scg:List>
+                                                    </uix:TargetAnchorable.Anchors>
+                                                  </uix:TargetAnchorable>
+                                                </uix:NTypeInto.Target>
+                                                <uix:NTypeInto.VerifyOptions>
+                                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                      <InArgument x:TypeArguments="x:Double" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                  </uix:VerifyExecutionTypeIntoOptions>
+                                                </uix:NTypeInto.VerifyOptions>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </uix:NTypeInto>
+                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'M'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = 'M'&quot;).Length &gt; 0, dbTable.Select(&quot;size = 'M'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                <uix:NTypeInto.Target>
+                                                  <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="031bd3fa-203f-4a10-8b04-a643920be4f4" ContentHash="mA4gxiOw4kSEcJtP2qGR_A" CvElementArea="1561, 526, 82, 27" CvType="InputBox" DesignTimeRectangle="1563, 528, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="2c3ff99d-7b2a-4a20-87ae-9d1ec2fdd1f8" InformativeScreenshot="2b603cbe3b4ca3d5e865cf7b13d5ca78.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/_xRXe8c5pkuFpKzCJGCALA" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                    <uix:TargetAnchorable.Anchors>
+                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                        <uix:Target DesignTimeRectangle="1048, 508, 70, 62" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_*' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，M' check:innerText='&quot;+productCode+&quot;，M' /&gt;&quot;]" Guid="9c98ada8-27e3-4178-8e9a-8f2b845db1b3" SearchSteps="FuzzySelector" />
+                                                      </scg:List>
+                                                    </uix:TargetAnchorable.Anchors>
+                                                  </uix:TargetAnchorable>
+                                                </uix:NTypeInto.Target>
+                                                <uix:NTypeInto.VerifyOptions>
+                                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                      <InArgument x:TypeArguments="x:Double" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                  </uix:VerifyExecutionTypeIntoOptions>
+                                                </uix:NTypeInto.VerifyOptions>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </uix:NTypeInto>
+                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'L'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = 'L'&quot;).Length &gt; 0, dbTable.Select(&quot;size = 'L'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                <uix:NTypeInto.Target>
+                                                  <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="86c2b19a-4ad2-4f6f-869a-5233654d76bf" ContentHash="DqdVv2aFMUaSJndI2sKa8Q" CvElementArea="1561, 605, 82, 26" CvType="InputBox" DesignTimeRectangle="1563, 607, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="f4b9e10b-133d-4878-8bf4-3c592550ef79" InformativeScreenshot="c6d8057caab0094dcafb9cda5a8e1c4c.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/-4Wp5lbxJEevUzyOiPqtGw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                    <uix:TargetAnchorable.Anchors>
+                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                        <uix:Target DesignTimeRectangle="1048, 587, 70, 62" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，L' check:innerText='&quot;+productCode+&quot;，L' /&gt;&quot;]" Guid="875acff5-289c-42ea-8ddb-6495e799cdbf" SearchSteps="FuzzySelector" />
+                                                      </scg:List>
+                                                    </uix:TargetAnchorable.Anchors>
+                                                  </uix:TargetAnchorable>
+                                                </uix:NTypeInto.Target>
+                                                <uix:NTypeInto.VerifyOptions>
+                                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                      <InArgument x:TypeArguments="x:Double" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                  </uix:VerifyExecutionTypeIntoOptions>
+                                                </uix:NTypeInto.VerifyOptions>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </uix:NTypeInto>
+                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into XL'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_14" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = 'XL'&quot;).Length &gt; 0, dbTable.Select(&quot;size = 'XL'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                <uix:NTypeInto.Target>
+                                                  <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="c8eb6a2c-9d73-49fc-8383-79de64bc6088" ContentHash="r2nCnP4IvU-0iWzYKMFgbQ" CvElementArea="1241, 684, 82, 26" CvType="InputBox" DesignTimeRectangle="1243, 686, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_087228' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="53116b46-3e7e-41a3-a2d3-552228729115" InformativeScreenshot="f1d230e2afc7db13bf424222c845fcc7.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/0AQqe7-fiUWTssLG_cxwjQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b15639CoKEs' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                    <uix:TargetAnchorable.Anchors>
+                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                        <uix:Target DesignTimeRectangle="728, 673, 70, 47" ElementType="Text" FullSelectorArgument="&lt;webctrl id='iframe_087228' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table' tag='TABLE' /&gt;&lt;webctrl tableRow='4' tag='DIV' /&gt;" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_*' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，XL' check:innerText='&quot;+productCode+&quot;，XL' /&gt;&quot;]" Guid="a08fe828-623b-4288-af20-95d05012c64a" SearchSteps="Selector, FuzzySelector" />
+                                                      </scg:List>
+                                                    </uix:TargetAnchorable.Anchors>
+                                                  </uix:TargetAnchorable>
+                                                </uix:NTypeInto.Target>
+                                                <uix:NTypeInto.VerifyOptions>
+                                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                      <InArgument x:TypeArguments="x:Double" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                  </uix:VerifyExecutionTypeIntoOptions>
+                                                </uix:NTypeInto.VerifyOptions>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </uix:NTypeInto>
+                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '2XL'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = '2XL'&quot;).Length &gt; 0, dbTable.Select(&quot;size = '2XL'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                <uix:NTypeInto.Target>
+                                                  <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="2121ed17-1fd0-49ec-a5bd-8f33219798ba" ContentHash="CsSM8Y8Ejkq5yolpvjRCFQ" CvElementArea="1561, 684, 82, 26" CvType="InputBox" DesignTimeRectangle="1563, 686, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="b4375a05-da93-4acc-ae37-fb2401bb0a16" InformativeScreenshot="0932301ccd014933527b8baf4d18e6ff.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/sPo99eIQ2E65RdAzzDOasQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                    <uix:TargetAnchorable.Anchors>
+                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                        <uix:Target DesignTimeRectangle="1048, 666, 70, 62" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_*' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，2XL' check:innerText='&quot;+productCode+&quot;，2XL' /&gt;&quot;]" Guid="c88ca6a1-3b8a-49a1-97af-c18f8a58781b" SearchSteps="FuzzySelector" />
+                                                      </scg:List>
+                                                    </uix:TargetAnchorable.Anchors>
+                                                  </uix:TargetAnchorable>
+                                                </uix:NTypeInto.Target>
+                                                <uix:NTypeInto.VerifyOptions>
+                                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                      <InArgument x:TypeArguments="x:Double" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                  </uix:VerifyExecutionTypeIntoOptions>
+                                                </uix:NTypeInto.VerifyOptions>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </uix:NTypeInto>
+                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '3XL'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_15" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = '3XL'&quot;).Length &gt; 0, dbTable.Select(&quot;size = '3XL'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                <uix:NTypeInto.Target>
+                                                  <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="5ffd1238-7eca-47d3-9f5f-3676cb66001c" ContentHash="5hbGN8gcFkirSJeHizD6Kw" CvElementArea="1241, 477, 82, 26" CvType="InputBox" DesignTimeRectangle="1243, 479, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_087228' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="6fb75cc3-9cc8-4ca4-bbba-e86fd8f9ffbf" InformativeScreenshot="0bcaf25615ffe058a78363430c0a94b2.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/aaHKlAafRUKvafG8mg8R1Q" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b15639CoKEs' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                    <uix:TargetAnchorable.Anchors>
+                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                        <uix:Target DesignTimeRectangle="728, 467, 70, 47" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_*' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，3XL' check:innerText='&quot;+productCode+&quot;，3XL' /&gt;&quot;]" Guid="e530a378-6f4e-4fb3-b927-72855a773a20" SearchSteps="FuzzySelector" />
+                                                      </scg:List>
+                                                    </uix:TargetAnchorable.Anchors>
+                                                  </uix:TargetAnchorable>
+                                                </uix:NTypeInto.Target>
+                                                <uix:NTypeInto.VerifyOptions>
+                                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                      <InArgument x:TypeArguments="x:Double" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                  </uix:VerifyExecutionTypeIntoOptions>
+                                                </uix:NTypeInto.VerifyOptions>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </uix:NTypeInto>
+                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'XS'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = 'XS'&quot;).Length &gt; 0, dbTable.Select(&quot;size = 'XS'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                <uix:NTypeInto.Target>
+                                                  <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="d3961cfc-ab7c-4b3f-a81b-061c6f41efcf" ContentHash="4dO2UEQb70qCyRbO9a_NuQ" CvElementArea="1561, 762, 82, 26" CvType="InputBox" DesignTimeRectangle="1563, 764, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="1f5ecbe8-a7cc-4478-9ec7-fb49b4a7a542" InformativeScreenshot="63e60d8f22e7ce78eb76ef4d5df6e708.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/M8qujDBS702B7ijbar0EKw" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                    <uix:TargetAnchorable.Anchors>
+                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                        <uix:Target DesignTimeRectangle="1048, 744, 70, 63" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_*' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，XS' check:innerText='&quot;+productCode+&quot;，XS' /&gt;&quot;]" Guid="0aec0566-b550-490a-8a8d-6ab98297d715" SearchSteps="FuzzySelector" />
+                                                      </scg:List>
+                                                    </uix:TargetAnchorable.Anchors>
+                                                  </uix:TargetAnchorable>
+                                                </uix:NTypeInto.Target>
+                                                <uix:NTypeInto.VerifyOptions>
+                                                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                    <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                      <InArgument x:TypeArguments="x:Double" />
+                                                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                  </uix:VerifyExecutionTypeIntoOptions>
+                                                </uix:NTypeInto.VerifyOptions>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </uix:NTypeInto>
+                                              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                                                <ui:CommentOut.Body>
+                                                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,1203" sap2010:WorkflowViewState.IdRef="Sequence_36">
+                                                    <sap:WorkflowViewStateService.ViewState>
+                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                      </scg:Dictionary>
+                                                    </sap:WorkflowViewStateService.ViewState>
+                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '44'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = '44'&quot;).Length &gt; 0, dbTable.Select(&quot;size = '44'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                      <uix:NTypeInto.Target>
+                                                        <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="3e309e04-1938-483d-9eaa-1717e62f48a8" ContentHash="WPmWBKvb5km7zoe2Xy3Rrg" CvElementArea="1561, 588, 82, 26" CvType="InputBox" DesignTimeRectangle="1563, 590, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="058c1bc9-1968-45ff-bdb0-cbb36863a85e" InformativeScreenshot="c2a7eda46f2ff19afa817e4f4237e744.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/K2P7u7NcFE-EVTqi8rLVbg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                          <uix:TargetAnchorable.Anchors>
+                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                              <uix:Target DesignTimeRectangle="1048, 570, 70, 62" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，44' check:innerText='&quot;+productCode+&quot;，44' /&gt;&quot;]" Guid="e515930a-f183-40e3-be1c-1eed50116790" SearchSteps="FuzzySelector" />
+                                                            </scg:List>
+                                                          </uix:TargetAnchorable.Anchors>
+                                                        </uix:TargetAnchorable>
+                                                      </uix:NTypeInto.Target>
+                                                      <uix:NTypeInto.VerifyOptions>
+                                                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                            <InArgument x:TypeArguments="x:Boolean" />
+                                                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                            <InArgument x:TypeArguments="x:Double" />
+                                                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                        </uix:VerifyExecutionTypeIntoOptions>
+                                                      </uix:NTypeInto.VerifyOptions>
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                    </uix:NTypeInto>
+                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '26119806，44.5'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = '44.5'&quot;).Length &gt; 0, dbTable.Select(&quot;size = '44.5'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                      <uix:NTypeInto.Target>
+                                                        <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="5ffd1238-7eca-47d3-9f5f-3676cb66001c" ContentHash="iv8pxCOPzk-nDotjz_ztRw" CvElementArea="1241, 713, 82, 26" CvType="InputBox" DesignTimeRectangle="1243, 715, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_087228' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="40c842fb-1b6b-4674-a889-df2e55f89bae" InformativeScreenshot="3ecef161cba02e706a54547e9a2bd8ec.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/UGMKnVucVk-wYGoyMK5JfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b15639CoKEs' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                          <uix:TargetAnchorable.Anchors>
+                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                              <uix:Target DesignTimeRectangle="728, 703, 70, 47" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，44.5' check:innerText='&quot;+productCode+&quot;，44.5' /&gt;&quot;]" Guid="194a3c6f-8320-4b3e-96d9-d55383f4ea2c" SearchSteps="FuzzySelector" />
+                                                            </scg:List>
+                                                          </uix:TargetAnchorable.Anchors>
+                                                        </uix:TargetAnchorable>
+                                                      </uix:NTypeInto.Target>
+                                                      <uix:NTypeInto.VerifyOptions>
+                                                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                            <InArgument x:TypeArguments="x:Boolean" />
+                                                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                            <InArgument x:TypeArguments="x:Double" />
+                                                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                        </uix:VerifyExecutionTypeIntoOptions>
+                                                      </uix:NTypeInto.VerifyOptions>
+                                                    </uix:NTypeInto>
+                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '45'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = '45'&quot;).Length &gt; 0, dbTable.Select(&quot;size = '45'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                      <uix:NTypeInto.Target>
+                                                        <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="3e309e04-1938-483d-9eaa-1717e62f48a8" ContentHash="gjSZkM0UBEKc0KEzmschAw" CvElementArea="1561, 667, 82, 26" CvType="InputBox" DesignTimeRectangle="1563, 669, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="4658e732-2ecf-4946-ad3c-ddf9f147fbf7" InformativeScreenshot="de26887ad4a598543e82bf07cafc421e.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/lGR6smtjpEGI3D_o145_Wg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                          <uix:TargetAnchorable.Anchors>
+                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                              <uix:Target DesignTimeRectangle="1048, 649, 70, 62" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，45' check:innerText='&quot;+productCode+&quot;，45' /&gt;&quot;]" Guid="a85f84a1-676a-4dc1-b223-063fad46a89a" SearchSteps="FuzzySelector" />
+                                                            </scg:List>
+                                                          </uix:TargetAnchorable.Anchors>
+                                                        </uix:TargetAnchorable>
+                                                      </uix:NTypeInto.Target>
+                                                      <uix:NTypeInto.VerifyOptions>
+                                                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                            <InArgument x:TypeArguments="x:Boolean" />
+                                                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                            <InArgument x:TypeArguments="x:Double" />
+                                                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                        </uix:VerifyExecutionTypeIntoOptions>
+                                                      </uix:NTypeInto.VerifyOptions>
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                    </uix:NTypeInto>
+                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '46'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,279" sap2010:WorkflowViewState.IdRef="NTypeInto_13" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Text="[If(dbTable.Select(&quot;size = '46'&quot;).Length &gt; 0, dbTable.Select(&quot;size = '46'&quot;)(0)(&quot;stock_count&quot;).ToString, &quot;0&quot;)]" Version="V4">
+                                                      <uix:NTypeInto.Target>
+                                                        <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="3c4aecf4-7a7f-4029-b77b-a3005b0fffe5" ContentHash="YiEjm1IpX0qKlXFK3DfjiQ" CvElementArea="1560, 743, 83, 26" CvType="InputBox" DesignTimeRectangle="1563, 745, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="795e1af9-c97b-47ab-ba9b-3aab9dff159d" InformativeScreenshot="5efd933a408d48a1ba18584e0fead397.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/H0OxdoU2GUmPKxLmSiSxUQ" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                          <uix:TargetAnchorable.Anchors>
+                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                              <uix:Target DesignTimeRectangle="1048, 725, 70, 63" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，46' check:innerText='&quot;+productCode+&quot;，46' /&gt;&quot;]" Guid="d29611e6-ff76-4488-b068-2341ac4b88e5" SearchSteps="FuzzySelector" />
+                                                            </scg:List>
+                                                          </uix:TargetAnchorable.Anchors>
+                                                        </uix:TargetAnchorable>
+                                                      </uix:NTypeInto.Target>
+                                                      <uix:NTypeInto.VerifyOptions>
+                                                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                            <InArgument x:TypeArguments="x:Boolean" />
+                                                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                            <InArgument x:TypeArguments="x:Double" />
+                                                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                        </uix:VerifyExecutionTypeIntoOptions>
+                                                      </uix:NTypeInto.VerifyOptions>
+                                                    </uix:NTypeInto>
+                                                  </Sequence>
+                                                </ui:CommentOut.Body>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </ui:CommentOut>
+                                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '确认'" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Version="V4">
+                                                <uix:NClick.Target>
+                                                  <uix:TargetAnchorable BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="92ff9b1d-6149-4ecc-b8b8-c0c70d24b0ba" ContentHash="TZv025N8kkGVGiohZYyoRQ" CvElementArea="1279, 926, 53, 31" CvTextArea="1292, 933, 27, 14" CvTextArgument="WÂìA" CvType="Button" DesignTimeRectangle="1281, 927, 50, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='确认' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='确认' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary' check:innerText='确认' /&gt;" Guid="2deee988-fbd3-48c5-8cac-657ca8911ebd" InformativeScreenshot="998579295684ac2294c00769f7db1666.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/XX0_IYhXLEyyRSKtkB9CHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                    <uix:TargetAnchorable.Anchors>
+                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                        <uix:Target CVScreenId="92ff9b1d-6149-4ecc-b8b8-c0c70d24b0ba" CvElementArea="1279, 926, 53, 31" CvTextArea="1292, 933, 27, 14" CvTextArgument="WÂìA" CvType="Button" DesignTimeRectangle="1294, 935, 24, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='确认' class='next-btn-helper' tag='SPAN' type='' check:innerText='确认' /&gt;" Guid="53366e74-374c-4e48-919a-c881acf292b7" SearchSteps="FuzzySelector, CV" />
+                                                      </scg:List>
+                                                    </uix:TargetAnchorable.Anchors>
+                                                  </uix:TargetAnchorable>
+                                                </uix:NClick.Target>
+                                                <uix:NClick.VerifyOptions>
+                                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                    <uix:VerifyExecutionOptions.Retry>
+                                                      <InArgument x:TypeArguments="x:Boolean" />
+                                                    </uix:VerifyExecutionOptions.Retry>
+                                                    <uix:VerifyExecutionOptions.Timeout>
+                                                      <InArgument x:TypeArguments="x:Double" />
+                                                    </uix:VerifyExecutionOptions.Timeout>
+                                                  </uix:VerifyExecutionOptions>
+                                                </uix:NClick.VerifyOptions>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </uix:NClick>
+                                              <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[successfulLog]" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="AppendLine_1" Text="[productCode]" UseDefaultEncoding="False">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </ui:AppendLine>
+                                              <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Delay_3">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </Delay>
+                                            </Sequence>
+                                          </Sequence>
+                                        </ui:IfElseIfV2.Else>
+                                        <ui:IfElseIfV2.ElseIfs>
+                                          <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True" />
+                                        </ui:IfElseIfV2.ElseIfs>
+                                        <ui:IfElseIfV2.Then>
+                                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="484,275" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:AppendLine File="{x:Null}" DisplayName="Append Line" FileName="[successfulLog]" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="AppendLine_3" Text="[productCode]" UseDefaultEncoding="False" />
+                                            <ui:Continue sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Continue_3" />
+                                          </Sequence>
+                                        </ui:IfElseIfV2.Then>
+                                      </ui:IfElseIfV2>
+                                      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1494,1312" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <TryCatch.Try>
+                                          <uix:NCheckState DisplayName="Check App State '请至少修改一条数据提交！'" sap:VirtualizedContainerService.HintSize="1492,807" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Version="V4">
+                                            <uix:NCheckState.IfExists>
+                                              <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="988,588" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                                <Sequence.Variables>
+                                                  <Variable x:TypeArguments="x:Boolean" Name="isCancelExist" />
+                                                </Sequence.Variables>
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <uix:NCheckState DisplayName="Check App State '取消按钮'" sap:VirtualizedContainerService.HintSize="954,526" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Version="V4">
+                                                  <uix:NCheckState.IfExists>
+                                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,282" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '取消(2)'" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dfdbd882-3421-41fe-8c2d-a7eb5bffc471" Version="V4">
+                                                        <uix:NClick.Target>
+                                                          <uix:TargetAnchorable BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="3e58cd15-75d3-423e-a9d9-5b0a0186f711" ContentHash="fqj0vcN16E-P4s5SQkMjsg" CvElementArea="1337, 941, 53, 31" CvType="Button" DesignTimeRectangle="1339, 942, 50, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' tag='BUTTON' type='button' class='next-btn next-medium next-btn-normal dialog-cancel-btn' check:innerText='取消' /&gt;" Guid="80cfd8fb-7d6b-4244-8989-76368bdffe12" InformativeScreenshot="c1b3fe4e9ae48c423ff6f0e7db1d185a.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/vmcY_v0Y4EyMdhdWGYMVfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                            <uix:TargetAnchorable.Anchors>
+                                                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                                <uix:Target CVScreenId="3e58cd15-75d3-423e-a9d9-5b0a0186f711" CvElementArea="1337, 941, 53, 31" CvType="Button" DesignTimeRectangle="1352, 950, 24, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' class='next-btn-helper' tag='SPAN' type='' check:innerText='取消' /&gt;" Guid="341a4f3c-5cf9-4ef8-96fc-26ab660b486f" SearchSteps="FuzzySelector, CV" />
+                                                              </scg:List>
+                                                            </uix:TargetAnchorable.Anchors>
+                                                          </uix:TargetAnchorable>
+                                                        </uix:NClick.Target>
+                                                        <uix:NClick.VerifyOptions>
+                                                          <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                            <uix:VerifyExecutionOptions.Retry>
+                                                              <InArgument x:TypeArguments="x:Boolean" />
+                                                            </uix:VerifyExecutionOptions.Retry>
+                                                            <uix:VerifyExecutionOptions.Timeout>
+                                                              <InArgument x:TypeArguments="x:Double" />
+                                                            </uix:VerifyExecutionOptions.Timeout>
+                                                          </uix:VerifyExecutionOptions>
+                                                        </uix:NClick.VerifyOptions>
+                                                      </uix:NClick>
+                                                    </Sequence>
+                                                  </uix:NCheckState.IfExists>
+                                                  <uix:NCheckState.IfNotExists>
+                                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                    </Sequence>
+                                                  </uix:NCheckState.IfNotExists>
+                                                  <uix:NCheckState.Target>
+                                                    <uix:TargetAnchorable BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="3e58cd15-75d3-423e-a9d9-5b0a0186f711" ContentHash="fqj0vcN16E-P4s5SQkMjsg" CvElementArea="1337, 941, 53, 31" CvType="Button" DesignTimeRectangle="1339, 942, 50, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' tag='BUTTON' type='button' class='next-btn next-medium next-btn-normal dialog-cancel-btn' check:innerText='取消' /&gt;" Guid="80cfd8fb-7d6b-4244-8989-76368bdffe12" InformativeScreenshot="c1b3fe4e9ae48c423ff6f0e7db1d185a.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/vmcY_v0Y4EyMdhdWGYMVfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                      <uix:TargetAnchorable.Anchors>
+                                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                          <uix:Target CVScreenId="3e58cd15-75d3-423e-a9d9-5b0a0186f711" CvElementArea="1337, 941, 53, 31" CvType="Button" DesignTimeRectangle="1352, 950, 24, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' class='next-btn-helper' tag='SPAN' type='' check:innerText='取消' /&gt;" Guid="341a4f3c-5cf9-4ef8-96fc-26ab660b486f" SearchSteps="FuzzySelector, CV" />
+                                                        </scg:List>
+                                                      </uix:TargetAnchorable.Anchors>
+                                                    </uix:TargetAnchorable>
+                                                  </uix:NCheckState.Target>
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                </uix:NCheckState>
+                                              </Sequence>
+                                            </uix:NCheckState.IfExists>
+                                            <uix:NCheckState.IfNotExists>
+                                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                              </Sequence>
+                                            </uix:NCheckState.IfNotExists>
+                                            <uix:NCheckState.Target>
+                                              <uix:TargetAnchorable BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="8040418c-ca69-4043-a692-c175f82b093a" ContentHash="O8Zp9OVbZU6ZW4fBE1BW6A" CvElementArea="959, 286, 235, 48" CvType="Button" DesignTimeRectangle="973, 301, 208, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl class='next-message-title' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl class='next-message-title' tag='DIV' type='' aaname='请至少修改一条数据提交！' check:innerText='请至少修改一条数据提交！' /&gt;" Guid="695fad69-c364-42f6-86e9-f8400fac4e44" InformativeScreenshot="5d6e17e52e0be7497947d7aa79f6baee.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/PBmxE2XXkEis5zx_QERpPw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+                                            </uix:NCheckState.Target>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NCheckState>
+                                        </TryCatch.Try>
+                                        <TryCatch.Catches>
+                                          <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                            <ActivityAction x:TypeArguments="s:Exception">
+                                              <ActivityAction.Argument>
+                                                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                              </ActivityAction.Argument>
+                                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1492,228" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                                <sap:WorkflowViewStateService.ViewState>
+                                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  </scg:Dictionary>
+                                                </sap:WorkflowViewStateService.ViewState>
+                                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1458,168" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[exception.AsText]" />
+                                              </Sequence>
+                                            </ActivityAction>
+                                          </Catch>
+                                        </TryCatch.Catches>
+                                        <TryCatch.Finally>
+                                          <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="1492,90" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Sequence>
+                                        </TryCatch.Finally>
+                                      </TryCatch>
+                                    </Sequence>
+                                  </TryCatch.Try>
+                                  <TryCatch.Catches>
+                                    <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                                      <ActivityAction x:TypeArguments="s:Exception">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                        </ActivityAction.Argument>
+                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1528,25" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,143" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[exception.AsText + productCode]">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </ui:LogMessage>
+                                        </Sequence>
+                                      </ActivityAction>
+                                    </Catch>
+                                    <Catch x:TypeArguments="uue:VerifyActivityExecutionException" sap2010:WorkflowViewState.IdRef="Catch`1_5">
+                                      <ActivityAction x:TypeArguments="uue:VerifyActivityExecutionException">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="uue:VerifyActivityExecutionException" Name="exception" />
+                                        </ActivityAction.Argument>
+                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1528,145" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[exception.ToString]" />
+                                      </ActivityAction>
+                                    </Catch>
+                                  </TryCatch.Catches>
+                                  <TryCatch.Finally>
+                                    <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="1528,25" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </Sequence>
+                                  </TryCatch.Finally>
+                                </TryCatch>
+                              </Sequence>
+                            </uix:NCheckState.IfExists>
+                            <uix:NCheckState.IfNotExists>
+                              <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,92" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </uix:NCheckState.IfNotExists>
+                            <uix:NCheckState.Target>
+                              <uix:TargetAnchorable BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="dc99322d-afee-4ba2-9a48-8fb85a2425ec" ContentHash="_xoZ_Es4w0WWtnuwQPLvrA" CvTextArea="1564, 540, 38, 14" CvTextArgument="BIs" CvType="Text" DesignTimeRectangle="1541, 532, 155, 31" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='iframe_96288b' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='已设置' class='next-table-cell-wrapper' type='' tag='DIV' check:innerText='已设置 查看' /&gt;" Guid="405d10a3-fa17-4675-9201-852f372f2a29" InformativeScreenshot="09c0146c6149ea06b14383c271c81927.png" Reference="FzIA2_RpJ06HXfvqZLEOKA/yNAXpwAm0062L-Cpj11Xzg" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b156337PyPG' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="dc99322d-afee-4ba2-9a48-8fb85a2425ec" CvTextArea="1551, 483, 51, 14" CvTextArgument="Brett" CvType="Text" DesignTimeRectangle="1541, 475, 155, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='iframe_96288b' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='价格状态' type='' tag='DIV' class='next-table-cell-wrapper' check:innerText='价格状态' /&gt;" Guid="56c5be61-55b5-40f7-8f0e-d74bb70f8314" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NCheckState.Target>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </uix:NCheckState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1928, -8, 1936, 1048" BrowserType="Chrome" ContentHash="FV2_DVyH3k6VQb86x0K2dQ" IconBase64="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" InformativeScreenshot="69a9b3363bb4e03437d9836a3d7cfff9.jpg" Reference="FzIA2_RpJ06HXfvqZLEOKA/jQM4q6zV10qOkRWVKnHkmw" Selector="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" Title="淘分销-渠道产品管理" Url="https://jingya.taobao.com/restful/index/channel/product" Version="V1" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

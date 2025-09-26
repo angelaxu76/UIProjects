@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="_xoZ_Es4w0WWtnuwQPLvrA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="dc99322d-afee-4ba2-9a48-8fb85a2425ec" CvTextArea="1564, 540, 38, 14" CvTextArgument="BIs" CvType="Text" DesignTimeRectangle="1541, 532, 155, 31" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='iframe_96288b' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='已设置' class='next-table-cell-wrapper' type='' tag='DIV' check:innerText='已设置 查看' /&gt;" Guid="405d10a3-fa17-4675-9201-852f372f2a29" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b156337PyPG' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dc99322d-afee-4ba2-9a48-8fb85a2425ec" CvTextArea="1551, 483, 51, 14" CvTextArgument="Brett" CvType="Text" DesignTimeRectangle="1541, 475, 155, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='iframe_96288b' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='价格状态' type='' tag='DIV' class='next-table-cell-wrapper' check:innerText='价格状态' /&gt;" Guid="56c5be61-55b5-40f7-8f0e-d74bb70f8314" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="09c0146c6149ea06b14383c271c81927.png" xmlns="">0yV27icXGqkSpyrkvLrirbQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

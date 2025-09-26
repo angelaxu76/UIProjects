@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label '详情发布成功！'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "hfSNzCxLhEWMwQ5e-2al1A",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/hfSNzCxLhEWMwQ5e-2al1A",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-09-24T20:49:05.8647389Z",
+  "Updated": "2025-09-24T20:49:05.8647389Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "尺码尺寸表模板-camper",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "ZJLCIMQuMkyjUZiQBRlYNQ",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/ZJLCIMQuMkyjUZiQBRlYNQ",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-06-13T19:56:21.9886005Z",
+  "Updated": "2025-06-13T19:56:21.9886005Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

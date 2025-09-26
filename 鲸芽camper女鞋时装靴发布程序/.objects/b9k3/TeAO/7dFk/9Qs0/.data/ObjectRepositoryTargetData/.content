@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BFr0jh2Z3UiwV_Sv7vsmIg" Reference="d8TXjNWSJ0-3WMGxBOkBOg/9Qs00hiWl0Of_jJQUWh3BQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="646, 391, 48, 28" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;靴筒内里材质&quot;).ToString+&quot;' class='info-content' tag='DIV' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl aaname='混合材质' class='info-content' tag='DIV' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='混合材质' /&gt;" Guid="c896452b-b29d-4db2-87c1-445d96015716" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="cb4ba6eb-f939-4f39-9f7a-af9b32b704a9" CvTextArea="546, 369, 72, 14" CvTextArgument="* ENEME" CvType="Text" DesignTimeRectangle="547, 368, 70, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-138956265' tag='LABEL' type='' class='label required' aaname='靴筒面材质' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='靴筒面材质' /&gt;" Guid="6ed3916a-9686-4f43-9ca8-5e66c0f5ffed" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2492d8f2afef6589fbd2c49fbb31fc26.png" xmlns="">0irFD-SFtbEOe8K4ByyR8Mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

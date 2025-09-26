@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w5SI0jqoDESThb5uXdPE7Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="7d6e5910-3611-4a2c-8e4b-0e390e11a06c" CvElementArea="720, 772, 304, 38" CvType="InputBox" DesignTimeRectangle="723, 774, 298, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;input' idx='4' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='INPUT' aaname='' /&gt;" Guid="303ad9e5-83f9-428c-8545-b39353072cc4" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="7d6e5910-3611-4a2c-8e4b-0e390e11a06c" CvTextArea="662, 779, 51, 14" CvTextArgument="PNRU*" CvType="Text" DesignTimeRectangle="664, 773, 48, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='外底材料' class='hscode-formItem-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='外底材料' class='hscode-formItem-label' tag='LABEL' type='' check:innerText='外底材料' /&gt;" Guid="c10aa449-e02a-4491-9702-231568648bce" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="20f70d54fd0df0e5e3f31531c138c81d.png" xmlns="">0_S1LYxC5pECnMNnd0K3yYg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

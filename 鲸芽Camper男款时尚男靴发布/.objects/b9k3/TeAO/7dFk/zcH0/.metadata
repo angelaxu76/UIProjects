@@ -1,0 +1,14 @@
+﻿{
+  "Name": "提交宝贝信息",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "zcH0GFmUXEmE8O4avcYw7w",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/zcH0GFmUXEmE8O4avcYw7w",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-26T18:39:51.8246488Z",
+  "Updated": "2025-04-26T18:39:51.8246488Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

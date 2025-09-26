@@ -1,0 +1,14 @@
+﻿{
+  "Name": "织物",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "OhZHIc0dUkG7p-C0Tpp_ew",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/OhZHIc0dUkG7p-C0Tpp_ew",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T13:05:14.4045247Z",
+  "Updated": "2025-08-23T13:05:14.4045247Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

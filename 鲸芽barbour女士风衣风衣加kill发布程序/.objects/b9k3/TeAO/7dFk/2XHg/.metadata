@@ -1,0 +1,14 @@
+﻿{
+  "Name": "删除(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "2XHgLW0gSEqgoVt9TUApvQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/2XHgLW0gSEqgoVt9TUApvQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-09-05T11:20:35.2875363Z",
+  "Updated": "2025-09-05T11:20:35.2875363Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

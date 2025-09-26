@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="883z_y2rCEW3bkGc4yOJGg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="xiangqing.wangpu.taobao.com/new_user_panel.htm" CVScreenId="6334ca29-e480-4dc4-b3ba-73047d49d77c" CvElementArea="1285, 853, 110, 39" CvTextArea="1343, 864, 22, 16" CvTextArgument="(3)" CvType="Button" DesignTimeRectangle="1287, 855, 107, 36" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl src='//market.m.taobao.com/app/crs-qn/sucai-selector-ng/index?appkey=tu&amp;amp;needHeader=true&amp;amp;needClose=true&amp;amp;realtime=false&amp;amp;type=pic&amp;amp;filterByPhone=false&amp;amp;max=100&amp;amp;handleId=callback0' tag='IFRAME' /&gt;&lt;webctrl aaname='确定（3）' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl src='//market.m.taobao.com/app/crs-qn/sucai-selector-ng/index?appkey=tu&amp;amp;needHeader=true&amp;amp;needClose=true&amp;amp;realtime=false&amp;amp;type=pic&amp;amp;filterByPhone=false&amp;amp;max=100&amp;amp;handleId=callback0' tag='IFRAME' /&gt;&lt;webctrl aaname='确定（3）' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary Footer_selectOk__nEl3N Footer_quickTheme__B3P1O' check:innerText='确定（3）' /&gt;" Guid="91d22176-7557-45e0-a2eb-bf2a365d2a46" ScopeSelectorArgument="&lt;html app='chrome.exe' title='旺铺-详情编辑器' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6334ca29-e480-4dc4-b3ba-73047d49d77c" CvElementArea="1285, 853, 110, 39" CvTextArea="1343, 864, 22, 16" CvTextArgument="(3)" CvType="Button" DesignTimeRectangle="1309, 866, 63, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//market.m.taobao.com/app/crs-qn/sucai-selector-ng/index?appkey=tu&amp;amp;needHeader=true&amp;amp;needClose=true&amp;amp;realtime=false&amp;amp;type=pic&amp;amp;filterByPhone=false&amp;amp;max=100&amp;amp;handleId=callback0' tag='IFRAME' /&gt;&lt;webctrl aaname='确定（3）' class='next-btn-helper' parentid='sucai-tu-selector-container' tag='SPAN' type='' check:innerText='确定（3）' /&gt;" Guid="ca5fd2ba-d40b-4114-b6eb-16b98bae533c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="024f4c598e08e6f7937719fc38645226.png" xmlns="">0sfnM1GA9dU26l1PcXIWiDA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

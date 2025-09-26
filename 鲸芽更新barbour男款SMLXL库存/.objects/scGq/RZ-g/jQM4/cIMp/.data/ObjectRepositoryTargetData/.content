@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0qj1zGhCCk6jnRT-4U0k1g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="17f9e6d3-069e-439a-86fd-c334ebb36103" CvElementArea="896, 617, 175, 30" CvType="InputBox" DesignTimeRectangle="899, 619, 150, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aria-role='searchbox' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aria-role='searchbox' tag='INPUT' type='' class='' placeholder='请输入' aaname='' /&gt;" Guid="bbf9f997-478d-467b-a78d-94895d974779" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="894, 579, 180, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl class='next-transfer-panel-header' tag='DIV' type='' aaname='全部分销商' check:innerText='全部分销商' /&gt;" Guid="053d82f1-b678-47ea-bb13-2f60e9749024" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cc87de292ea5e4faf1b8bc6efbf197c7.png" xmlns="">0QFDL-He-oE2XbSgk9hmlBg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

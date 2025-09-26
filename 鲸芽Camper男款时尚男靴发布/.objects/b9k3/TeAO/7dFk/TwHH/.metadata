@@ -1,0 +1,14 @@
+﻿{
+  "Name": "靴筒内里材质",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "TwHHx_9PhEO4kdd2yIUquw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/TwHHx_9PhEO4kdd2yIUquw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-31T01:05:26.6244129Z",
+  "Updated": "2025-07-31T01:05:26.6244129Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "查询所有可申报HS海关清单",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "d5lqGIi5vk-2WVwA9JomZw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/d5lqGIi5vk-2WVwA9JomZw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/QYsZYSVjjEWKXdBgIy5sGA",
+  "Created": "2025-08-03T05:38:54.498756Z",
+  "Updated": "2025-08-03T05:38:54.498756Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

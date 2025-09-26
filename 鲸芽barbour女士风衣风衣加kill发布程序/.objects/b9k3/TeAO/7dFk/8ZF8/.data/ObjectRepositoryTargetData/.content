@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="z1N1xMDak0-KsR3IybQ1Tw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="953, 432, 148, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=false&amp;amp;needHeader=false&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=false&amp;amp;max=20&amp;amp;handleId=1745628583157803214430739' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="b59c7076-7ea6-4230-91c1-d4000054226c" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9aa32d0d-c6d7-4b86-b01b-23e8a9318aeb" CvElementArea="796, 433, 25, 24" CvType="Icon" DesignTimeRectangle="801, 437, 16, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=false&amp;amp;needHeader=false&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=false&amp;amp;max=20&amp;amp;handleId=1745628583157803214430739' tag='IFRAME' /&gt;&lt;webctrl aaname='' parentid='container' tag='SPAN' type='' class='icon iconfont' check:innerText='' /&gt;" Guid="32500b53-bee4-4a7b-9a38-bbbce940cebf" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACeSURBVDhPtZRBCgMhEATz/19414uI4icUfMae9qQIQi8tZEMgh7iMDQ0qdIEzOi8Iaw+w1gqtNZRSj8wsGTfwPE8459Bam4crYoZZMqgbaIxBSgmllCUzw+wXkMo5w3v/yMy+tacpkprAMQZijD87+I9DCOi9f4AsqLUWx3HM9YqZYZbrfUDxK0tqH1D0YbOgol+PG9HhID6+JCUMBC5LtbiywnxqQwAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc457ff1b15f707e13106b9d8c70a5cd.png" xmlns="">0l2xLV8UqgEiqIkBD_ikpnA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

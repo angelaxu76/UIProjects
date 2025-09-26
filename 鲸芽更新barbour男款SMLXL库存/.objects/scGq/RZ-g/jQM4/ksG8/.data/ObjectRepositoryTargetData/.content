@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="I25MkcX4fU6Zf5btWoHJ-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="67edc4d4-7612-480e-85b3-cbc91ee7e103" CvElementArea="1226, 896, 78, 32" CvTextArea="1239, 904, 51, 14" CvTextArgument="WìA#Bt" CvType="Button" DesignTimeRectangle="1228, 898, 74, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='确认铺货' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='确认铺货' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary' check:innerText='确认铺货' /&gt;" Guid="c38c35ea-fa4f-4da6-ae05-3ee77fbe1927" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="67edc4d4-7612-480e-85b3-cbc91ee7e103" CvElementArea="1226, 896, 78, 32" CvTextArea="1239, 904, 51, 14" CvTextArgument="WìA#Bt" CvType="Button" DesignTimeRectangle="1241, 906, 48, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='确认铺货' class='next-btn-helper' tag='SPAN' type='' check:innerText='确认铺货' /&gt;" Guid="fb80e392-73ef-4f22-b14d-5094d519a767" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6fbe0aa156b872024ba6605a44f9be21.png" xmlns="">03g3kz4mCM0ebxQr1Ce7LRA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

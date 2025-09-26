@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0hVjM09W-0u7OZFfODumJA" Reference="d8TXjNWSJ0-3WMGxBOkBOg/y1HxKaT1PUy1vQZjT0tj8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="61398e3f-63be-4d89-b993-bf268cbdbdc5" CvTextArea="1063, 532, 105, 16" CvTextArgument="%5Ħ(4Ö10-20cm)" CvType="Text" DesignTimeRectangle="1066, 526, 102, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;靴筒高度&quot;).ToString+&quot;' class='info-content' tag='DIV' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl aaname='短筒(筒高10-20cm)' class='info-content' tag='DIV' type='' check:innerText='短筒(筒高10-20cm)' /&gt;" Guid="bd4b5040-fece-4695-b5dd-9eb35719e060" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831PMlpHI' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="61398e3f-63be-4d89-b993-bf268cbdbdc5" CvTextArea="954, 504, 83, 14" CvTextArgument="* SNEME" CvType="Text" DesignTimeRectangle="955, 503, 82, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216587' tag='LABEL' type='' class='label required' aaname='鞋面内里材质' check:innerText='鞋面内里材质' /&gt;" Guid="9238abb8-240a-4067-b811-80b9a7b26fae" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="38ad7b331d78685278a4f3900cef8dff.png" xmlns="">0srdsypLE-UuGyc2z5TSPwg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

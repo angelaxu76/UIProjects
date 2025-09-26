@@ -1,0 +1,14 @@
+﻿{
+  "Name": "鞋面内里材质(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "WsxKaUeZb0u8UKzgsa2fqA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/WsxKaUeZb0u8UKzgsa2fqA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-31T01:10:24.2113268Z",
+  "Updated": "2025-07-31T01:10:24.2113268Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

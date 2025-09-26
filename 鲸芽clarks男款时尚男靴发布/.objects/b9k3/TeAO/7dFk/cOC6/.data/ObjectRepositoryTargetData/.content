@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="R799BFL1skagxUA66jcsew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="1346, 295, 72, 12" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='填写海关代码' class='next-btn-helper' parentid='sell-field-sku' tag='SPAN' type='' check:innerText='填写海关代码' /&gt;" Guid="f2d5ebed-ca96-455f-b5e4-c6b6f381229e" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1337, 283, 90, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='填写海关代码' parentid='sell-field-sku' tag='BUTTON' type='button' class='next-btn next-medium next-btn-normal tm-hscode-btn' check:innerText='填写海关代码' /&gt;" Guid="5427308f-fe79-4b6b-852c-d0e7906ae840" SearchSteps="FuzzySelector" />
+          <Target CVScreenId="e990144c-efe2-43b8-8a0c-7831c4eae316" CvTextArea="1452, 293, 27, 14" CvTextArgument="I1" CvType="Text" DesignTimeRectangle="1455, 291, 96, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' parentid='sell-field-sku' tag='P' class='sell-sku-cell-text-content' aaname='操作' check:innerText='操作' /&gt;" Guid="772ab70f-0df9-4419-b2a5-b044a242be38" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c494fb755ef0ef425327e683ebc8ed36.png" xmlns="">0PBzza0MJtkyq4bgfifxSSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

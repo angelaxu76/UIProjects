@@ -1,0 +1,14 @@
+﻿{
+  "Name": "适用季节",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "eYrYWVbL8Uip5dg_vX-IPA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/eYrYWVbL8Uip5dg_vX-IPA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-28T08:47:43.3800467Z",
+  "Updated": "2025-07-28T08:47:43.3800467Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

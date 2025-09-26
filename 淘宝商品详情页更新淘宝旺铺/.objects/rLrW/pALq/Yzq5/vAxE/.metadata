@@ -1,0 +1,13 @@
+﻿{
+  "Name": "宝贝详情描述模板",
+  "Type": "Element",
+  "Id": "vAxEH54fZ0ygSBlyXJgPyg",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/vAxEH54fZ0ygSBlyXJgPyg",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-06-11T23:36:32.1734981Z",
+  "Updated": "2025-06-11T23:36:32.1734981Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

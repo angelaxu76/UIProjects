@@ -1,0 +1,14 @@
+﻿{
+  "Name": "查询",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "-n7xF04RE0mJ7D3Qj6XNJw",
+  "Reference": "FzIA2_RpJ06HXfvqZLEOKA/-n7xF04RE0mJ7D3Qj6XNJw",
+  "ParentRef": "FzIA2_RpJ06HXfvqZLEOKA/jQM4q6zV10qOkRWVKnHkmw",
+  "Created": "2025-04-30T15:54:07.7243672Z",
+  "Updated": "2025-04-30T15:54:07.7243672Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

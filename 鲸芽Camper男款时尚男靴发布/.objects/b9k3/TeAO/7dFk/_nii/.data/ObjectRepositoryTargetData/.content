@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CTAiBT4WQ0-_pbBYi28PtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="b837e4b4-153d-4e50-a323-6668a47e0126" CvTextArea="1064, 480, 50, 14" CvType="AnyWordGroup" DesignTimeRectangle="1066, 474, 48, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='织物配皮' class='info-content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='info-content' tag='DIV' type='' /&gt;" Guid="933d873f-a594-4495-818c-369fb7e7d6af" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1254, 441, 15, 15" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='next-icon-remote search-icon' aaname='' /&gt;" Guid="7726799e-01da-4096-bef9-acebda043a65" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="de8d4e10f792b659e7247e44e257aff0.png" xmlns="">0cTj_3tNbwU6FnxFPEyOgVA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

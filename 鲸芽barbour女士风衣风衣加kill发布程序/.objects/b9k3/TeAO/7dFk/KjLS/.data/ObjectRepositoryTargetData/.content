@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ktyqjyCFRk-hTZftGE8yeg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="e2805ad6-370a-4dbc-9484-d29903f527cb" CvElementArea="624, 395, 241, 38" CvType="InputBox" DesignTimeRectangle="635, 397, 199, 34" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-149422948' tag='INPUT' /&gt;" Guid="ae759247-2de2-495b-ba1b-00d17da76124" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831dcrevN' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e2805ad6-370a-4dbc-9484-d29903f527cb" CvTextArea="558, 297, 59, 14" CvTextArgument="* $EO" CvType="Text" DesignTimeRectangle="559, 296, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-149422948' tag='LABEL' type='' class='label required' aaname='材质成分' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='材质成分' /&gt;" Guid="64366beb-e379-4805-ae47-bdb39bd11cfb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc42e3820ec36274d3fa9b57d53da9b9.png" xmlns="">00FcysKM7P0aoEXY15Zkwdg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

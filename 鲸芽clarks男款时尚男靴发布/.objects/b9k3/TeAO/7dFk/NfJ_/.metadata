@@ -1,0 +1,14 @@
+﻿{
+  "Name": "靴筒材质",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "NfJ_MGoT8U-10Q7-Qsy2ew",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/NfJ_MGoT8U-10Q7-Qsy2ew",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-31T01:08:50.920627Z",
+  "Updated": "2025-07-31T01:08:50.920627Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

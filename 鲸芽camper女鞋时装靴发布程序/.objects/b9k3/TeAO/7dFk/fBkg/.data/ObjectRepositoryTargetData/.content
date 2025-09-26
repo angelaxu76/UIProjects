@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VdF4fbUowUSM868DXawO3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="c8f0014e-fe39-4331-8327-a5f5b4021571" CvElementArea="463, 432, 23, 23" CvType="RadioButton" DesignTimeRectangle="465, 434, 18, 18" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;label&amp;gt;span&amp;gt;input' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl class='next-radio-input' tag='INPUT' type='radio' aaname='' /&gt;" Guid="befebb39-76e3-4857-b3ff-1a34a770fbe4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c8f0014e-fe39-4331-8327-a5f5b4021571" CvTextArea="488, 434, 150, 18" CvTextArgument="RRJR1EtB-camper" CvType="Text" DesignTimeRectangle="489, 437, 275, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='size-template-name' tag='DIV' type='' aaname='尺码尺寸表模板-camper' check:innerText='尺码尺寸表模板-camper' /&gt;" Guid="eae2ace8-f190-4aa5-a71d-1dc354acbce2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a0738c57ac24b5648ac080dd60f39b23.png" xmlns="">0EHI9dwhFSkeKqCMGoon9iQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

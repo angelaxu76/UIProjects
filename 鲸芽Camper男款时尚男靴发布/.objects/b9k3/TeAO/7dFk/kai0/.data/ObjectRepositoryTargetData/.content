@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="16jFl8NDvUKQ5Sn3FucqUQ" Reference="d8TXjNWSJ0-3WMGxBOkBOg/kai077wn0UWSC2e4sUfr3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="9bd1dcb1-ad55-4461-8c35-fdf21e975676" CvTextArea="1064, 413, 17, 12" CvType="AnyWordGroup" DesignTimeRectangle="1066, 406, 15, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;鞋面材质&quot;).ToString+&quot;' class='info-content' tag='DIV' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl class='info-content' tag='DIV' type='' /&gt;" Guid="780cf83a-ecc6-4a86-85d6-20ba80a4709d" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831PMlpHI' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="9bd1dcb1-ad55-4461-8c35-fdf21e975676" CvTextArea="978, 445, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="979, 443, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216523' tag='LABEL' type='' class='label required' aaname='靴筒高度' check:innerText='靴筒高度' /&gt;" Guid="2445c34b-db51-4f64-a014-8d70a2398a25" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d25ad5e55b3a215dff8e8b1701a28e8d.png" xmlns="">0SLjTJGaAzUuQ0lczx5NzYg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

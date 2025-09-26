@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4GcTK9XWc0aYfsCw1DYqjg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="8d358413-f377-4823-98df-93bce2d28d1d" CvElementArea="1337, 941, 53, 31" CvType="Button" DesignTimeRectangle="1339, 942, 50, 28" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' tag='BUTTON' type='button' class='next-btn next-medium next-btn-normal dialog-cancel-btn' check:innerText='取消' /&gt;" Guid="dcec682d-0f16-4a62-825a-8a3c2ef64c91" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8d358413-f377-4823-98df-93bce2d28d1d" CvElementArea="1337, 941, 53, 31" CvType="Button" DesignTimeRectangle="1352, 950, 24, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='取消' class='next-btn-helper' tag='SPAN' type='' check:innerText='取消' /&gt;" Guid="ac7a8f6d-8470-40fa-a808-ed8b5514c4ae" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="35344d32a1f3152b0b4d12c74d673e98.png" xmlns="">0hq0njbsdfUOlKp-9qwjDRg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

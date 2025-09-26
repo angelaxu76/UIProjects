@@ -1,0 +1,14 @@
+﻿{
+  "Name": "乙纶",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "DcmZeaj4-kinvMYe0sS3aQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/DcmZeaj4-kinvMYe0sS3aQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-31T01:09:21.7193399Z",
+  "Updated": "2025-07-31T01:09:21.7193399Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AnLygxM_hEuBT_QBD-XG3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="8bb23918-0ce0-48a8-90fa-b2bbb3b254d0" CvElementArea="292, 86, 77, 49" CvType="Button" DesignTimeRectangle="299, 92, 64, 37" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='离开此网站？' role='dialog' /&gt;&lt;ctrl name='离开' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='离开此网站？' role='dialog' /&gt;&lt;ctrl name='离开' role='push button' automationid='' check:fulltext='离开' /&gt;" Guid="2ea825b1-d031-454c-8605-6b077f97313d" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='离开此网站？' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7bfcfa4e615b9dc096e5e7e8a239ed5f.png" xmlns="">02dxF7dyCCE6y73pfF_Q7-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

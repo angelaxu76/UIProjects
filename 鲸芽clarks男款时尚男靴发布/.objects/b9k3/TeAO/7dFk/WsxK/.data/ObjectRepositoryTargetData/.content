@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q1jHLmqZwEukSLvSIT609Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="5678fa1b-7b62-463b-9921-bbd144993d2b" CvElementArea="1043, 494, 244, 38" CvType="InputBox" DesignTimeRectangle="1055, 496, 199, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-122216587' tag='INPUT' type='' class='' placeholder='请选择' aaname='' /&gt;" Guid="5f714dd0-08c6-4bad-b0be-f959385cb74f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831PMlpHI' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5678fa1b-7b62-463b-9921-bbd144993d2b" CvTextArea="954, 504, 83, 14" CvTextArgument="* SNEME" CvType="Text" DesignTimeRectangle="955, 503, 82, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216587' tag='LABEL' type='' class='label required' aaname='鞋面内里材质' check:innerText='鞋面内里材质' /&gt;" Guid="f61712ee-80e6-446f-a94d-acb708cf8f6f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8559c4c56dad9e48badb0337ba1a9b0c.png" xmlns="">0LyRlV-0fNUu04f47OEPUCQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

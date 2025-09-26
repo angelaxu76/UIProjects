@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3hXDm0mGAkqZLwHkRx2M8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="ba148dff-afe6-4751-8cf1-2f2d43e011db" CvElementArea="616, 515, 23, 23" CvType="RadioButton" DesignTimeRectangle="619, 517, 18, 18" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl class='next-radio-input' parentid='sell-field-p-20509' tag='INPUT' type='radio' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="b744b57f-e8f1-4392-85c7-0be86c2af5e4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ba148dff-afe6-4751-8cf1-2f2d43e011db" CvTextArea="644, 517, 44, 15" CvTextArgument="¿E69" CvType="Text" DesignTimeRectangle="645, 517, 42, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='中国码' class='item-label' parentid='sell-field-p-20509' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='中国码' /&gt;" Guid="e5819b27-32e7-44b1-9261-a1b6ac0e3a77" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0046c76ad1ab5e29fbd14b166362d2b3.png" xmlns="">0fX80amUZv0i9RNl5G65FKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

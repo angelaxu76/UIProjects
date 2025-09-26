@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TZv025N8kkGVGiohZYyoRQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/restful/index/channel/product" CVScreenId="92ff9b1d-6149-4ecc-b8b8-c0c70d24b0ba" CvElementArea="1279, 926, 53, 31" CvTextArea="1292, 933, 27, 14" CvTextArgument="WÂìA" CvType="Button" DesignTimeRectangle="1281, 927, 50, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='确认' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='确认' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary' check:innerText='确认' /&gt;" Guid="2deee988-fbd3-48c5-8cac-657ca8911ebd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘分销-渠道产品管理' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="92ff9b1d-6149-4ecc-b8b8-c0c70d24b0ba" CvElementArea="1279, 926, 53, 31" CvTextArea="1292, 933, 27, 14" CvTextArgument="WÂìA" CvType="Button" DesignTimeRectangle="1294, 935, 24, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='micro-iframe' tag='IFRAME' /&gt;&lt;webctrl aaname='确认' class='next-btn-helper' tag='SPAN' type='' check:innerText='确认' /&gt;" Guid="53366e74-374c-4e48-919a-c881acf292b7" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="998579295684ac2294c00769f7db1666.png" xmlns="">02G6RCCRjZ0CJh_WnkV9feQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

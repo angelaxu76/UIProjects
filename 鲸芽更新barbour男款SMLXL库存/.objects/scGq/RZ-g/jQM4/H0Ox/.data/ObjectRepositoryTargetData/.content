@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YiEjm1IpX0qKlXFK3DfjiQ" Reference="FzIA2_RpJ06HXfvqZLEOKA/H0OxdoU2GUmPKxLmSiSxUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="3c4aecf4-7a7f-4029-b77b-a3005b0fffe5" CvElementArea="1560, 743, 83, 26" CvType="InputBox" DesignTimeRectangle="1563, 745, 78, 22" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="795e1af9-c97b-47ab-ba9b-3aab9dff159d" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_product_manage_list%3Fv%3D2&amp;amp;refer_pv_id=120b1563vFMUmz' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target DesignTimeRectangle="1048, 725, 70, 63" ElementType="Text" FuzzySelectorArgument="[&quot;&lt;webctrl id='iframe_c3cfb4' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='DIV' class='next-table-cell-wrapper' aaname='&quot;+productCode+&quot;，46' check:innerText='&quot;+productCode+&quot;，46' /&gt;&quot;]" Guid="d29611e6-ff76-4488-b068-2341ac4b88e5" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5efd933a408d48a1ba18584e0fead397.png" xmlns="">0WQO2kwzlE02xMLu0l16cew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

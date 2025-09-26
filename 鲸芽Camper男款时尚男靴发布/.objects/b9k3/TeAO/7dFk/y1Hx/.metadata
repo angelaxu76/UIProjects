@@ -1,0 +1,14 @@
+﻿{
+  "Name": "短筒(筒高10-20cm)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "y1HxKaT1PUy1vQZjT0tj8w",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/y1HxKaT1PUy1vQZjT0tj8w",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-31T01:10:13.6093519Z",
+  "Updated": "2025-07-31T01:10:13.6093519Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "上市年份季节(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "xked8HZEBkKvG3EwIBjwYg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/xked8HZEBkKvG3EwIBjwYg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T22:27:53.9000161Z",
+  "Updated": "2025-08-16T22:27:53.9000161Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

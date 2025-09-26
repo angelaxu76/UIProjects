@@ -1,0 +1,14 @@
+﻿{
+  "Name": "二层猪皮(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "UB5sL8WxHkmeExxofiMxFw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/UB5sL8WxHkmeExxofiMxFw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-31T01:11:08.028644Z",
+  "Updated": "2025-07-31T01:11:08.028644Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

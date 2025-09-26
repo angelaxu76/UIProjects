@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Barbour巴伯尔女款Sierra休闲夹克S…",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Id": "-5ZTJDJ5_UqGFCQslXG5og",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/-5ZTJDJ5_UqGFCQslXG5og",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-09-24T20:30:42.3406092Z",
+  "Updated": "2025-09-24T20:30:42.3406092Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

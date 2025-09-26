@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UQz4k7awik6VGbzI2bkQmg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="xiangqing.wangpu.taobao.com/new_user_panel.htm" DesignTimeRectangle="1081, 385, 87, 36" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl src='//market.m.taobao.com/app/crs-qn/sucai-selector-ng/index?appkey=tu&amp;amp;needHeader=true&amp;amp;needClose=true&amp;amp;realtime=false&amp;amp;type=pic&amp;amp;filterByPhone=false&amp;amp;max=100&amp;amp;handleId=callback1' tag='IFRAME' /&gt;&lt;webctrl aria-role='searchbox' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl src='//market.m.taobao.com/app/crs-qn/sucai-selector-ng/index?appkey=tu&amp;amp;needHeader=true&amp;amp;needClose=true&amp;amp;realtime=false&amp;amp;type=pic&amp;amp;filterByPhone=false&amp;amp;max=100&amp;amp;handleId=callback1' tag='IFRAME' /&gt;&lt;webctrl aria-role='searchbox' tag='INPUT' type='' class='' placeholder='搜索图片名称' aaname='' /&gt;" Guid="ad2c1850-20fe-4e94-8776-0b051dadd228" ScopeSelectorArgument="&lt;html app='chrome.exe' title='旺铺-详情编辑器' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1217, 386, 48, 34" FuzzySelectorArgument="&lt;webctrl src='//market.m.taobao.com/app/crs-qn/sucai-selector-ng/index?appkey=tu&amp;amp;needHeader=true&amp;amp;needClose=true&amp;amp;realtime=false&amp;amp;type=pic&amp;amp;filterByPhone=false&amp;amp;max=100&amp;amp;handleId=callback1' tag='IFRAME' /&gt;&lt;webctrl type='' tag='EM' class='' aaname='全部素材' check:innerText='全部素材' /&gt;" Guid="04f98df0-a88d-4d44-8c26-ac821e80e5f6" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bbcade83082b54de2db7f63740c7fec5.png" xmlns="">0pPVkM24mcUSszjJKQ6_FRw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

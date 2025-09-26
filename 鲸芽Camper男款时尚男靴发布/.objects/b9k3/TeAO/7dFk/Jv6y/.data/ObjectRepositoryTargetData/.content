@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="nFpzT3P2BkC6W0MBjPKDhQ" Reference="d8TXjNWSJ0-3WMGxBOkBOg/Jv6y9hK3gE6xBtel_LFd7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="646, 583, 52, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;款式&quot;).ToString+&quot;' class='info-content' tag='DIV' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl aaname='棉靴/毛靴' class='info-content' tag='DIV' type='' check:innerText='棉靴/毛靴' /&gt;" Guid="941966ab-7621-4d4d-898f-39dceb02b234" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831PMlpHI' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8ee16e1e-6829-4c01-a3eb-573f3c93314a" CvTextArea="558, 562, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="559, 560, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-20490' tag='LABEL' type='' class='label required' aaname='闭合方式' check:innerText='闭合方式' /&gt;" Guid="e68880fc-ecb4-49d2-9c80-d6f6ab669814" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cd7c26fccaca0e83daf2a81877aafa4b.png" xmlns="">0IdIEOou7W02CUtCWfDN2Ag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

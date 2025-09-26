@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C0_ETVav9kGkT_YmeGc_zw" Reference="d8TXjNWSJ0-3WMGxBOkBOg/DshKSJwuJkyBQD3nXzdtNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="687, 485, 100, 100" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=*' tag='IFRAME' /&gt;&lt;webctrl src='https://img.alicdn.com/imgextra/i2/*' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745762360268898600565645' tag='IFRAME' /&gt;&lt;webctrl type='' parentid='items' tag='DIV' class='cover list-item' aaname='' check:innerText='750x1760' /&gt;" Guid="1428eecc-701c-4b9a-a1ab-2c32f48c5210" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="6e392ec0a344efcae62784f7f3509a04.png" xmlns="">0hPqWu03IzUGhTmIGBgQP3g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

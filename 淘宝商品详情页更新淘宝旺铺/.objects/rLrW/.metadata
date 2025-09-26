@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome 淘宝网 - 商品发布",
+  "Type": "App",
+  "Id": "rLrWaUWPEUiRQbKCfkWkZA",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/rLrWaUWPEUiRQbKCfkWkZA",
+  "Created": "2025-06-11T23:31:46.6857465Z",
+  "Updated": "2025-06-11T23:31:46.6857465Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

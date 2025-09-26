@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pSzqp3JOKk21Hsm3a_C-Ww" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="xiangqing.wangpu.taobao.com/new_user_panel.htm" DesignTimeRectangle="559, 447, 198, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' placeholder='用宝贝ID搜索' aaname='' /&gt;" Guid="f6384c6f-9536-426d-9ed9-900d88b71574" ScopeSelectorArgument="&lt;html app='chrome.exe' title='旺铺-详情编辑器' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d7b818694c71c93093dcdf10a851434d.png" xmlns="">0UwTf8QWc6USZ5abHZrcnGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

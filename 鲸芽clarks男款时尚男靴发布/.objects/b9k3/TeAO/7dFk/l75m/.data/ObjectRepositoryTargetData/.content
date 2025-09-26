@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3OLGF4BWz0Wmx2jCaIRw4w" Reference="d8TXjNWSJ0-3WMGxBOkBOg/l75mwMsBFUCtP3-AF9ln6A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="08e1407c-1d11-4986-84dc-87617ad05d40" CvTextArea="644, 774, 50, 14" CvTextArgument="g9FjAR" CvType="Text" DesignTimeRectangle="646, 768, 48, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='&amp;quot;+product(&amp;quot;适合季节&amp;quot;).ToString+&amp;quot;' class='info-content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='四季通用' class='info-content' tag='DIV' type='' check:innerText='四季通用' /&gt;" Guid="0229a6d9-025b-4032-b1c3-c2bf87993a8e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="08e1407c-1d11-4986-84dc-87617ad05d40" CvTextArea="558, 747, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="559, 745, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-577567824' tag='LABEL' type='' class='label required' aaname='适用性别' check:innerText='适用性别' /&gt;" Guid="c9013039-90b0-4ded-a627-1089faf14e54" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a984bb0a341397ee16aee59808ad5a2b.png" xmlns="">0Umi57IFpFkm8hZIe6NYNlQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

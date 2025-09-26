@@ -1,0 +1,14 @@
+﻿{
+  "Name": "保暖",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "92SIxJRl9UKjJiExWbj6MQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/92SIxJRl9UKjJiExWbj6MQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T19:53:19.6382835Z",
+  "Updated": "2025-08-23T19:53:19.6382835Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

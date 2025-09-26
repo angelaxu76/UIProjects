@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2Ot9nbzgWESFXkNaUosN8Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="xiangqing.wangpu.taobao.com/new_user_panel.htm" CVScreenId="09c91de8-251c-4c68-a92d-7e2f40c72c3d" CvElementArea="1848, 155, 64, 39" CvType="Button" DesignTimeRectangle="1850, 157, 60, 36" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='发布' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='发布' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary wangpu-header-tab-button' check:innerText='发布' /&gt;" Guid="c2313f42-98ad-46fb-8ecd-2e4dd6bb1431" ScopeSelectorArgument="&lt;html app='chrome.exe' title='旺铺-详情编辑器' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="09c91de8-251c-4c68-a92d-7e2f40c72c3d" CvElementArea="1848, 155, 64, 39" CvType="Button" DesignTimeRectangle="1866, 168, 28, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='发布' tag='SPAN' type='' class='next-btn-helper' check:innerText='发布' /&gt;" Guid="e7a04dc6-3fa6-4b2b-b47a-4be24ffad9f0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="afd29ab59a246dce2d6cca5e32a5e7aa.png" xmlns="">0JpHDKCmQLki4ky51K-rvEA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

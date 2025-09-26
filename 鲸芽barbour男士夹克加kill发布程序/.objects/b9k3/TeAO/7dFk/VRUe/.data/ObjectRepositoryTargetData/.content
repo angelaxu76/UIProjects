@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dXdK65S1CkK4SI-kT7NmcQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="0f9e49d5-7132-4488-af68-2dddf13bfe94" CvElementArea="624, 813, 243, 38" CvType="InputBox" DesignTimeRectangle="636, 815, 199, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' tag='INPUT' type='' class='' placeholder='请选择' aaname='' /&gt;" Guid="acabfd92-ba49-423e-990b-4eb78dec264b" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0f9e49d5-7132-4488-af68-2dddf13bfe94" CvTextArea="535, 823, 83, 15" CvTextArgument="* _f¥f5D" CvType="Text" DesignTimeRectangle="536, 822, 82, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216347' tag='LABEL' type='' class='label required' aaname='上市年份季节' check:innerText='上市年份季节' /&gt;" Guid="c2c23847-c900-4f78-b720-db716233a2fc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a4dab09f75ef4a1777153a7dce0ea55.png" xmlns="">0RAnXBooK0E6t_4fH7uNpJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

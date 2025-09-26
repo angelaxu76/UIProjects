@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mrOlocb5RkmO-zkTYOrPlQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="15fdc7e4-f377-4b77-a262-b8ac24be2d07" CvElementArea="497, 568, 733, 38" CvType="InputBox" DesignTimeRectangle="498, 570, 694, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-title' tag='INPUT' type='' class='' placeholder='最多允许输入30个汉字（60字符）' aaname='' /&gt;" Guid="03a3b570-fdaa-4583-9b86-732016f6e4d7" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="15fdc7e4-f377-4b77-a262-b8ac24be2d07" CvTextArea="423, 577, 8, 9" CvTextArgument="*" CvType="Text" DesignTimeRectangle="425, 576, 6, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='sell-component-info-wrapper-required' parentid='sell-field-title' tag='SPAN' type='' aaname='*' check:innerText='*' /&gt;" Guid="9178386c-4b96-4849-b84f-291994862725" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="365, 576, 56, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-title' tag='SPAN' type='' class='sell-component-info-wrapper-label' aaname='宝贝标题' check:innerText='宝贝标题' /&gt;" Guid="9f9991e8-ae6d-4c78-9b18-380c78c61261" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="32088ed679b1f0774469e16f4b7b4b21.png" xmlns="">08fg_DjDP4km4xGxMcQDUpg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

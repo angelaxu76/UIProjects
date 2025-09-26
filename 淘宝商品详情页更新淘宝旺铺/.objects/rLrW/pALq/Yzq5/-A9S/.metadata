@@ -1,0 +1,14 @@
+﻿{
+  "Name": "确认(2)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "-A9SiSHey0yljOhs_SWY6g",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/-A9SiSHey0yljOhs_SWY6g",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-09-24T20:48:10.5784525Z",
+  "Updated": "2025-09-24T20:48:10.5784525Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

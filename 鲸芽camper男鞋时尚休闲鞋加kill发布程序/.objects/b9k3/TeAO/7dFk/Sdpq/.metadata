@@ -1,0 +1,14 @@
+﻿{
+  "Name": "平底",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "SdpqEO3gF0OL-RDNHE10BA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/SdpqEO3gF0OL-RDNHE10BA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T13:16:05.7866268Z",
+  "Updated": "2025-08-23T13:16:05.7866268Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

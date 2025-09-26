@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AmKSfa1vYkyKSCLhvWpA4g" Reference="d8TXjNWSJ0-3WMGxBOkBOg/QAQErbCgpUeNOQ4JOJYADg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="b8ab7504-8b9a-41ac-87cd-948f261984c6" CvTextArea="1064, 624, 26, 14" CvTextArgument="Ŧ1" CvType="Text" DesignTimeRectangle="1066, 618, 24, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='&amp;quot;+product(&amp;quot;鞋跟款式&amp;quot;).ToString+&amp;quot;' class='info-content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='平底' class='info-content' tag='DIV' type='' check:innerText='平底' /&gt;" Guid="671b2342-ec22-4d68-9c28-e2690ebb199e" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831Pnmj3c' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="b8ab7504-8b9a-41ac-87cd-948f261984c6" CvTextArea="978, 597, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="979, 595, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-1626698' tag='LABEL' type='' class='label required' aaname='鞋跟高度' check:innerText='鞋跟高度' /&gt;" Guid="844eb7a6-2098-44cb-9a61-a540bdd7b9df" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="70d8395edd3f6049366fd664233da35a.png" xmlns="">0khSOl6zM3ECwh7E25l8Kdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

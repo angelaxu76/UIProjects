@@ -1,0 +1,14 @@
+﻿{
+  "Name": "销售单位",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "bbHA9nikA0KUcNOmH8IM7w",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/bbHA9nikA0KUcNOmH8IM7w",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T23:38:20.5017592Z",
+  "Updated": "2025-04-25T23:38:20.5017592Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

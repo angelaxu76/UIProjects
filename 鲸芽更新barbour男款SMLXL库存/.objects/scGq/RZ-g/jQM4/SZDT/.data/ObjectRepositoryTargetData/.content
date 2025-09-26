@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0KMPMCo0qUGH3dvh4TkVkA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_product_manage_list" CVScreenId="fbf65a92-26eb-4a81-ad19-92fa10edbd32" CvElementArea="681, 345, 239, 31" CvType="InputBox" DesignTimeRectangle="684, 348, 234, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='iframe_479818' tag='IFRAME' /&gt;&lt;webctrl type='' tag='INPUT' class='' placeholder='请输入' aaname='' /&gt;" Guid="2a9b4466-ef99-4d6b-84ce-efcefe605b46" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Frestful%2Findex%2Fdistribution%2Fentrance%3Fv%3D2&amp;amp;refer_pv_id=13477bb3rYLUsf' title='渠道产品管理列表' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="683, 319, 224, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='iframe_479818' tag='IFRAME' /&gt;&lt;webctrl type='' tag='LABEL' class='' aaname='' check:innerText='商家编码' /&gt;" Guid="cfcafd50-aad8-45bf-90fc-330bd965ea94" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="44bb50730867da6e077d974eb11c5afb.png" xmlns="">0ByzfcEMy1k6RwEky9yOt3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

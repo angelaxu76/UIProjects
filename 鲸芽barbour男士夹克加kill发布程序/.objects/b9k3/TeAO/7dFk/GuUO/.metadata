@@ -1,0 +1,14 @@
+﻿{
+  "Name": "英国",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "GuUOKbkKGUekLEPBcNA6mw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/GuUOKbkKGUekLEPBcNA6mw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T22:27:57.3037933Z",
+  "Updated": "2025-04-25T22:27:57.3037933Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

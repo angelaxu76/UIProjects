@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Jd2ISdRYrkOl126PoEDS1g" Reference="d8TXjNWSJ0-3WMGxBOkBOg/_niitKC4qUGr6cJwIaQpUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="1066, 672, 48, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='头层牛皮' class='info-content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='*' class='info-content' tag='DIV' type='' check:innerText='*' /&gt;" Guid="32a8b9fe-f07b-4b42-953a-76014f5764bb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ee2f11d2-30d3-4ed1-a174-d544d3e894f9" CvTextArea="1002, 650, 35, 14" CvTextArgument="* DUr" CvType="Text" DesignTimeRectangle="1003, 649, 34, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-20608' tag='LABEL' type='' class='label required' aaname='风格' check:innerText='风格' /&gt;" Guid="fd451e1a-bace-4807-aa81-d49f42ec03b4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a851a8782002443c8a1479162528baa3.png" xmlns="">0R97HccplpUOKPNt7wVjMrg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

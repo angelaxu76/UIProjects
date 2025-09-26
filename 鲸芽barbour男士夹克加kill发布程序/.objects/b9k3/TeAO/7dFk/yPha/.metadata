@@ -1,0 +1,14 @@
+﻿{
+  "Name": "开口深度",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "yPha0OZ630-A35CzIpJNgw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/yPha0OZ630-A35CzIpJNgw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-02T11:30:40.9397167Z",
+  "Updated": "2025-08-02T11:30:40.9397167Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

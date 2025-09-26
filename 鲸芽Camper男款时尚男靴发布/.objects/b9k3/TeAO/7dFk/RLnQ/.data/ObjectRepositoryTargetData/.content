@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JEfc8soNCUmDeWW74_2IPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="42811484-96ee-4bcf-b5fb-42b910af5857" CvElementArea="1044, 439, 74, 37" CvType="InputBox" DesignTimeRectangle="1046, 441, 70, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='struct-p-577561878' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-577561878' tag='INPUT' type='' class='' placeholder='数字' aaname='' /&gt;" Guid="691de885-0c84-4bc7-b348-9cf3833f8804" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="42811484-96ee-4bcf-b5fb-42b910af5857" CvTextArea="978, 450, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="979, 448, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-577561878' tag='LABEL' type='' class='label required' aaname='鞋底厚度' check:innerText='鞋底厚度' /&gt;" Guid="c8c7c164-efb4-48f7-849a-4fdb03f7c3a6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="62fafe4df69c15c6517db4542144b1de.png" xmlns="">0BtdkgWcM2kuUHbmMAzptIQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

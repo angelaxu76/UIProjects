@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ki9OCnx3wkOgSbF-Cf8NLA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="bf1f9cb6-ec2e-4b96-8d92-37a82be0c793" CvElementArea="660, 648, 23, 22" CvType="CheckBox" DesignTimeRectangle="663, 650, 18, 18" DesignTimeScaleFactor="1" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl class='next-checkbox-input' parentid='sell-field-p-20549' tag='INPUT' type='checkbox' aaname='' /&gt;" Guid="7113d5f8-7e4c-45c6-8e2d-9961a139bcf7" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831w4X0ym' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bf1f9cb6-ec2e-4b96-8d92-37a82be0c793" CvTextArea="687, 651, 29, 13" CvTextArgument="44.5" CvType="Text" DesignTimeRectangle="689, 650, 26, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='44.5' class='normal-content' parentid='sell-field-p-20549' tag='SPAN' type='' check:innerText='44.5' /&gt;" Guid="bae7d32b-6cae-4299-a92b-442d5675458c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="319d4d25786685754996623536eaade0.png" xmlns="">0Gl3wItbIyEmL_nemuCRr1Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

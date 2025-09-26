@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label '安颉瑄供货商'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "LjiCRSRTMEKdsVBzMpTDdw",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/LjiCRSRTMEKdsVBzMpTDdw",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-06-12T06:35:33.4662675Z",
+  "Updated": "2025-06-12T06:35:33.4662675Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

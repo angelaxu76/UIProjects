@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bBvblrXKuESjqiY8_j-uoQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="xiangqing.wangpu.taobao.com/new_user_panel.htm" CVScreenId="a46cde57-474e-40b1-91e3-4c81c39d70f2" CvElementArea="552, 518, 24, 24" CvType="RadioButton" DesignTimeRectangle="555, 521, 18, 18" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='radio' tag='INPUT' class='next-radio-input' aaname='' /&gt;" Guid="958ba144-abe7-4efe-aff1-b8e4016c6db8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='旺铺-详情编辑器' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a46cde57-474e-40b1-91e3-4c81c39d70f2" CvTextArea="653, 521, 338, 15" CvTextArgument="BarbourBB(ARRTTERSierralKIA5tSilver BirchÉT1EHRE!" CvType="Text" DesignTimeRectangle="605, 510, 591, 40" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;div' tableCol='2' tableRow='1' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' aaname='Barbour巴伯尔女款Sierra休闲夹克Silver Birch舒适版型日常' tag='DIV' check:innerText='Barbour巴伯尔女款Sierra休闲夹克Silver Birch舒适版型日常' /&gt;" Guid="cec95eea-1a04-42fc-96b1-269856bea5e2" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c0b993f32c2b44cceef49dc16bf9292d.png" xmlns="">0o1k6ZU7fJ0SdaIxS0EKbMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

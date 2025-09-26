@@ -1,0 +1,14 @@
+﻿{
+  "Name": "功能(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "4UjwOZkUOEyn5cQQYJzAnw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/4UjwOZkUOEyn5cQQYJzAnw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T21:10:07.0586092Z",
+  "Updated": "2025-08-23T21:10:07.0586092Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

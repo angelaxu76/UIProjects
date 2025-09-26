@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GYB1cSoUWkK7i7mzco8r9Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="d6b652b7-f28e-4e7c-b815-77b187aa410b" CvTextArea="644, 469, 50, 14" CvTextArgument="nNOt[X" CvType="Text" DesignTimeRectangle="646, 463, 48, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='海外地区' class='info-content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='海外地区' class='info-content' tag='DIV' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='海外地区' /&gt;" Guid="a16bbc83-6f4c-401a-8141-03c0d2e0a305" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="569, 472, 48, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216632' tag='LABEL' type='' class='label' aaname='制鞋工艺' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='制鞋工艺' /&gt;" Guid="4de0232c-3e70-46b0-b47f-c1d7dc346a31" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bd7b1efabd9a813f3d30924d120e4edc.png" xmlns="">07KtB06T5U0qBPqryQ428mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

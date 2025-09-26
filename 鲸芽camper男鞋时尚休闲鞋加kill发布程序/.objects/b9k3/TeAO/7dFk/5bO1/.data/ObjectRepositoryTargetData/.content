@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xY30dxdDpUWkt-e69L6j-w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="4eed86dc-7deb-4440-8426-992cc653e209" CvElementArea="615, 731, 103, 39" CvType="InputBox" DesignTimeRectangle="627, 734, 59, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' parentid='sell-field-globalStock' tag='INPUT' type='' class='' placeholder='请选择' aaname='' /&gt;" Guid="24864021-c777-431b-8f01-016e924cbd9e" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4eed86dc-7deb-4440-8426-992cc653e209" CvTextArea="499, 742, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="497, 742, 65, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='地区/国家' parentid='sell-field-globalStock' tag='SPAN' type='' class='sellhoc-label sellhoc-required-label' check:innerText='地区/国家' /&gt;" Guid="209cd5f8-fe42-4571-b4c0-e782d4cbd781" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c2f72bc0ebeab1a0bc3503776e05da2b.png" xmlns="">0ZGLclZ4l_UqZsf7KmuP5fQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="q-yTA7vcmEOo5f-gxR2_8A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="df5d743b-305c-4e6e-b8a0-c6cd8436cb61" CvElementArea="720, 680, 303, 38" CvType="InputBox" DesignTimeRectangle="723, 682, 298, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='INPUT' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="3be076c3-d549-4da7-a3cc-29510a7654d1" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D201304009%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="df5d743b-305c-4e6e-b8a0-c6cd8436cb61" CvTextArea="677, 683, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="678, 681, 5, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='hscode-formItem-required' type='' tag='SPAN' aaname='*' matching:class='fuzzy' fuzzylevel:class='0.0' fuzzylevel:aaname='0.0' check:innerText='*' /&gt;" Guid="6c780e1b-8c63-46ae-b862-99acffd96b5d" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="688, 681, 24, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='款式' class='hscode-formItem-label' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='款式' /&gt;" Guid="689db142-4ccd-4dae-a7ba-aad8983ca7bb" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d169a19e4e654b49784994fbedb0ffc4.png" xmlns="">0YRbaC3uCuE6IDueqYuGvXw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

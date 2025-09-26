@@ -1,0 +1,13 @@
+﻿{
+  "Name": "货号",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "CJvc5-2D2EuDuMo27DVG5A",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/CJvc5-2D2EuDuMo27DVG5A",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/QYsZYSVjjEWKXdBgIy5sGA",
+  "Created": "2025-08-03T05:38:55.4596898Z",
+  "Updated": "2025-08-03T05:38:55.4596898Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

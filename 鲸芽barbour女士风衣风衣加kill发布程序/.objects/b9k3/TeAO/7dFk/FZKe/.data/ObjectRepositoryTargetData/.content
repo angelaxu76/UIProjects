@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mMQxFVLMsEKVqXgU6wBX0A" Reference="d8TXjNWSJ0-3WMGxBOkBOg/FZKe-pWuuEi4Gi8RpqaHgA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="ff6e6d84-111f-43b3-8e9d-b51be0a6c4d5" CvTextArea="1144, 569, 65, 12" CvTextArgument="1089x1089" CvType="Text" DesignTimeRectangle="1127, 486, 100, 100" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=*' tag='IFRAME' /&gt;&lt;webctrl src='https://img.alicdn.com/imgextra/i2/*' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745762360268898600565645' tag='IFRAME' /&gt;&lt;webctrl src='https://img.alicdn.com/imgextra/i2/2219163936872/O1CN01lt1r0j20dQoc3UEsm_!!2219163936872.jpg_100x100' tag='IMG' type='' class='' aaname='' /&gt;" Guid="ebf1a7ad-6405-49e8-8939-d4d9202664d2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="ff6e6d84-111f-43b3-8e9d-b51be0a6c4d5" CvTextArea="1126, 594, 101, 16" CvTextArgument="K201253-037_F...." CvType="Text" DesignTimeRectangle="1127, 585, 100, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745762360268898600565645' tag='IFRAME' /&gt;&lt;webctrl aaname='K201253-037_F.jpg' class='name' parentid='items' tag='DIV' type='' check:innerText='K201253-037_F.jpg' /&gt;" Guid="fa29edb8-45e1-492b-95cc-9b69187a9a82" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4066593b0d4addff4d3269defa3264dc.png" xmlns="">03AkDqDtrp0-ZFeerU9u67g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

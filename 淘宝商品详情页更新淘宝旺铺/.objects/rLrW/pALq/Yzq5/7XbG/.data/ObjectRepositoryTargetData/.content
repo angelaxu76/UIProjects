@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="H06s6lcWCE6sjsbJQMWsbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="xiangqing.wangpu.taobao.com/new_user_panel.htm" DesignTimeRectangle="316, 147, 90, 60" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='clone' parentid='container' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='clone' parentid='container' tag='DIV' type='' aaname='克隆宝贝' check:innerText='克隆宝贝' /&gt;" Guid="6512dfb5-3767-46b3-a600-bdb698bef62a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='旺铺-详情编辑器' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="300e7b47f5f927a273903424ab490ab6.png" xmlns="">0vjNDvPg2yUWr6CEvhpc8zw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

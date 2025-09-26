@@ -1,0 +1,14 @@
+﻿{
+  "Name": "去设置",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "HHhpTXTQ50KWywkspoEHpA",
+  "Reference": "UM_IaP7cIU-aESu4AfcsVg/HHhpTXTQ50KWywkspoEHpA",
+  "ParentRef": "UM_IaP7cIU-aESu4AfcsVg/Yzq5GN9XwUaJqeg8W8ASYQ",
+  "Created": "2025-06-13T19:54:44.825763Z",
+  "Updated": "2025-06-13T19:54:44.825763Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

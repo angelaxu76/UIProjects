@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yQLa9QBCZUqisw5JsZPxzg" Reference="d8TXjNWSJ0-3WMGxBOkBOg/5Qmzl405IUOLaFpgIW1kZg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="295b2a88-036b-47b6-a5ab-8ed8cf7dcdef" CvTextArea="1064, 620, 38, 14" CvTextArgument="RI8S" CvType="Text" DesignTimeRectangle="1066, 614, 36, 28" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;跟底款式&quot;).ToString+&quot;' class='info-content' tag='DIV' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl aaname='内增高' class='info-content' tag='DIV' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='内增高' /&gt;" Guid="6a24da9e-21be-4bab-9700-9b6ac18cd918" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="295b2a88-036b-47b6-a5ab-8ed8cf7dcdef" CvTextArea="978, 593, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="979, 591, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216345' tag='LABEL' type='' class='label required' aaname='适合季节' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='适合季节' /&gt;" Guid="c017644c-9c1d-4842-a5d6-098e21f50946" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ca7d810f89880ae0f47a124ad2e96332.png" xmlns="">0wYODf_Di6kuVchSrVlms9Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

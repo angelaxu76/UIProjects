@@ -1,0 +1,14 @@
+﻿{
+  "Name": "鞋头款式(3)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "NqUHgcvrtkuKE59SsR4owA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/NqUHgcvrtkuKE59SsR4owA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T21:10:41.2617107Z",
+  "Updated": "2025-08-23T21:10:41.2617107Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

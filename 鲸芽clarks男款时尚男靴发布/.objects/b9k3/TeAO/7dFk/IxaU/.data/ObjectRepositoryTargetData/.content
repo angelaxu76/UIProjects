@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="48aRfrvgS0iit_DzcDOgWg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="39bc809a-8174-450c-8b19-59059bf7de48" CvElementArea="624, 682, 242, 38" CvType="InputBox" DesignTimeRectangle="626, 684, 238, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-577564665' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-577564665' tag='INPUT' type='' class='' placeholder='请输入' aaname='' /&gt;" Guid="834c8f8a-1496-49a0-86d0-e6c61be37852" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831Pnmj3c' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="39bc809a-8174-450c-8b19-59059bf7de48" CvTextArea="558, 693, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="559, 691, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-577564665' tag='LABEL' type='' class='label required' aaname='透气系统' check:innerText='透气系统' /&gt;" Guid="e376360b-014f-432a-b3f9-27a3148798dd" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9113bfb01047568574fe1033b0094bf5.png" xmlns="">07fMkR6PgfEuOoxBQzwPtSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

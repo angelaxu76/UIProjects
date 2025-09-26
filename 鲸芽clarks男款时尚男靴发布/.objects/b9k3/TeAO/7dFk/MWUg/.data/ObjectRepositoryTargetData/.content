@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PNbPV6pqDU2Gp4GxQdZFqA" Reference="d8TXjNWSJ0-3WMGxBOkBOg/MWUgXcBvc0eJeQB-16GHLw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="087e0ba3-6100-4b48-bd48-52f541b19538" CvElementArea="720, 585, 303, 39" CvType="InputBox" DesignTimeRectangle="723, 587, 298, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="5b20d8ce-254f-4895-9192-df91594aa1b0" ImageBase64="" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="087e0ba3-6100-4b48-bd48-52f541b19538" CvTextArea="677, 588, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="678, 586, 5, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='hscode-formItem-required' type='' tag='SPAN' aaname='*' check:innerText='*' /&gt;" Guid="d51bb3d6-14c7-462f-be4c-3a746d1b1fe0" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="688, 586, 24, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='品名' class='hscode-formItem-label' tag='LABEL' type='' check:innerText='品名' /&gt;" Guid="74d93cdf-0fda-48a4-b9d2-8e12d3e356a3" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="db4bd38ebdefffa4a11e33d3872fc21f.png" xmlns="">0_t7wFmDgREyIuubly81I9w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

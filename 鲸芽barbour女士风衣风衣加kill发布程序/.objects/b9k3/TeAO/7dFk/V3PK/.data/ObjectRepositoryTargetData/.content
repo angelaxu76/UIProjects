@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PhoCrh78jkmoUbS3EfGltw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="205baf5c-c845-484f-b54e-7a0efbbd4d11" CvElementArea="795, 551, 74, 38" CvType="InputBox" DesignTimeRectangle="797, 553, 70, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' parentid='struct-p-122640606' tag='INPUT' class='' placeholder='数字' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c06f6d55-e97b-42b1-aa9c-3706738188e5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="205baf5c-c845-484f-b54e-7a0efbbd4d11" CvTextArea="623, 532, 50, 14" CvTextArgument="ExEEx6" CvType="Text" DesignTimeRectangle="625, 531, 240, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='长x宽x高' parentid='struct-p-122640606' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='长x宽x高' parentid='struct-p-122640606' tag='DIV' type='' class='sell-rich-text info-top' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='长x宽x高' /&gt;" Guid="32a38075-5f85-4109-bedb-a09b52f9ea93" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="62235ef56b3834beea1df6cd5419d61d.png" xmlns="">0dJtHFL0IzEmJ-VlvF3cuXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

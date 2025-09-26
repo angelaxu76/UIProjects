@@ -1,0 +1,14 @@
+﻿{
+  "Name": "#DLI",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "_ZUPBbdoJEmXB--doOkl1A",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/_ZUPBbdoJEmXB--doOkl1A",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-09-25T20:46:18.1843776Z",
+  "Updated": "2025-09-25T20:46:18.1843776Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

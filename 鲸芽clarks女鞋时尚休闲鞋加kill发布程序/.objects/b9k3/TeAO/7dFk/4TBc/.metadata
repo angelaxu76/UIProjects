@@ -1,0 +1,14 @@
+﻿{
+  "Name": "皮质特征",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "4TBcym1-bU-vK1_19u_ppw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/4TBcym1-bU-vK1_19u_ppw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T22:27:18.3778609Z",
+  "Updated": "2025-04-25T22:27:18.3778609Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

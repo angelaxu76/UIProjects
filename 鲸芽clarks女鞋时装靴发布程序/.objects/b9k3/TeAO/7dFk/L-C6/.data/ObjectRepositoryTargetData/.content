@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="K10SLfJ6SEasGZ1Y8qp7Cw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="ebaf3ce2-0f06-4421-829c-a1eb67d9fdc3" CvElementArea="624, 376, 74, 37" CvType="InputBox" DesignTimeRectangle="626, 378, 70, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-344943689' tag='INPUT' type='' class='' placeholder='数字' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="6f1ea303-8b48-469f-8516-e3c1ed516ad9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ebaf3ce2-0f06-4421-829c-a1eb67d9fdc3" CvTextArea="579, 386, 37, 14" CvTextArgument="5H26" CvType="Text" DesignTimeRectangle="581, 385, 36, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-344943689' tag='LABEL' type='' class='label' aaname='吊牌价' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='吊牌价' /&gt;" Guid="712129c4-2beb-4eeb-b889-06a1a2fc62be" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="65323e610aaff76155c744a8d84efb83.png" xmlns="">0Xp4PAEqlg0iR_E5ZHc7bdg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

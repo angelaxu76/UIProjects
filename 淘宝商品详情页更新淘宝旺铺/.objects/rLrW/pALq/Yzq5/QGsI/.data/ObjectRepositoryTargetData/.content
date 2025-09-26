@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RxCaesFaRUGKr2Xk9py6hA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="953, 432, 148, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=false&amp;amp;needHeader=false&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=false&amp;amp;max=20&amp;amp;handleId=1749684998157380075938683' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=false&amp;amp;needHeader=false&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=false&amp;amp;max=20&amp;amp;handleId=1749684998157380075938683' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="ea6b7380-80ef-47c9-8337-ce1c102efd8e" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26itemId%3D918759874702&amp;amp;refer_pv_id=14744831QIgsk0' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ec3c31b2-75f2-4b0e-99fa-a73bfd2c5c39" CvTextArea="1131, 436, 86, 14" CvTextArgument="PSs/OREĦ" CvType="Text" DesignTimeRectangle="1133, 437, 84, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=false&amp;amp;needHeader=false&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=false&amp;amp;max=20&amp;amp;handleId=1749684998157380075938683' tag='IFRAME' /&gt;&lt;webctrl class='next-checkbox-label' parentid='container' tag='SPAN' type='' aaname='隐藏不可用图片' check:innerText='隐藏不可用图片' /&gt;" Guid="bb03ba28-e4ed-4ef7-a5cd-78acc7daf9e2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2102312d0824efa9b535e1ab2863d53e.png" xmlns="">0bLs2dmoW70eZGHrkjE5OXQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

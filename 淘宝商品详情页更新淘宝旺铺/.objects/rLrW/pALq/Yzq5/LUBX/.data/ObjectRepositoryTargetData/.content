@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hdYu39sXlUaOOPtJbpv6Jg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="15ce3559-e969-4377-ae93-d432cb309253" CvElementArea="1750, 893, 57, 41" CvTextArea="1764, 906, 26, 14" CvTextArgument="MA" CvType="Button" DesignTimeRectangle="1753, 896, 50, 36" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='应用' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='应用' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary dlg-footer-btn' check:innerText='应用' /&gt;" Guid="3643da95-1310-4bfa-bbbe-3ef62e1a1078" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="15ce3559-e969-4377-ae93-d432cb309253" CvElementArea="1750, 893, 57, 41" CvTextArea="1764, 906, 26, 14" CvTextArgument="MA" CvType="Button" DesignTimeRectangle="1766, 908, 24, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='应用' class='next-btn-helper' tag='SPAN' type='' check:innerText='应用' /&gt;" Guid="0aaea0d5-bf6f-4836-b230-faee847e674f" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="15ce3559-e969-4377-ae93-d432cb309253" CvElementArea="1688, 894, 55, 39" CvType="Button" DesignTimeRectangle="1691, 896, 50, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='取消' type='button' tag='BUTTON' class='next-btn next-medium next-btn-normal dlg-footer-btn' check:innerText='取消' /&gt;" Guid="dc46fe75-cdb8-4741-9944-b194c91b9e3f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="93519b570a65225300bbd741b57b08f3.png" xmlns="">0FHhTl78w9U63PfffZGA3PQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
