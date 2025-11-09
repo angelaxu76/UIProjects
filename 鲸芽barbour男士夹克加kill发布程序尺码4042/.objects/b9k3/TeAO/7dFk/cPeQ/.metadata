@@ -1,0 +1,14 @@
+﻿{
+  "Name": "缓震技术",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "cPeQZkzX3ECk78i6NsgsEg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/cPeQZkzX3ECk78i6NsgsEg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-02T11:16:39.5554314Z",
+  "Updated": "2025-08-02T11:16:39.5554314Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "透气系统",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IxaUzRG6HUm5YHMoGKFkzA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/IxaUzRG6HUm5YHMoGKFkzA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-28T12:31:51.7654861Z",
+  "Updated": "2025-07-28T12:31:51.7654861Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

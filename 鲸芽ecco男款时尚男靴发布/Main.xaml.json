@@ -1,0 +1,141 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "excelPath",
+      "DisplayName": "excelPath",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "detailPage",
+      "DisplayName": "detailPage",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "淘经销详情",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "sizeChatname",
+      "DisplayName": "sizeChatname",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "CAMPER女鞋尺码表",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "successLog",
+      "DisplayName": "successLog",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "d:/success.txt",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "storeIntr",
+      "DisplayName": "storeIntr",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "店铺简介",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "shopProcess",
+      "DisplayName": "shopProcess",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "代购流程",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "five",
+      "DisplayName": "five",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "_s.",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "forth",
+      "DisplayName": "forth",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "_front",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "thrid",
+      "DisplayName": "thrid",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "_o.",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "second",
+      "DisplayName": "second",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "_top",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "first",
+      "DisplayName": "first",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "_m.",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

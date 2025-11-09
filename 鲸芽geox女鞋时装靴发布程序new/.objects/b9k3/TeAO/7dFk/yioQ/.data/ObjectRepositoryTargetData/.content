@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3wQoXoPzaECp1_GnDKo0bQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="5afc0959-b6db-4a80-8ba2-e4c9716c99ab" CvElementArea="496, 424, 163, 39" CvType="InputBox" DesignTimeRectangle="498, 427, 158, 34" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-role='combobox' parentid='sell-field-p-20549' tag='INPUT' /&gt;" Guid="fd9ab8ad-d4a1-49b4-b6c0-edb2ab012c87" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5afc0959-b6db-4a80-8ba2-e4c9716c99ab" CvTextArea="521, 396, 30, 15" CvTextArgument="ER69" CvType="Text" DesignTimeRectangle="523, 396, 28, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='item-label' parentid='sell-field-p-20549' tag='SPAN' type='' aaname='欧码' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='欧码' /&gt;" Guid="612a3076-236d-4625-b29f-a00ca4bb2aa2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6f21cd900936180a19df9b51c5e66760.png" xmlns="">00doNA1BANk26wu5HCPBJdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "SPAN (1)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "1SBoTmaRoUKFQwNEWhcoVA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/1SBoTmaRoUKFQwNEWhcoVA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/QYsZYSVjjEWKXdBgIy5sGA",
+  "Created": "2025-08-03T05:38:55.0629301Z",
+  "Updated": "2025-08-03T05:38:55.0629301Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

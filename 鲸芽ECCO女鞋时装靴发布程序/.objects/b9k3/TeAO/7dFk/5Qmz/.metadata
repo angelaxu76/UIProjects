@@ -1,0 +1,14 @@
+﻿{
+  "Name": "方跟",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "5Qmzl405IUOLaFpgIW1kZg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/5Qmzl405IUOLaFpgIW1kZg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-30T23:35:27.6062776Z",
+  "Updated": "2025-07-30T23:35:27.6062776Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

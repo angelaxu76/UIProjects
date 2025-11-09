@@ -1,0 +1,14 @@
+﻿{
+  "Name": "离开",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ywviJKNxB0SKPMWAXa_nYQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/ywviJKNxB0SKPMWAXa_nYQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-27T15:37:06.5417463Z",
+  "Updated": "2025-04-27T15:37:06.5417463Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "青年（18-40周岁）",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "QApsR49R8kG0vAlFdK_Dxw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/QApsR49R8kG0vAlFdK_Dxw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T21:11:25.2446093Z",
+  "Updated": "2025-08-23T21:11:25.2446093Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

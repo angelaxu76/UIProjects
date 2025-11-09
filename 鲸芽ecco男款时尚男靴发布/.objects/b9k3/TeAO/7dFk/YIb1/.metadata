@@ -1,0 +1,14 @@
+﻿{
+  "Name": "休闲鞋",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YIb1idCtaEGKmZEkxUR3pg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/YIb1idCtaEGKmZEkxUR3pg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-28T12:37:32.9406445Z",
+  "Updated": "2025-07-28T12:37:32.9406445Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

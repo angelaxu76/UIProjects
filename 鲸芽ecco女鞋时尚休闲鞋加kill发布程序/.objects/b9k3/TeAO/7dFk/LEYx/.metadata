@@ -1,0 +1,14 @@
+﻿{
+  "Name": "单鞋重量（g）",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "LEYxdsaJHUiWYtM0F1xE-Q",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/LEYxdsaJHUiWYtM0F1xE-Q",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-02T11:26:22.8436972Z",
+  "Updated": "2025-08-02T11:26:22.8436972Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

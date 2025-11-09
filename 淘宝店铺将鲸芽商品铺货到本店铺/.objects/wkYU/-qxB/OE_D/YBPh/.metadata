@@ -1,0 +1,14 @@
+﻿{
+  "Name": "立即铺货(4)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "YBPhlpQd3Ua_SqlbG-lsCg",
+  "Reference": "k8vRsHm25EiWWoJkIPAsBg/YBPhlpQd3Ua_SqlbG-lsCg",
+  "ParentRef": "k8vRsHm25EiWWoJkIPAsBg/OE_DMhToPkWed3idxsGrdg",
+  "Created": "2025-10-31T11:53:16.7491167Z",
+  "Updated": "2025-10-31T11:53:16.7491167Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

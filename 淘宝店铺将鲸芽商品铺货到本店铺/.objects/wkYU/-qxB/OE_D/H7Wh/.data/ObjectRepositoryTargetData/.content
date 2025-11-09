@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xLao9PEbk0e_5hMRE-sOSQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya-x.taobao.com/wow/z/tfx/static/itemDetail" CVScreenId="98117b07-a8b8-4522-8ea3-a45f77e8c490" CvElementArea="858, 277, 166, 44" CvTextArea="907, 288, 67, 19" CvTextArgument="2ZRD#XR" CvType="Button" DesignTimeRectangle="860, 279, 162, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='立即铺货' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='立即铺货' tag='BUTTON' type='button' class='next-btn next-large next-btn-primary' check:innerText='立即铺货' /&gt;" Guid="75c21177-b84d-4344-934b-b77756d60705" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Ftaofenxiao.taobao.com%2F%3Fpt%3Dascp%23%2Fascp%2Ftsq%2Fdt%2FsupplierItemDetail%3FsupplierItemId%3D919316573458&amp;amp;refer_pv_id=efa36cefAlB8RM' title='选货市场-商品详情' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="98117b07-a8b8-4522-8ea3-a45f77e8c490" CvElementArea="858, 277, 166, 44" CvTextArea="907, 288, 67, 19" CvTextArgument="2ZRD#XR" CvType="Button" DesignTimeRectangle="909, 291, 64, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='立即铺货' class='next-btn-helper' tag='SPAN' type='' check:innerText='立即铺货' /&gt;" Guid="8e6e3184-d48d-4719-9462-873ee7e11c6e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9930917558e077bdcb8148031f0124bd.png" xmlns="">0eWV-lVqs4kSvMNf43PN78g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pj3aHEAn_Eq1cZgc7VDrqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="25e36b69-3ad7-448b-b0e8-6210c61cbcb8" CvElementArea="1043, 314, 244, 39" CvType="InputBox" DesignTimeRectangle="1055, 316, 199, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-122216640' tag='INPUT' type='' class='' placeholder='请选择' aaname='' /&gt;" Guid="123403c6-054a-4f5d-8037-42a8b9d66269" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831PMlpHI' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="25e36b69-3ad7-448b-b0e8-6210c61cbcb8" CvTextArea="978, 324, 59, 14" CvTextArgument="* HLME" CvType="Text" DesignTimeRectangle="979, 323, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216640' tag='LABEL' type='' class='label required' aaname='鞋面材质' check:innerText='鞋面材质' /&gt;" Guid="d3dab310-b82d-448c-85cd-9504628820b5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4de2b0305c9455c655352d355e3bfaec.png" xmlns="">0N1Z5GopRWkejGrJK7dsg5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

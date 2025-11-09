@@ -1,0 +1,14 @@
+﻿{
+  "Name": "中青年",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "a7VOtTVkq0W0XLpvTW9Jtw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/a7VOtTVkq0W0XLpvTW9Jtw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T22:09:25.6739225Z",
+  "Updated": "2025-08-16T22:09:25.6739225Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

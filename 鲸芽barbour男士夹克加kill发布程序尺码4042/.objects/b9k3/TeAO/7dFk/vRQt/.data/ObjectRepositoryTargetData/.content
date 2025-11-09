@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="B3NW0eEAuUuRu0nomDghMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="20e8a0fe-d364-432b-a26a-d0319d915fa6" CvElementArea="831, 350, 153, 39" CvType="InputBox" DesignTimeRectangle="835, 352, 146, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' parentid='sell-field-sku' tag='INPUT' class='' placeholder='价格（元）' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="db7dfc6d-8253-4dec-a6fa-c2f10dfe3ad6" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="20e8a0fe-d364-432b-a26a-d0319d915fa6" CvTextArea="715, 361, 38, 14" CvTextArgument="ÊÈS" CvType="Text" DesignTimeRectangle="717, 359, 103, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='sell-sku-cell-text-content' aaname='颜色图' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='颜色图' /&gt;" Guid="e95026e1-27ef-4b8c-ba83-659c857177c3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b9d540344fad39fe21d0581896a4aefb.png" xmlns="">0iTerIYqbB0WqtJRVZ_5dXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

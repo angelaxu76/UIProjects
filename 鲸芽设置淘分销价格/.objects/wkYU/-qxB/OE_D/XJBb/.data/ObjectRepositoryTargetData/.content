@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UEdHwUZhkkSFtsros4lubA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="web.scm.tmall.com/pages/tfx/channel_price_list_detail" DesignTimeRectangle="2347, 316, 12, 12" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl tag='I' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='I' type='' class='next-icon next-icon-edit next-xs next-btn-icon next-icon-first' aaname='' /&gt;" Guid="f11647e7-01aa-4c8e-b522-6596699af2e0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='渠道价格详情页' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="2363, 316, 24, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='next-btn-helper' tag='SPAN' type='' aaname='编辑' check:innerText='编辑' /&gt;" Guid="e8b91fd5-82c7-40ad-af18-e9a73fb72f75" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="349c116ba7c10f3d5f4ba932b2b5220d.png" xmlns="">0ZYYmct5RwkebGolhfQ4dfw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

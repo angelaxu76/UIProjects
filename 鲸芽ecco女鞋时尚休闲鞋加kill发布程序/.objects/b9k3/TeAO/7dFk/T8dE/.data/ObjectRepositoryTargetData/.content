@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RvZy2iWtM0Kmq88uijH-_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="abce530b-3c24-49ee-ba89-0ed5e6cd696b" CvElementArea="1054, 349, 222, 39" CvType="InputBox" DesignTimeRectangle="1057, 352, 197, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9298dccd-db44-458e-af58-e5b36c4e594f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="abce530b-3c24-49ee-ba89-0ed5e6cd696b" CvTextArea="1002, 373, 35, 14" CvTextArgument="* *K" CvType="Text" DesignTimeRectangle="1003, 372, 34, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='struct-p-122216562' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-122216562' tag='LABEL' type='' class='label required' aaname='衣长' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='衣长' /&gt;" Guid="5c213b06-909d-430e-aa29-dc413129364d" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4186cb012ea5994d3a5517f7f3193c57.png" xmlns="">0lhCAZjMr6UKijsBKdoi8DQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

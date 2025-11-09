@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="kHePK6RHAEmvtLhK0IZ9Mw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="GxtN5NH3f0mrOQN8cT8z3g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="957bb649-4ef7-4910-8050-15358a91565f" CvTextArea="644, 527, 65, 14" CvType="AnyWordGroup" DesignTimeRectangle="646, 521, 62, 28" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='info-content' tag='DIV' type='' /&gt;" Guid="2d67265f-5e00-4d25-9331-e819fc457458" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D50011743%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%257*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
-      <TargetAnchorable.Anchors>
-        <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="957bb649-4ef7-4910-8050-15358a91565f" CvTextArea="534, 500, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="535, 498, 82, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-139002163' tag='LABEL' type='' class='label required' aaname='靴筒内里材质' check:innerText='靴筒内里材质' /&gt;" Guid="d2b8dc53-fc4b-4402-aacd-0e9d618873ce" SearchSteps="FuzzySelector, CV" />
-        </scg:List>
-      </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="ae05b34ffaaaa0b63ffebee3d44ce100.png" xmlns="">0ESVjuxyCnk-W0yoqjnaXIg</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="b46e4abd-1337-406f-ae3f-34647606f605" CvTextArea="644, 421, 65, 14" CvType="AnyWordGroup" DesignTimeRectangle="646, 415, 62, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='2025年秋季' class='info-content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='info-content' tag='DIV' type='' /&gt;" Guid="f8f15d9a-e8d8-411e-9a68-e2eb49fe6574" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="732f3b180fe136b45b8e4228721ca705.png" xmlns="">0YBrfQP5-gEG33T3ge3VyMw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="njugg8BjRECM34aO3RwyIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="aab2c530-31f7-4792-8ca1-f581f040eaf9" CvElementArea="977, 796, 23, 22" CvType="CheckBox" DesignTimeRectangle="979, 798, 18, 18" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl class='next-checkbox-input' parentid='sell-field-p-20549' tag='INPUT' type='checkbox' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f2c98999-8a58-4fb4-97bd-a9b3d9f72724" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="aab2c530-31f7-4792-8ca1-f581f040eaf9" CvTextArea="1003, 800, 29, 13" CvTextArgument="41.5" CvType="Text" DesignTimeRectangle="1005, 799, 26, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='41.5' class='normal-content' parentid='sell-field-p-20549' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='41.5' class='normal-content' parentid='sell-field-p-20549' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='41.5' /&gt;" Guid="b81124e1-8387-49eb-8eee-89592aebd926" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4fcabbb9da3c8d75d6b4f3992a926b1a.png" xmlns="">0kGOo3apKu0uFbJU2nr2Flw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

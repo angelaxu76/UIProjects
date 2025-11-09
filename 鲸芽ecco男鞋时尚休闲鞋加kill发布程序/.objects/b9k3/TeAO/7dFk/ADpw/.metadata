@@ -1,0 +1,14 @@
+﻿{
+  "Name": "闭合方式",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ADpweuNNFkCak-mvJ2ZGgg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/ADpweuNNFkCak-mvJ2ZGgg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T12:59:52.8801515Z",
+  "Updated": "2025-08-23T12:59:52.8801515Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

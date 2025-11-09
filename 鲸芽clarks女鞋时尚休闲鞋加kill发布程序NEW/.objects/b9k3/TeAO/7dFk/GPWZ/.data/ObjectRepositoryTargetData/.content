@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZwLDeQWg-UqpsC8YONZn3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="c92447dd-6f65-4cbe-87e5-2b66830043fb" CvElementArea="555, 579, 582, 42" CvType="InputBox" DesignTimeRectangle="566, 581, 538, 38" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' type='' tabindex='0' tag='INPUT' class='' placeholder='系统为您推荐了相关性较高的HS海关代码，请选择或自行查找后填写' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:tabindex='fuzzy' fuzzylevel:tabindex='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="593b97cc-c081-4833-afc4-a195b0400e72" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c92447dd-6f65-4cbe-87e5-2b66830043fb" CvTextArea="554, 554, 83, 16" CvTextArgument="HS}Xfth" CvType="Text" DesignTimeRectangle="555, 545, 82, 35" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='hscode-hscodeItem-title' tag='DIV' type='' aaname='HS海关代码' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='HS海关代码' /&gt;" Guid="dc155d88-7e38-4268-bbd2-86338311958d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6a37128136d697f2ceed5193e47e3a0a.png" xmlns="">0bXk80JyUjUSC7-fRbDFRXA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

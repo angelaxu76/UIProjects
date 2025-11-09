@@ -1,0 +1,14 @@
+﻿{
+  "Name": "'品牌'",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Ys4Gz2LIoE2T0h2QMqkGIQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/Ys4Gz2LIoE2T0h2QMqkGIQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-03T05:32:52.4277023Z",
+  "Updated": "2025-08-03T05:32:52.4277023Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

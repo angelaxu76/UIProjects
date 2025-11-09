@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tMJ3mWpkPkW1WNdxR3bffA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="e44db6b2-f59c-4ee8-84c5-0faa026ce89d" CvElementArea="663, 545, 63, 39" CvTextArea="676, 557, 35, 14" CvTextArgument="+ i510" CvType="Button" DesignTimeRectangle="678, 551, 33, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='+ 添加' class='next-btn-helper' parentid='sell-field-p-20509' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='+ 添加' /&gt;" Guid="2e96c38e-0d0b-40af-b765-9b22f9d3850c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e44db6b2-f59c-4ee8-84c5-0faa026ce89d" CvElementArea="663, 545, 63, 39" CvTextArea="676, 557, 35, 14" CvTextArgument="+ i510" CvType="Button" DesignTimeRectangle="665, 547, 59, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-p-20509' tag='BUTTON' type='button' class='next-btn next-medium next-btn-normal confirm-btn' aaname=' + 添加' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='+ 添加' /&gt;" Guid="4bda8284-4397-48e9-87c3-9b94cb06e780" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fef31b150f4a691a403e91d66d248761.png" xmlns="">06YgRTLxaOEWlUw4txi0Klg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

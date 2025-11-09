@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="odOEVD6ClUCuaS8LLhNyBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="0b3ff593-1a32-4adb-ac00-183ac45c3509" CvTextArea="590, 338, 59, 15" CvTextArgument="MA12t5" CvType="Text" DesignTimeRectangle="592, 338, 56, 17" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='应用模板' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='应用模板' tag='SPAN' type='' class='' check:innerText='应用模板' /&gt;" Guid="9e0da6d4-ae1a-4382-8239-415982077931" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="471, 338, 85, 17" FuzzySelectorArgument="&lt;webctrl aaname='尺码尺寸表' tag='SPAN' type='' class='' check:innerText='尺码尺寸表' /&gt;" Guid="5b46ff86-f90b-4627-ad75-f91957da20e1" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dc62750c02ac4ecb3e1e5e4ed97528f7.png" xmlns="">0IbTK5fZjiUu_8uQuKyxSnQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

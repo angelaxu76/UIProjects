@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VZCCNPf4m02r_3XpEbfZKA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="41e0c7a2-74ec-4e4e-b395-37a07f7561d3" CvElementArea="614, 785, 23, 23" CvType="RadioButton" DesignTimeRectangle="617, 787, 18, 18" DesignTimeScaleFactor="1" ElementType="RadioButton" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;label&amp;gt;label&amp;gt;span&amp;gt;input' parentid='sell-field-globalStock' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl class='next-radio-input' parentid='sell-field-globalStock' tag='INPUT' type='radio' aaname='' /&gt;" Guid="6d16c26b-3f57-433f-812f-475c5cc7fb3d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="41e0c7a2-74ec-4e4e-b395-37a07f7561d3" CvTextArea="641, 787, 162, 16" CvTextArgument="¿LR (TRIR, E*m)" CvType="Text" DesignTimeRectangle="643, 787, 168, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='item-label' parentid='sell-field-globalStock' tag='SPAN' type='' aaname='非现货（无现货，需采购）' check:innerText='非现货（无现货，需采购）' /&gt;" Guid="34f24103-7755-4249-aeb7-cf8cbc89073c" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d8a5d504ad1e0d0013ff782b08ac79fc.png" xmlns="">0gRVGPcFpa0aGzUcxJBReXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

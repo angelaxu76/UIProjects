@@ -1,0 +1,14 @@
+﻿{
+  "Name": "更多批量",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "ZWG2KkfgTEyw0NdpZ6Q0ww",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/ZWG2KkfgTEyw0NdpZ6Q0ww",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-09-26T21:55:40.4212236Z",
+  "Updated": "2025-09-26T21:55:40.4212236Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

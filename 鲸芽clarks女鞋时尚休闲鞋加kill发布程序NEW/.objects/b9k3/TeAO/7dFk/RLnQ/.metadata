@@ -1,0 +1,14 @@
+﻿{
+  "Name": "鞋底厚度",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "RLnQsoA4g0GC_lmYbXUg3Q",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/RLnQsoA4g0GC_lmYbXUg3Q",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-28T08:39:19.5244799Z",
+  "Updated": "2025-07-28T08:39:19.5244799Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "颜色分类",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "5dHJj6ta0ESeFM8VPL9Eag",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/5dHJj6ta0ESeFM8VPL9Eag",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-09-25T20:41:11.584369Z",
+  "Updated": "2025-09-25T20:41:11.584369Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

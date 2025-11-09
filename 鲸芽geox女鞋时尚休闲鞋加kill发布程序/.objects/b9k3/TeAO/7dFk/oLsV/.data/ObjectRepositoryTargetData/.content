@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="MJ7xd7fJHkybbnraMgyjfA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="3afa4ff7-85d5-4a63-bf4f-b18957ad5c18" CvElementArea="731, 583, 281, 39" CvType="InputBox" DesignTimeRectangle="734, 585, 257, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="07b1f3cb-f310-40f4-99e2-aa43acef7545" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="664, 537, 48, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='销售单位' class='hscode-formItem-label' tag='LABEL' type='' check:innerText='销售单位' /&gt;" Guid="2f3c7779-dad6-4370-801d-2618f1212762" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="014d4dc69f1997de8d59ccf3492930b2.png" xmlns="">05KXaUix7_EmGQtOWz0xlUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

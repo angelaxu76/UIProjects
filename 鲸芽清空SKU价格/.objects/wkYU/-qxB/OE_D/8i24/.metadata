@@ -1,0 +1,14 @@
+﻿{
+  "Name": "编辑(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "8i241SdIbkycLpeZS8dwwQ",
+  "Reference": "k8vRsHm25EiWWoJkIPAsBg/8i241SdIbkycLpeZS8dwwQ",
+  "ParentRef": "k8vRsHm25EiWWoJkIPAsBg/OE_DMhToPkWed3idxsGrdg",
+  "Created": "2025-10-29T19:01:24.0573415Z",
+  "Updated": "2025-10-29T19:01:24.0573415Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

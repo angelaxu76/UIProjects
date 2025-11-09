@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xce6lgUo2UOwpYEQnZHUlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="4f72e8b5-29b8-4384-b697-4487ce15b2cf" CvElementArea="556, 610, 529, 39" CvType="InputBox" DesignTimeRectangle="557, 613, 526, 35" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='searchbox' tag='INPUT' type='' class='' placeholder='请输入10位数字海关代码' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="567b98b6-f4c8-4387-8afb-4b9224185a35" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4f72e8b5-29b8-4384-b697-4487ce15b2cf" CvTextArea="554, 534, 83, 16" CvTextArgument="HS}Xfth" CvType="Text" DesignTimeRectangle="555, 525, 82, 35" ElementType="Text" FullSelectorArgument="&lt;webctrl class='hscode-hscodeItem-title' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='hscode-hscodeItem-title' tag='DIV' type='' aaname='HS海关代码' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='HS海关代码' /&gt;" Guid="f05ed301-b5c9-4c1c-bea6-27714d3e1f81" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a5839150eb067f08a678228fe4aaff55.png" xmlns="">03xFFz5T41k-JG0Fewtjheg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

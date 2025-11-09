@@ -1,0 +1,14 @@
+﻿{
+  "Name": "直下摆",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "aIsQICDbD0u6tQFYD5XyEA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/aIsQICDbD0u6tQFYD5XyEA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T22:54:09.1556038Z",
+  "Updated": "2025-08-16T22:54:09.1556038Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

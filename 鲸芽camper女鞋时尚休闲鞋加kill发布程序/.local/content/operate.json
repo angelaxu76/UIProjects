@@ -12,9 +12,10 @@
   "runtimeOptions": {
     "isAttended": false,
     "requiresUserInteraction": true,
-    "robotVersion": "25.0.176"
+    "robotVersion": "26.0.179"
   },
   "designOptions": {
+    "projectProfile": "Development",
     "fileInfoCollection": []
   }
 }

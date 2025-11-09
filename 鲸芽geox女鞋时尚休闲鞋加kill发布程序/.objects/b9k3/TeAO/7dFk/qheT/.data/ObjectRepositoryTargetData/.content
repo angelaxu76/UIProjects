@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZcBT2A1qVUOHM3oLIDoMpw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="dbba99cc-d935-4fc5-a4be-b8a6efb8eec6" CvElementArea="919, 359, 83, 42" CvType="Button" DesignTimeRectangle="920, 361, 81, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='更多批量' parentid='sell-field-sku' tag='BUTTON' type='button' class='next-btn next-medium next-btn-normal' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='更多批量' /&gt;" Guid="f7a0fc0c-6ae9-49fb-98dd-d4ea44b6bbc3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dbba99cc-d935-4fc5-a4be-b8a6efb8eec6" CvElementArea="830, 359, 84, 42" CvType="Button" DesignTimeRectangle="846, 374, 53, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='next-btn-helper' parentid='sell-field-sku' tag='SPAN' type='' aaname='批量填写' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='批量填写' /&gt;" Guid="a7be15f9-b4ca-4069-92cb-a454b36dd1c9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ad6aecac9a7c239aa574610f048fc00f.png" xmlns="">0YexLozkM4k6Wu9Smygjf8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

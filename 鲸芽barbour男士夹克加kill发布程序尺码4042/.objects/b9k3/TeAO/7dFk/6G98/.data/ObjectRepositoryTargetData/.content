@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BYEyBpB5b0KZWa2wQZNbrA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="3aa37169-24ea-42e1-8fbf-a54eacf612f1" CvElementArea="494, 892, 737, 37" CvType="InputBox" DesignTimeRectangle="498, 894, 701, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-outerId' tag='INPUT' type='' class='' aaname='' /&gt;" Guid="38a33f8b-4bd7-4576-925f-59d5cb83816f" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3aa37169-24ea-42e1-8fbf-a54eacf612f1" CvElementArea="494, 892, 737, 37" CvType="InputBox" DesignTimeRectangle="1199, 894, 31, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='next-input-len' parentid='sell-field-outerId' tag='SPAN' type='' aaname='0/64' check:innerText='0/64' /&gt;" Guid="8c394fe5-d915-472c-a93a-e4da2f7fc4cc" SearchSteps="FuzzySelector, CV" />
+          <Target DesignTimeRectangle="365, 900, 56, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-outerId' tag='SPAN' type='' class='sell-component-info-wrapper-label' aaname='商家编码' check:innerText='商家编码' /&gt;" Guid="23ca4252-abbc-4594-8467-e0a0f4c9a18c" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8786887d086f75622029a79d55547540.png" xmlns="">0BHIgbcNgP022wmF4K1jJ5Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

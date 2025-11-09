@@ -1,0 +1,14 @@
+﻿{
+  "Name": "商务",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "HBZL6sf-IUi8_QYfLJGOjw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/HBZL6sf-IUi8_QYfLJGOjw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T22:52:41.9780065Z",
+  "Updated": "2025-08-16T22:52:41.9780065Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

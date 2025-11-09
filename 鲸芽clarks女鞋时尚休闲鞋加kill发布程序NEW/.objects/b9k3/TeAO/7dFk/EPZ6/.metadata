@@ -1,0 +1,14 @@
+﻿{
+  "Name": "标准",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "EPZ60cpwFkeDt_-lyV41ng",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/EPZ60cpwFkeDt_-lyV41ng",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T22:05:12.1264863Z",
+  "Updated": "2025-08-16T22:05:12.1264863Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

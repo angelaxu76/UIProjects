@@ -1,0 +1,14 @@
+﻿{
+  "Name": "低跟(1-3cm)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "epKl0EoOHkuWKmJmbTDycg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/epKl0EoOHkuWKmJmbTDycg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T21:06:07.3121015Z",
+  "Updated": "2025-08-23T21:06:07.3121015Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

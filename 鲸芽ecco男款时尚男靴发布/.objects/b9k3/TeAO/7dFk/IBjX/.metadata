@@ -1,0 +1,14 @@
+﻿{
+  "Name": "内里材质",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "IBjX2Reu6E2FYfJK6QCnzw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/IBjX2Reu6E2FYfJK6QCnzw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T21:57:27.1929818Z",
+  "Updated": "2025-04-25T21:57:27.1929818Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

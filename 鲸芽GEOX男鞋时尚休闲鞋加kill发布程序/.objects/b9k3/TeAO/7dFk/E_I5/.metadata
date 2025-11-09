@@ -1,0 +1,14 @@
+﻿{
+  "Name": "'销售单位'(2)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "E_I5PQMcm0mD4Ufonu3I8Q",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/E_I5PQMcm0mD4Ufonu3I8Q",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T23:38:00.446734Z",
+  "Updated": "2025-08-16T23:38:00.446734Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

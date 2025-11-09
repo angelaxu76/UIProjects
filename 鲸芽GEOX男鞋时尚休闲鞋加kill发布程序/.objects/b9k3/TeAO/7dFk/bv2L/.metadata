@@ -1,0 +1,14 @@
+﻿{
+  "Name": "海关申报要素",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "bv2LxSLXKECxy0IlRZ72bA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/bv2LxSLXKECxy0IlRZ72bA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-28T18:21:13.2961497Z",
+  "Updated": "2025-07-28T18:21:13.2961497Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

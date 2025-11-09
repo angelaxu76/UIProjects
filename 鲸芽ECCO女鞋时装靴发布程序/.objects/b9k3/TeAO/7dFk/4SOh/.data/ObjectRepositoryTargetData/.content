@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Q_vupXub3UuxrKC6xti5Og" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="334fbea0-de29-4be6-b71c-f8855ef02256" CvElementArea="496, 894, 201, 38" CvType="InputBox" DesignTimeRectangle="498, 896, 197, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' parentid='sell-field-tbDeliveryTime' tag='INPUT' type='' class='' placeholder='请输入' aaname='' /&gt;" Guid="438791ec-7f39-47f7-969f-521a9a774374" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="334fbea0-de29-4be6-b71c-f8855ef02256" CvElementArea="694, 894, 65, 38" CvType="Button" DesignTimeRectangle="696, 895, 61, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='天内发货' parentid='sell-field-tbDeliveryTime' tag='SPAN' type='' class='next-input-group-addon next-after next-input-group-text next-medium' check:innerText='天内发货' /&gt;" Guid="c57fd87f-a152-47c5-b012-c620bfdd6912" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="12b06f46d44252145a75e6cc84a27ca9.png" xmlns="">0WiGETR0e00iSsokbFoXjRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

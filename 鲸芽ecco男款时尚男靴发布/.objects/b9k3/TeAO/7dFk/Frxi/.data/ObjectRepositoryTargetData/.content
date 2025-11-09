@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XkLBnt4RC0yRhb0RY3U-YQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="1eff8fc6-cccc-4ff6-91a9-3b39cd2e00ba" CvElementArea="624, 551, 242, 38" CvType="InputBox" DesignTimeRectangle="635, 553, 199, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' parentid='struct-p-20490' tag='INPUT' type='' class='' placeholder='请选择' aaname='' /&gt;" Guid="5eb6d319-585a-44c1-b758-20e1a67034c9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831PMlpHI' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1eff8fc6-cccc-4ff6-91a9-3b39cd2e00ba" CvTextArea="558, 561, 60, 14" CvTextArgument="* HACE" CvType="Text" DesignTimeRectangle="559, 560, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-20490' tag='LABEL' type='' class='label required' aaname='闭合方式' check:innerText='闭合方式' /&gt;" Guid="48124a0e-ada2-4ae2-81a0-b676aa287652" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e1fc50e06cabceafc00a67a24c493e2b.png" xmlns="">0XDF8b6X5ekWntQ6RXSrnDQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

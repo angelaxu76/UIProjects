@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QBGAizCB0EOr7QLbp-mZeA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="99c17d50-1369-46cd-a85e-7007bd2ec76e" CvElementArea="710, 348, 113, 43" CvType="InputBox" DesignTimeRectangle="713, 351, 108, 38" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='skuStock' tag='INPUT' /&gt;" Guid="72a70dcb-cee4-4675-963f-e4139cf04122" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="99c17d50-1369-46cd-a85e-7007bd2ec76e" CvElementArea="830, 347, 84, 43" CvType="Button" DesignTimeRectangle="846, 363, 53, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='next-btn-helper' parentid='sell-field-sku' tag='SPAN' type='' aaname='批量填写' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='批量填写' /&gt;" Guid="07185374-9294-4c05-b495-e0c105fdbddf" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2ae873b8b8bb8584a11c5db16d6837cf.png" xmlns="">0XAKRVlMdrkiIgf9ULuPmXg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

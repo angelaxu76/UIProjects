@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BtCmUq-_uEqP26-ArOSSPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="fc7a65b0-1407-46c7-a945-9aae2794e87b" CvElementArea="502, 721, 23, 23" CvType="CheckBox" DesignTimeRectangle="505, 723, 18, 18" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl idx='21' parentid='sell-field-p-20549' tag='INPUT' type='checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl class='next-checkbox-input' parentid='sell-field-p-20549' tag='INPUT' type='checkbox' aaname='' /&gt;" Guid="58c43142-e407-4f29-bee1-7855ba3018b0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fc7a65b0-1407-46c7-a945-9aae2794e87b" CvTextArea="529, 724, 18, 13" CvTextArgument="40" CvType="Text" DesignTimeRectangle="531, 723, 15, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='40' class='normal-content' parentid='sell-field-p-20549' tag='SPAN' type='' check:innerText='40' /&gt;" Guid="0679029e-da14-42a3-8d1f-cc1e6e786b36" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="140694b4deba18870ae153840173724d.png" xmlns="">0zHEaObm2fEq6H-Bzbg9gMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

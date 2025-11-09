@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Xk5QKiFh4E6R3JjGuJGzMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="58c5eed1-d015-45b4-9cd1-6c3845c80c04" CvElementArea="592, 582, 531, 38" CvType="InputBox" DesignTimeRectangle="603, 584, 489, 34" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-role='combobox' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;span&amp;gt;span&amp;gt;input' tabindex='0' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' type='' tabindex='0' tag='INPUT' class='' placeholder='系统为您推荐了相关性较高的HS海关代码，请选择或自行查找后填写' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:tabindex='fuzzy' fuzzylevel:tabindex='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="cae387de-1015-4d5b-a99c-f3830aec6a68" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="58c5eed1-d015-45b4-9cd1-6c3845c80c04" CvTextArea="591, 558, 76, 15" CvTextArgument="HS}**fEAS" CvType="Text" DesignTimeRectangle="593, 551, 74, 32" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='hscode-hscodeItem-title' tag='DIV' type='' aaname='HS海关代码' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='HS海关代码' /&gt;" Guid="f1bee273-d7c9-4aba-885c-847c922dff7d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="902574e753415a6d085659fecc66cdbd.png" xmlns="">0GjKEArva3Eqs2BD6hJIRLA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

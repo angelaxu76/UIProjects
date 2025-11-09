@@ -1,0 +1,14 @@
+﻿{
+  "Name": "轻便",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "m2YtoJpW-kuSPs6AwyD06A",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/m2YtoJpW-kuSPs6AwyD06A",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-28T08:45:06.2668711Z",
+  "Updated": "2025-07-28T08:45:06.2668711Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

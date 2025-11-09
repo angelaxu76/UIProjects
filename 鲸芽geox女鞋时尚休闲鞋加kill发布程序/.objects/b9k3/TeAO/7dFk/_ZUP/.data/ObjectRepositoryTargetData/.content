@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="udVEhCtuS0e1bN3txGWStQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="d4c08200-f224-4630-b4db-a372367621d6" CvElementArea="938, 778, 135, 43" CvType="InputBox" DesignTimeRectangle="939, 778, 135, 43" ElementType="InputBox" Guid="412482a7-127a-42c1-8a23-c9a9420ba462" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d4c08200-f224-4630-b4db-a372367621d6" CvTextArea="949, 792, 28, 15" CvTextArgument="#DLI" CvType="Text" DesignTimeRectangle="949, 792, 28, 15" ElementType="Text" Guid="1cc7cea7-317e-4987-8a2d-ec049a82c64b" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="42c59223633c979d3848cb346d607a7c.png" xmlns="">0oSdS3YmTLkKSdL8LQtF_Gw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

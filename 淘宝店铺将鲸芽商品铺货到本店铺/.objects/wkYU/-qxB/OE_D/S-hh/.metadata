@@ -1,0 +1,14 @@
+﻿{
+  "Name": "亲，请拖动下方滑块完成验证通过验证以确保正常访问",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "S-hhdfQKhUeVw2yDKNYxGw",
+  "Reference": "k8vRsHm25EiWWoJkIPAsBg/S-hhdfQKhUeVw2yDKNYxGw",
+  "ParentRef": "k8vRsHm25EiWWoJkIPAsBg/OE_DMhToPkWed3idxsGrdg",
+  "Created": "2025-06-12T20:49:07.9503468Z",
+  "Updated": "2025-06-12T20:49:07.9503468Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

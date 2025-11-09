@@ -1,0 +1,14 @@
+﻿{
+  "Name": "欧式",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "WUD4RLXY_kKcRyMqfUzZWA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/WUD4RLXY_kKcRyMqfUzZWA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-28T08:50:01.5080229Z",
+  "Updated": "2025-07-28T08:50:01.5080229Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

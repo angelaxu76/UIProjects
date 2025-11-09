@@ -1,0 +1,14 @@
+﻿{
+  "Name": "确认",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "aOoMWPVN4kyvPlG82wUAeg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/aOoMWPVN4kyvPlG82wUAeg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T23:58:31.0337138Z",
+  "Updated": "2025-04-25T23:58:31.0337138Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rGbOODiXH0qDE_ktzyzctg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="web.scm.tmall.com/pages/tfx/channel_price_list_detail" DesignTimeRectangle="1723, 315, 24, 12" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='提交' class='next-btn-helper' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='提交' class='next-btn-helper' tag='SPAN' type='' check:innerText='提交' /&gt;" Guid="b09c6314-a0d0-4793-9581-2dc7c24bd08d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='渠道价格详情页' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1723, 311, 24, 20" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='提交' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary next-btn-text' check:innerText='提交' /&gt;" Guid="de6decc8-6f0a-4516-9e86-b1c9334dfb80" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b488068908616a034a522b1375519677.png" xmlns="">01d_kn7X_bky47pJHH3jEIg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

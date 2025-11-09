@@ -1,0 +1,13 @@
+﻿{
+  "Name": "AI图片优化750x1760",
+  "Type": "Element",
+  "Id": "y_22M9G_s0KWTNEPCrQmVg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/y_22M9G_s0KWTNEPCrQmVg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-26T00:15:03.4558256Z",
+  "Updated": "2025-04-26T00:15:03.4558256Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

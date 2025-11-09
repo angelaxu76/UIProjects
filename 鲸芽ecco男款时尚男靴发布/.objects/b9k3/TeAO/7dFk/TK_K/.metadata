@@ -1,0 +1,14 @@
+﻿{
+  "Name": "产地",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "TK_Kw_I7r0-E-IaeBJ2dpQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/TK_Kw_I7r0-E-IaeBJ2dpQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T21:06:25.38653Z",
+  "Updated": "2025-08-23T21:06:25.38653Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

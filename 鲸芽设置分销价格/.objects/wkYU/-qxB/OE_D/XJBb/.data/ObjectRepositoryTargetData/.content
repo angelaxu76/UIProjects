@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="5TdOWB8jtEiSJBaGiOnNMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="web.scm.tmall.com/pages/tfx/channel_price_list_detail" DesignTimeRectangle="1723, 315, 24, 12" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='next-btn-helper' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='next-btn-helper' tag='SPAN' type='' aaname='编辑' check:innerText='编辑' /&gt;" Guid="34761d6a-ed7c-405b-85c1-16267bc82295" ScopeSelectorArgument="&lt;html app='chrome.exe' title='渠道价格详情页' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4b1b226a-5685-43fd-8e6a-73216bade238" CvTextArea="1707, 314, 12, 12" CvTextArgument="C" CvType="Text" DesignTimeRectangle="1707, 311, 40, 20" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary next-btn-text' aaname='编辑' check:innerText='编辑' /&gt;" Guid="80989d9b-5c7a-4e04-8faa-f840cacaa27b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bf786838b1a6a5b6b9d69e5d311cfcfe.png" xmlns="">0CZzBU_H-EUeVSCP5xgfVyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

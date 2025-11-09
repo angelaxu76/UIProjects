@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="U3l6cfqwzkmwK-GoXBqNSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="hf7sFX_kKkG9vna-F_rTNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="2e907bf4-b3d3-4874-ae8e-3fac767243d9" CvTextArea="644, 508, 65, 14" CvTextArgument="2025¥KE" CvType="Text" DesignTimeRectangle="646, 502, 62, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='2025年秋季' class='info-content' tag='DIV' /&gt;" Guid="5b4e14da-8b3f-44b7-af15-0d5195a3a61d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="5592f5f09490419659f587ba35162438.png" xmlns="">0Xbzxrl3HWk-rvA8UIbnWBQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="8b8aa2d8-e60f-494f-b601-be250e3b1e0b" CvTextArea="644, 695, 65, 14" CvTextArgument="2025¥5" CvType="Text" DesignTimeRectangle="646, 689, 62, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='2025年冬季' class='info-content' tag='DIV' /&gt;" Guid="0e54a2f0-4a56-4ffa-9eb8-6999c35f581c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d691c767d9a592adccbb6f1a539be68c.png" xmlns="">0B2rZNqInbkevFZvuX8TLGg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

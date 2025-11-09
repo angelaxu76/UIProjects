@@ -1,0 +1,13 @@
+﻿{
+  "Name": "主图图片",
+  "Type": "Element",
+  "Id": "riw4RCJ8z0ebYrpRf-xgfQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/riw4RCJ8z0ebYrpRf-xgfQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T23:49:43.0409434Z",
+  "Updated": "2025-04-25T23:49:43.0409434Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S3KcOi2DkkeWRfqRCXEnxQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_price_list_detail" CVScreenId="2446184c-811a-4212-9d92-60ed696c22c8" CvTextArea="1639, 618, 51, 16" CvTextArgument="#AS" CvType="Text" DesignTimeRectangle="1641, 619, 48, 12" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='iframe_d5cbf2' tag='IFRAME' /&gt;&lt;webctrl aaname='批量清空' class='next-btn-helper' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='iframe_d5cbf2' tag='IFRAME' /&gt;&lt;webctrl aaname='批量清空' class='next-btn-helper' tag='SPAN' type='' check:innerText='批量清空' /&gt;" Guid="904be737-a9c1-4bc4-b096-816673be8b62" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_price_list_detail%3Fspm%3Da1zgugp.14662228.0.0.668552fdsRyLbj%26productId%3D970930106693%26channelId%3D200013%26channelCode%3DtaofxMarket%26subChannelId%3D*' title='渠道价格详情页' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2446184c-811a-4212-9d92-60ed696c22c8" CvTextArea="1639, 618, 51, 16" CvTextArgument="#AS" CvType="Text" DesignTimeRectangle="1641, 615, 48, 20" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='iframe_d5cbf2' tag='IFRAME' /&gt;&lt;webctrl aaname='批量清空' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary next-btn-text' check:innerText='批量清空' /&gt;" Guid="1eff42ac-ba37-4b9b-a0e4-ab683fc92f03" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="05664991347350d0fabfb28baefff462.png" xmlns="">0fxFSoQ14cEeQ0c6aMd6UNQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

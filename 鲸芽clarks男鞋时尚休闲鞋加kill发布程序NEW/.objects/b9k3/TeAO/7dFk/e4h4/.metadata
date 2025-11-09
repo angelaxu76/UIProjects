@@ -1,0 +1,14 @@
+﻿{
+  "Name": "是否商场同款",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "e4h4Riy9t0SBITld750bIg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/e4h4Riy9t0SBITld750bIg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-02T11:29:39.2760894Z",
+  "Updated": "2025-08-02T11:29:39.2760894Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

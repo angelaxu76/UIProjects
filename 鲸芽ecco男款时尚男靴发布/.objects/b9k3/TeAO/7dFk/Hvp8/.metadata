@@ -1,0 +1,14 @@
+﻿{
+  "Name": "海外地区",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Hvp8qnff0k2Z9GGvk995Tw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/Hvp8qnff0k2Z9GGvk995Tw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T21:06:34.794757Z",
+  "Updated": "2025-08-23T21:06:34.794757Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

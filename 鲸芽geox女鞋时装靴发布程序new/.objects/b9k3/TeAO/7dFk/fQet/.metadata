@@ -1,0 +1,14 @@
+﻿{
+  "Name": "鞋底材质(2)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "fQet6UzMyEibVZGmTceefA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/fQet6UzMyEibVZGmTceefA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T19:55:48.4196158Z",
+  "Updated": "2025-08-23T19:55:48.4196158Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

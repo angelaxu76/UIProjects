@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="q7U8VNyFf0SgpgspdoS_8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="d4c08200-f224-4630-b4db-a372367621d6" CvElementArea="1134, 853, 115, 44" CvType="InputBox" DesignTimeRectangle="1145, 856, 68, 37" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-role='combobox' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;span&amp;gt;span&amp;gt;input' tabindex='0' tag='INPUT' /&gt;" Guid="3531b5aa-a4f5-47c8-a3a5-fdccefcd6d4c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d9bcb099fab616d9350fc616b39e487a.png" xmlns="">0sBjZBsgA1ky2MY2M6nQt5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

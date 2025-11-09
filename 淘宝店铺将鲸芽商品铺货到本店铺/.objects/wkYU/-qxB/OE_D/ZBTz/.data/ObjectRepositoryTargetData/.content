@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UqrvFaJLHk27VIvAlwCp0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya-x.taobao.com/wow/z/tfx/static/itemDetail" CVScreenId="a0f72f48-edd9-4778-9adf-bd5a2a7946a6" CvElementArea="717, 797, 501, 30" CvTextArea="942, 805, 50, 14" CvTextArgument="TED&amp;AR" CvType="Button" DesignTimeRectangle="718, 799, 500, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='立即铺货' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='立即铺货' type='button' tag='BUTTON' class='next-btn next-medium next-btn-primary' check:innerText='立即铺货' /&gt;" Guid="70d5fbbf-15c5-4ca2-b275-70a7d7508ce1" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Ftaofenxiao.taobao.com%2F%3Fpt%3Dascp%23%2Fascp%2Ftsq%2Fdt%2FsupplierItemDetail%3FsupplierItemId%3D919316573458&amp;amp;refer_pv_id=efa36cefAlB8RM' title='选货市场-商品详情' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a0f72f48-edd9-4778-9adf-bd5a2a7946a6" CvElementArea="717, 797, 501, 30" CvTextArea="942, 805, 50, 14" CvTextArgument="TED&amp;AR" CvType="Button" DesignTimeRectangle="944, 807, 48, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='立即铺货' class='next-btn-helper' type='' tag='SPAN' check:innerText='立即铺货' /&gt;" Guid="8b92beb9-93cf-4e03-b790-3d1c4bb27822" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aa93c65f5616b80a38db6a0c2e9ccc15.png" xmlns="">0cS5yVm9t30KBgSKMw7SyZg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

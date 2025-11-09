@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WhrjnZUYKUSxCz-GXDLqFg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_price_list_detail" CVScreenId="403700c9-bdd0-4326-b330-1d8158a2ad5a" CvElementArea="226, 661, 21, 21" CvType="CheckBox" DesignTimeRectangle="229, 663, 16, 16" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='iframe_d5cbf2' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='iframe_d5cbf2' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='checkbox' tag='INPUT' class='next-checkbox-input' aaname='' /&gt;" Guid="0ecdc19c-7f70-4515-a0ee-4b72f90f7371" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fjingya.taobao.com%2Fweb_scm_tmall_com%2Fpages%2Ftfx%2Fchannel_price_list_detail%3Fspm%3Da1zgugp.14662228.0.0.668552fdsRyLbj%26productId%3D970930106693%26channelId%3D200013%26channelCode%3DtaofxMarket%26subChannelId%3D*' title='渠道价格详情页' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="403700c9-bdd0-4326-b330-1d8158a2ad5a" CvTextArea="274, 663, 87, 14" CvTextArgument="SKUZÉR/SKUID" CvType="Text" DesignTimeRectangle="263, 653, 299, 34" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='iframe_d5cbf2' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='SKU名称/SKUID' type='' tag='DIV' class='next-table-cell-wrapper' check:innerText='SKU名称/SKUID' /&gt;" Guid="82c69bf1-b2f7-4afc-a300-ecbca8909b14" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5cf04962b6cf85e28f6508740e3b091e.png" xmlns="">08iM8jlDn-UKl4zKSlYYtYg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

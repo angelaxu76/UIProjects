@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome: 淘宝网 - 商品发布",
+  "Type": "Screen",
+  "Id": "QYsZYSVjjEWKXdBgIy5sGA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/QYsZYSVjjEWKXdBgIy5sGA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/G1mN5HkZ_kKCvv1HAcdqdg",
+  "Created": "2025-08-03T05:38:54.3637518Z",
+  "Updated": "2025-08-03T05:38:54.3637518Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

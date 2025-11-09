@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9AiflZ-yQUmOV2y-SfADVQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="ef3ff6df-6cf2-4469-a448-a6f1a2eb4761" CvElementArea="1044, 353, 74, 37" CvType="InputBox" DesignTimeRectangle="1046, 355, 70, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-577561878' tag='INPUT' type='' class='' placeholder='数字' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="75b1aa6e-eff8-4aee-a753-83e893d79df1" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ef3ff6df-6cf2-4469-a448-a6f1a2eb4761" CvTextArea="978, 364, 7, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="979, 362, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-577561878' tag='LABEL' type='' class='label required' aaname='鞋底厚度' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='鞋底厚度' /&gt;" Guid="399c4f3b-d6ae-452a-82d9-2bfd102a8b06" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8480e39c2f70dde8f3ea2825e484220c.png" xmlns="">0j33GIsUaUkyjboezp5xwUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xioKPchz60GsAvLBi2oWTQ" Reference="k8vRsHm25EiWWoJkIPAsBg/imo1kaJacUydw68KabkkqA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="web.scm.tmall.com/pages/tfx/channel_price_list_detail" CVScreenId="dfdccb5d-992b-4fef-ba4a-955757f9a29d" CvTextArea="582, 202, 104, 12" CvType="AnyWordGroup" DesignTimeRectangle="579, 200, 106, 18" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+existPricie+&quot;' class='value' parentid='@@renderer-root@@' tag='DIV' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl class='value' parentid='@@renderer-root@@' tag='DIV' type='' /&gt;" Guid="aaceee21-4644-4771-812a-8f9db20b9c79" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='渠道价格详情页' /&gt;" SearchSteps="CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="dfdccb5d-992b-4fef-ba4a-955757f9a29d" CvTextArea="478, 201, 91, 15" CvTextArgument="-O6 (RIHEN)" CvType="Text" DesignTimeRectangle="480, 200, 96, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='一口价（划线价）' class='label' parentid='@@renderer-root@@' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='一口价（划线价）' class='label' parentid='@@renderer-root@@' tag='DIV' type='' check:innerText='一口价（划线价）' /&gt;" Guid="dc849ffc-f299-49e5-9960-009f6a564c3b" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c44382d9dd5622d339b7774a6f089e8d.png" xmlns="">0qyD_9pduL0e259YbZudYAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

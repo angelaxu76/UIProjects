@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UiESUs_OEUiLLXn8XP98mg" Reference="d8TXjNWSJ0-3WMGxBOkBOg/00zJWFBQ8k-MScgWANtlsA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="627, 625, 223, 28" DesignTimeScaleFactor="1" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;内里材质&quot;).ToString+&quot;' class='info-content' tag='DIV' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl class='options-item' tag='DIV' type='' aaname='' check:innerText='二层猪皮' /&gt;" Guid="49044e87-9c4e-4084-bf54-9c6bf999a50e" NativeTextArgument="[product(&quot;内里材质&quot;).ToString]" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, TextNative" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="deb191ca342ddfa7b71c869c7a1624c2.png" xmlns="">0fL5OXW4QGUiNB02YIz7YIA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

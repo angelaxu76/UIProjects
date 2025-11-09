@@ -1,0 +1,14 @@
+﻿{
+  "Name": "厘米",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "mVhAdXXx5kKwUxP3qbxeQA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/mVhAdXXx5kKwUxP3qbxeQA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-09-25T20:47:01.9322761Z",
+  "Updated": "2025-09-25T20:47:01.9322761Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

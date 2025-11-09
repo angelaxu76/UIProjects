@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eSdGGCt3bEyrp3at-PFeqQ" Reference="d8TXjNWSJ0-3WMGxBOkBOg/4OZ1q4B1kUm8SXSlSSRy-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="865, 422, 148, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745678162551256932949041' tag='IFRAME' /&gt;&lt;webctrl tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="7eaddd7e-a962-4e86-bdca-2cd8c3e3db32" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="079adc68-8946-427f-9998-159b4ef60c15" CvElementArea="682, 423, 25, 24" CvType="Icon" DesignTimeRectangle="687, 427, 16, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=true&amp;amp;needHeader=false&amp;amp;max=1&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=true&amp;amp;mime=jpg,bmp,gif,png,jpeg&amp;amp;handleId=1745678162551256932949041' tag='IFRAME' /&gt;&lt;webctrl aaname='' parentid='container' tag='SPAN' type='' class='active icon iconfont' check:innerText='' /&gt;" Guid="89a516ee-ebc1-4e31-a557-242881c5f008" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhP1VQ7CsJQEPReKuI91MLC1kvYWGnwBhHBxgMIFhbW3sAoJCLEL0iUfHTMPIi8BAuLDejAkM2yM7x9E1KAMPIxfMY05geU+haqg/WbxZ6FztSFHz0VWbOnz1BDLT0IZWifA9RMWz11nLwIjaGDpX1XZM2ejqxWGW6OAVrjLS639DDf66aDxcpTZP1phlp6EH9iyP2bIwfuNVTNBN/cITXUpu6QCXVne5QzKVcMC+3JDn4YpxyTNXv6DDXUplJO4PkPdfSE2fUI9vQZanTkYyi+sngoPPpvf4fihtxf9OfAhER/X5IQNgReSua5aPodnKMAAAAASUVORK5CYII=" SearchSteps="CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3a1818e65ec2a2d3153b61da47acecc8.png" xmlns="">000IFPBgLr0m5XMRny3Hb4Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

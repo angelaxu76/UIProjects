@@ -1,0 +1,14 @@
+﻿{
+  "Name": "丁字鞋",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "6DUQ_gQspUuPwW8-PcssTA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/6DUQ_gQspUuPwW8-PcssTA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T21:54:45.4889284Z",
+  "Updated": "2025-04-25T21:54:45.4889284Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2BLTLjstNUGYk88LxHX4cA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="e990144c-efe2-43b8-8a0c-7831c4eae316" CvElementArea="992, 282, 153, 40" CvType="InputBox" DesignTimeRectangle="996, 284, 146, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='sell-field-sku' tag='INPUT' placeholder='数量（件）' aaname='' /&gt;" Guid="ada70870-ad93-40fb-8ba6-21a4b79b8104" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e990144c-efe2-43b8-8a0c-7831c4eae316" CvElementArea="1155, 282, 170, 39" CvType="InputBox" DesignTimeRectangle="1157, 284, 165, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' class='' parentid='sell-field-sku' tag='INPUT' placeholder='商家编码' aaname='' /&gt;" Guid="cdab1d81-d5dd-422f-a2b8-1cc17f91031e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7b1f0fdbe320f3e50d25fe10b55872a5.png" xmlns="">0QSZvH3dzMUWoKv1OCz8Bhg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

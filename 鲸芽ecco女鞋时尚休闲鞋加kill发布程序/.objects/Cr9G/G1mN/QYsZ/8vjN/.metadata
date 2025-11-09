@@ -1,0 +1,13 @@
+﻿{
+  "Name": "款式",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "8vjNR6zGxEGx3bYwKb273g",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/8vjNR6zGxEGx3bYwKb273g",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/QYsZYSVjjEWKXdBgIy5sGA",
+  "Created": "2025-08-03T05:38:55.1938097Z",
+  "Updated": "2025-08-03T05:38:55.1938097Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

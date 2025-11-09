@@ -1,0 +1,14 @@
+﻿{
+  "Name": "鞋子功能",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "v7BAesJmrUWrv4cPYI_8pQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/v7BAesJmrUWrv4cPYI_8pQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-23T19:53:08.7899312Z",
+  "Updated": "2025-08-23T19:53:08.7899312Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

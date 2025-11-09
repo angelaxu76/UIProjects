@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6E7l-pKQTkiYfCveU0vqpg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="2f753af6-ee99-44a8-ac0b-c539c0dfabb8" CvElementArea="773, 574, 103, 23" CvTextArea="795, 579, 59, 12" CvTextArgument="750x1940" CvType="Button" DesignTimeRectangle="775, 495, 100, 100" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=false&amp;amp;needHeader=false&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=false&amp;amp;max=20&amp;amp;handleId=1745628767119812968304359' tag='IFRAME' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' parentid='items' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=false&amp;amp;needHeader=false&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=false&amp;amp;max=20&amp;amp;handleId=1745628767119812968304359' tag='IFRAME' /&gt;&lt;webctrl type='' class='cover list-item' parentid='items' tag='DIV' aaname='' check:innerText='750x1940' /&gt;" Guid="279ef317-0bba-4be3-9513-3fc2ed2cb498" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3ff0cf00a3437a646756184a7f173937.png" xmlns="">0AK-JSh8ONUCDyZPd2jZ5rA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

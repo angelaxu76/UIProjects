@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mdHcyC1ZvkmILJPs3ZLUJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="cbef9211-ab8f-4edc-a568-84c11eb71fc0" CvElementArea="494, 869, 105, 101" CvTextArea="521, 924, 50, 14" CvTextArgument=".{$BH" CvType="Button" DesignTimeRectangle="508, 871, 78, 98" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='image-empty' parentid='sell-field-images' tag='DIV' type='' aaname='' check:innerText='上传图片' /&gt;" Guid="eab647e4-355b-46cb-940b-bc4a81ce728d" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="365, 841, 56, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-images' tag='SPAN' type='' class='sell-component-info-wrapper-label' aaname='主图图片' check:innerText='主图图片' /&gt;" Guid="855e4e4e-e088-4369-ab68-456ef8dd7783" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a6f28967a33836a55fd2ef265e8fcf1b.png" xmlns="">0noQMS5zCf0apR0utaODlgA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

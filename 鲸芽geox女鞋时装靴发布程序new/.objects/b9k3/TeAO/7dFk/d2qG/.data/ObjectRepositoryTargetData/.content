@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9HgR0BzYpESPXU4do8_AwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="079adc68-8946-427f-9998-159b4ef60c15" CvElementArea="496, 279, 102, 98" CvType="Button" DesignTimeRectangle="508, 280, 78, 98" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl class='image-empty' parentid='sell-field-images' tag='DIV' type='' aaname='' check:innerText='上传图片' /&gt;" Guid="73826489-ed76-417c-8a4d-e2709e8051f9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="365, 250, 56, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-images' tag='SPAN' type='' class='sell-component-info-wrapper-label' aaname='主图图片' check:innerText='主图图片' /&gt;" Guid="ad71f3db-6f2b-4d45-bd1c-3dd65e5c1892" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5854026635c5f9ac2fccfab74e789f24.png" xmlns="">0PBcGhznDtUe4RsXInxUKIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

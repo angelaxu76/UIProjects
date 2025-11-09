@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rRem5bsE5k-gaRh4gH5eIg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="fc7a65b0-1407-46c7-a945-9aae2794e87b" CvElementArea="519, 336, 270, 39" CvType="InputBox" DesignTimeRectangle="522, 339, 265, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='sell-field-p-1627207' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='sell-field-p-1627207' tag='INPUT' type='' class='' placeholder='选择或输入主色' aaname='' /&gt;" Guid="d247ccf5-fedf-4ce5-b4aa-b6c711723756" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fc7a65b0-1407-46c7-a945-9aae2794e87b" CvElementArea="795, 337, 203, 38" CvType="InputBox" DesignTimeRectangle="797, 339, 198, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' parentid='sell-field-p-1627207' tag='INPUT' class='' placeholder='备注（如偏深偏浅等）' aaname='' /&gt;" Guid="05d9231b-e3b6-4d83-ba32-9bb1f1c20484" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3ef5bde2acfd6e964c34456d6551ff35.png" xmlns="">0rIrmtpiRT0WIxPzDRGd6-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

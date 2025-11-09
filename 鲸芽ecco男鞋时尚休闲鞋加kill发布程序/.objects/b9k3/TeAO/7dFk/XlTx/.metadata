@@ -1,0 +1,14 @@
+﻿{
+  "Name": "模特试穿信息图",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "XlTxZBxxPUOqqTEA_3ipOg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/XlTxZBxxPUOqqTEA_3ipOg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T23:54:12.7814374Z",
+  "Updated": "2025-04-25T23:54:12.7814374Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

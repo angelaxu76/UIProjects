@@ -1,0 +1,14 @@
+﻿{
+  "Name": "帮面材质(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "XkbJ8SZlDEmaVa2Zodl-aA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/XkbJ8SZlDEmaVa2Zodl-aA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T21:50:59.8260958Z",
+  "Updated": "2025-04-25T21:50:59.8260958Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

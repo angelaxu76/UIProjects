@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="D8uaejaXCkqYdw0LCfWZgg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ebc0e40a-b1d4-4607-9620-745878c8ba0c" CvElementArea="822, 669, 755, 37" CvType="InputBox" DesignTimeRectangle="822, 669, 755, 37" ElementType="InputBox" Guid="7e3a7ae8-b460-40c8-ba36-f136d80d7741" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='淘宝网 - 商品发布 - Google Chrome' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ebc0e40a-b1d4-4607-9620-745878c8ba0c" CvTextArea="747, 678, 9, 9" CvTextArgument="*" CvType="Text" DesignTimeRectangle="747, 678, 9, 9" ElementType="Text" Guid="c952e9a7-2e4b-4520-8f8f-02b2896187f1" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="816952d7edd37a4bcdeed63b691657fa.png" xmlns="">0vVE2nDMVS0qWCA47GCwzhg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

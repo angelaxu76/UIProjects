@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome UiPath Close Browser Tab",
+  "Type": "App",
+  "Id": "B6PIfUUnlUilLvYItM1juw",
+  "Reference": "k8vRsHm25EiWWoJkIPAsBg/B6PIfUUnlUilLvYItM1juw",
+  "Created": "2025-05-01T17:02:46.1072109Z",
+  "Updated": "2025-05-01T17:02:46.1072109Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "袖型设计",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "hsr68OfZikOTI3yaNT3gCQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/hsr68OfZikOTI3yaNT3gCQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T23:00:33.7352316Z",
+  "Updated": "2025-08-16T23:00:33.7352316Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "渠道价格(未税)：",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "m8mRjq_SOE6blGcEcnLJIg",
+  "Reference": "k8vRsHm25EiWWoJkIPAsBg/m8mRjq_SOE6blGcEcnLJIg",
+  "ParentRef": "k8vRsHm25EiWWoJkIPAsBg/OE_DMhToPkWed3idxsGrdg",
+  "Created": "2025-05-01T16:39:29.493072Z",
+  "Updated": "2025-05-01T16:39:29.493072Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

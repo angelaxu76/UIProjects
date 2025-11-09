@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JrSyBH5rPEm2te4nBqMoZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="04415d92-108d-4524-aa18-7ac5febc130f" CvElementArea="1430, 894, 56, 41" CvType="Button" DesignTimeRectangle="1433, 896, 50, 36" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='应用' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='应用' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary dlg-footer-btn' check:innerText='应用' /&gt;" Guid="df57f2dc-7678-4e82-abba-dce904154819" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="04415d92-108d-4524-aa18-7ac5febc130f" CvElementArea="1430, 894, 56, 41" CvType="Button" DesignTimeRectangle="1446, 908, 24, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='应用' class='next-btn-helper' tag='SPAN' type='' check:innerText='应用' /&gt;" Guid="dbcc25d9-ef46-4395-9544-b90de71ca254" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="04415d92-108d-4524-aa18-7ac5febc130f" CvElementArea="1368, 894, 55, 39" CvType="Button" DesignTimeRectangle="1371, 896, 50, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='取消' type='button' tag='BUTTON' class='next-btn next-medium next-btn-normal dlg-footer-btn' check:innerText='取消' /&gt;" Guid="bec67643-3a3e-4463-9195-ebe8bd95bf98" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="246ba4c4fa47725317286c3a368e0f26.png" xmlns="">0tyL_C6CpB02aRb8Kh2C4Lg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

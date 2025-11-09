@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SRXdegcL3EOkJuLL_dIvzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="51cbb71d-b009-4c49-9af5-1ffee9077ba8" CvElementArea="961, 831, 153, 39" CvType="InputBox" DesignTimeRectangle="964, 834, 148, 34" ElementType="InputBox" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;span&amp;gt;span&amp;gt;input' idx='4' tag='INPUT' /&gt;" Guid="05a3d5df-f582-4772-ba69-60dd18a9a1c8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="51cbb71d-b009-4c49-9af5-1ffee9077ba8" CvElementArea="942, 763, 123, 38" CvType="InputBox" DesignTimeRectangle="942, 763, 123, 39" ElementType="InputBox" Guid="33c981a7-e8be-48b7-80e8-cfc512a6b876" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2bb1e5adf364bb4fd345b923e69aed97.png" xmlns="">0xgayHINbp02BiXwRfOc4Qg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

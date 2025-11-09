@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="oiGBDCXJ_EO9lfNmkHTXPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="614, 632, 98, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='自行查找后填写' class='next-menu-item-text' tag='SPAN' /&gt;" Guid="23174efd-4bf3-4cb8-bc3b-5f3c3d6d9227" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="4cad1cc34906da6ac8ff4a51a139e9a6.png" xmlns="">0PFAKucUnb0y9C6lFuBLYvw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

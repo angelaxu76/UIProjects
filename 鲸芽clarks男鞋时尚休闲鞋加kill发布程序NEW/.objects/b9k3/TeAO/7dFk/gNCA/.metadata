@@ -1,0 +1,14 @@
+﻿{
+  "Name": "风格",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "gNCAAcMsek2Wl0J3Ha3oaw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/gNCAAcMsek2Wl0J3Ha3oaw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-07-28T08:49:17.2128809Z",
+  "Updated": "2025-07-28T08:49:17.2128809Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

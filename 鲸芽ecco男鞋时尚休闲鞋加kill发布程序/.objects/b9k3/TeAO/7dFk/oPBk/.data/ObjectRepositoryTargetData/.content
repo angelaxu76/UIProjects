@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="otoHSCeU_02Fjts1WsKTlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="dede1516-aacc-4fcb-8af9-4007e6cee225" CvTextArea="644, 834, 14, 14" CvTextArgument="t" CvType="Text" DesignTimeRectangle="646, 828, 12, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='女' class='info-content' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='女' class='info-content' tag='DIV' type='' check:innerText='女' /&gt;" Guid="1808ffe9-3792-408e-87d0-3229c4842c68" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="527, 836, 56, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='其他属性' class='title-text' parentid='sell-field-catProp' tag='SPAN' type='' check:innerText='其他属性' /&gt;" Guid="1989a0cc-2853-4e59-86e8-f3e6b6e2b2df" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="84195d9ec95a4dec970817a0e32a05ba.png" xmlns="">0LVCwDSrWDUWDUMDldUGZGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

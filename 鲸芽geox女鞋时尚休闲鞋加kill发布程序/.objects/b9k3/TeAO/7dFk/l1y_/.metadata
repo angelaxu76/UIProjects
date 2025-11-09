@@ -1,0 +1,14 @@
+﻿{
+  "Name": "'填写海关代码'",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "l1y_dp5o0EycZOSGauUOvg",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/l1y_dp5o0EycZOSGauUOvg",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-09-25T20:27:55.1455685Z",
+  "Updated": "2025-09-25T20:27:55.1455685Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

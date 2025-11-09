@@ -1,0 +1,13 @@
+﻿{
+  "Name": "HS海关代码",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Id": "bCrzqk9J8U-Y5JrOUnMzxA",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/bCrzqk9J8U-Y5JrOUnMzxA",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/QYsZYSVjjEWKXdBgIy5sGA",
+  "Created": "2025-08-03T05:38:54.5598112Z",
+  "Updated": "2025-08-03T05:38:54.5598112Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

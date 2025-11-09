@@ -1,0 +1,6 @@
+{
+  "Name": "鲸芽设置淘分销价格",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}

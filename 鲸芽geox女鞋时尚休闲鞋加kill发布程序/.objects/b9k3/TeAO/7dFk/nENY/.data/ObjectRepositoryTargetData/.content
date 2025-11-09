@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6Gk8NKSKAEaoLY4M-PlwAw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="c5e051ca-8031-4cf4-acaf-24cbf4169b20" CvElementArea="1280, 860, 78, 39" CvTextArea="1292, 871, 51, 14" CvTextArgument="#EUAA" CvType="Button" DesignTimeRectangle="1295, 873, 48, 12" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='批量填充' class='next-btn-helper' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='批量填充' class='next-btn-helper' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='批量填充' /&gt;" Guid="758e54fe-a700-4ebf-b137-3bee0dfa5f42" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c5e051ca-8031-4cf4-acaf-24cbf4169b20" CvElementArea="1280, 860, 78, 39" CvTextArea="1292, 871, 51, 14" CvTextArgument="#EUAA" CvType="Button" DesignTimeRectangle="1282, 861, 74, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='批量填充' tag='BUTTON' type='button' class='next-btn next-medium next-btn-primary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='批量填充' /&gt;" Guid="a3b39607-b4b9-4dbe-82c4-fce0f4735cc3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="18a633ac05d56e38acdf8cfa13c3c08f.png" xmlns="">0YnYg_S1Fg0GcgzPL53pgBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

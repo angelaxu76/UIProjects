@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="f5zEDrYWZEm903Eef7qPNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="RPumOaTT1UK9GHOC1XOMsQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" DesignTimeRectangle="663, 566, 18, 18" DesignTimeScaleFactor="1" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl class='next-checkbox-input' parentid='sell-field-p-20549' tag='INPUT' type='checkbox' aaname='' /&gt;" Guid="3d48318a-ada3-406e-8923-730bc9320c2f" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831w4X0ym' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="8c913114-d75e-433a-8eca-6ec4488f5c2e" CvElementArea="503, 664, 23, 22" CvType="CheckBox" DesignTimeRectangle="505, 666, 18, 18" DesignTimeScaleFactor="1" ElementType="CheckBox" FuzzySelectorArgument="&lt;webctrl class='next-checkbox-input' parentid='sell-field-p-20549' tag='INPUT' type='checkbox' aaname='' /&gt;" Guid="85f4f976-490b-4616-ac94-7d82078b9aa8" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Frouter%2Ftbcp%2Fpublish.htm%3FchannelCode%3DtaofxMarket%26fx_sub_channel%3DtaofxMarket_taobao&amp;amp;refer_pv_id=506e4831vPQxGY' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="fbdc867c-2e6b-4510-9a51-efe9577f7bfb" CvTextArea="687, 567, 29, 13" CvTextArgument="39.5" CvType="Text" DesignTimeRectangle="689, 566, 26, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='39.5' class='normal-content' parentid='sell-field-p-20549' tag='SPAN' type='' check:innerText='39.5' /&gt;" Guid="5957f7f0-6fdc-44b4-a3b9-27f6e90977c3" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="8c913114-d75e-433a-8eca-6ec4488f5c2e" CvTextArea="529, 667, 17, 13" CvTextArgument="39" CvType="Text" DesignTimeRectangle="531, 666, 15, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='39' class='normal-content' parentid='sell-field-p-20549' tag='SPAN' type='' check:innerText='39' /&gt;" Guid="3ede122b-d8d3-474f-bd4e-52892ff82008" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="f1f4c0f754281559e145d13bd09eb084.png" xmlns="">0JPBr8Q6_PECj9ZENEhei6Q</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="1ee640ccb178d0d338894d664f1f3fad.png" xmlns="">08Hbg70Tdp0yKCowTKlHAlA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>

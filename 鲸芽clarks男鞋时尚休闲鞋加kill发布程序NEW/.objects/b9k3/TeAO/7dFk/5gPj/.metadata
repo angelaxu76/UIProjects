@@ -1,0 +1,14 @@
+﻿{
+  "Name": "欧码",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "5gPjqWb3bUakjNHfaAmp6A",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/5gPjqWb3bUakjNHfaAmp6A",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-06-26T01:13:07.8573092Z",
+  "Updated": "2025-06-26T01:13:07.8573092Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

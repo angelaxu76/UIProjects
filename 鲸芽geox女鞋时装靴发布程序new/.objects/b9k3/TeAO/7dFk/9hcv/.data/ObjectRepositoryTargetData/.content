@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m1t8boocm0GjzGLLTVdWAQ" Reference="d8TXjNWSJ0-3WMGxBOkBOg/9hcvBtm6mUaKucNmikYS3Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="89eeb95f-91e3-426b-88a5-e9163b2c53a3" CvTextArea="645, 696, 81, 15" CvTextArgument="[product(&quot;后跟高&quot;).ToString]" CvType="AnyWordGroup" DesignTimeRectangle="647, 690, 79, 28" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl aaname='&quot;+product(&quot;后跟高&quot;).ToString+&quot;' class='info-content' tag='DIV' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl class='info-content' tag='DIV' type='' /&gt;" Guid="5cde3052-c6e1-4462-a3fc-1c5af02a9ccf" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="89eeb95f-91e3-426b-88a5-e9163b2c53a3" CvTextArea="559, 668, 59, 14" CvTextArgument="* #ME" CvType="Text" DesignTimeRectangle="560, 667, 58, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-124128491' tag='LABEL' type='' class='label required' aaname='帮面材质' check:innerText='帮面材质' /&gt;" Guid="71efb9cb-e1a7-4c6a-a2cd-c80ceb80f9d5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="96c86da9303ad0f5db9bc89bd1cb0b05.png" xmlns="">09UWdGDJ9RkiJjP13923W8g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

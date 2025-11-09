@@ -1,0 +1,14 @@
+﻿{
+  "Name": "运费模板",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "k5Ce9TBZDEeXGRH9b3i1sw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/k5Ce9TBZDEeXGRH9b3i1sw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T23:44:17.6454791Z",
+  "Updated": "2025-04-25T23:44:17.6454791Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

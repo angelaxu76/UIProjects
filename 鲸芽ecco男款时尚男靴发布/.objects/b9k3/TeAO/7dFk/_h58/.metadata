@@ -1,0 +1,14 @@
+﻿{
+  "Name": "parcelforce",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "_h586UHPnkGu52Y9hohPQw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/_h586UHPnkGu52Y9hohPQw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-04-25T23:44:42.3888753Z",
+  "Updated": "2025-04-25T23:44:42.3888753Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

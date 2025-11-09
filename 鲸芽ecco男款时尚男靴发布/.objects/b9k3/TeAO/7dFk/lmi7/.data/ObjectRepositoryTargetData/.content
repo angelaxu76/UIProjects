@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6l3EZZz2mEqyxeNYdhZr_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="82b42c92-de7d-4bd7-b396-08cc58beed17" CvElementArea="624, 332, 242, 38" CvType="InputBox" DesignTimeRectangle="626, 334, 238, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='p-13021751' tag='INPUT' type='' class='' placeholder='请输入' aaname='' /&gt;" Guid="d6a8436e-3960-4b65-a93c-a18964b35593" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="593, 341, 24, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='struct-p-13021751' tag='LABEL' type='' class='label' aaname='货号' check:innerText='货号' /&gt;" Guid="6eed118d-dfdc-47b3-a116-533c5cbd34d5" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="85c510d72e3cfb69fb3339183b18f628.png" xmlns="">0IY49J6FtHkSe9MoKY5jnMQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

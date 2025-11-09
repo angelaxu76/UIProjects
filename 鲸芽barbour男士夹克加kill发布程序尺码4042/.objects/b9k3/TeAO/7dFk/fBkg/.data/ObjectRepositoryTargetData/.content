@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zjsS2zBPsEaF0_CWcLa4WQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="7f5aa061-1629-4382-a8f6-deef1691f9e8" CvElementArea="412, 449, 24, 24" CvType="RadioButton" DesignTimeRectangle="415, 451, 19, 20" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl class='next-radio-input' tag='INPUT' type='radio' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="1c0d8f41-3fd4-4282-8372-87bbdab1ac94" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D201304009%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3276787%252C%2522text%2522%253A%2522clarks%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7f5aa061-1629-4382-a8f6-deef1691f9e8" CvTextArea="440, 454, 169, 16" CvTextArgument="R3RJEt-CLARKS" CvType="Text" DesignTimeRectangle="441, 455, 302, 16" ElementType="Text" FullSelectorArgument="&lt;webctrl class='size-template-name' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='size-template-name' tag='DIV' type='' aaname='尺码尺寸表模板-CLARKS' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='尺码尺寸表模板-CLARKS' /&gt;" Guid="be15895d-8352-46f6-8025-5052cd5749fc" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9c76c17a118c7227e852a035b409c0a4.png" xmlns="">0Qaw7hyPEeUWJ0sqbeHPakg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

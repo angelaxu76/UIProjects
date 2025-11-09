@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-q5_k9DDE0etqMklcfmfgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="fc7a65b0-1407-46c7-a945-9aae2794e87b" CvElementArea="878, 847, 23, 23" CvType="RadioButton" DesignTimeRectangle="881, 849, 18, 18" DesignTimeScaleFactor="1" ElementType="RadioButton" FuzzySelectorArgument="&lt;webctrl class='next-radio-input' parentid='sell-field-deliveryTimeType' tag='INPUT' type='radio' aaname='' /&gt;" Guid="afce008f-7a01-43e3-9050-52861152097d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fc7a65b0-1407-46c7-a945-9aae2794e87b" CvTextArea="906, 849, 102, 15" CvTextArgument="*F48/J8JRR" CvType="Text" DesignTimeRectangle="907, 849, 100, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='大于48小时发货' class='item-label' parentid='sell-field-deliveryTimeType' tag='SPAN' type='' check:innerText='大于48小时发货' /&gt;" Guid="9f0e9199-96a6-40fb-b000-fcee040a764a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="af7d77eaaada4c50825098ce51b5f2e0.png" xmlns="">0JALrGwl0TUu5kBqHZabl7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

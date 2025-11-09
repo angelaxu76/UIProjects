@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="IqdNUkkwzEaX3Deq8SEzBA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="03743c29-3b8b-4056-b2e2-432f2fb8ee7b" CvElementArea="1226, 786, 101, 31" CvTextArea="1263, 794, 27, 14" CvTextArgument="IÂìA" CvType="Button" DesignTimeRectangle="1228, 787, 98, 28" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=false&amp;amp;needHeader=false&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=false&amp;amp;max=20&amp;amp;handleId=1745625331671959979635270' tag='IFRAME' /&gt;&lt;webctrl aaname='确认' parentid='container' tag='DIV' type='' class='btn btn-blue' check:innerText='确认' /&gt;" Guid="49c36136-f3c5-4105-9715-176131f7752d" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='nameStorage:?wm_referrer=https%3A%2F%2Fitem.upload.taobao.com%2Ftbcp%2Fpublish.htm%3FcatId%3D202057706%26fx_sub_channel%3DtaofxMarket_taobao%26keyProps%3D%257B%2522p-20000%2522%253A%257B%2522value%2522%253A3510691%252C%2522text%2522%253A%2522Camper%2522%25*' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="03743c29-3b8b-4056-b2e2-432f2fb8ee7b" CvElementArea="1118, 786, 101, 31" CvTextArea="1155, 794, 26, 14" CvTextArgument="EXlt" CvType="Button" DesignTimeRectangle="1120, 787, 98, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='//sucai.wangpu.taobao.com/select.htm?type=pic&amp;amp;realtime=false&amp;amp;needHeader=false&amp;amp;needClose=false&amp;amp;realTimeSelect=false&amp;amp;singleSelect=false&amp;amp;max=20&amp;amp;handleId=1745625331671959979635270' tag='IFRAME' /&gt;&lt;webctrl class='btn' parentid='container' tag='DIV' type='' aaname='取消' check:innerText='取消' /&gt;" Guid="7f2c542a-851e-4aec-84ae-ce58d37db9a5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5809b943941932844ba48f737a5d405e.png" xmlns="">0duw5PehN0k6bsJKiyQGYQA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

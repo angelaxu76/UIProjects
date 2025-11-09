@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fBThs0Mso0WpnP-k9-9abA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="web.scm.tmall.com/pages/tfx/channel_price_list_detail" CVScreenId="02af2b6f-c1a2-4568-aed7-a619eb517b61" CvElementArea="690, 398, 402, 30" CvType="InputBox" DesignTimeRectangle="692, 401, 398, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' /&gt;" Guid="f0e2d995-9c6f-4e9d-a30c-416a7dd5ce7f" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='渠道价格详情页' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="02af2b6f-c1a2-4568-aed7-a619eb517b61" CvTextArea="612, 406, 64, 14" CvTextArgument="* fREERGT:" CvType="Text" DesignTimeRectangle="614, 406, 69, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='最低限价：' tag='LABEL' type='' class='' check:innerText='最低限价：' /&gt;" Guid="6b71dfa6-8c3a-4d94-b202-e082cc94f992" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8373e46d4982eed7cfd54cb4dea954c7.png" xmlns="">02N8J2RY5qEKf0zzCpt8Qew</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

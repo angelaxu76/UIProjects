@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="eD7JCCrQ3ke0owbu_txfbA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya.taobao.com/web_scm_tmall_com/pages/tfx/channel_price_list_detail" CVScreenId="dc686639-133a-4f8c-b402-350f3f687abf" CvTextArea="1707, 618, 12, 12" CvTextArgument="[" CvType="Text" DesignTimeRectangle="1707, 619, 12, 12" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='iframe_2440aa' tag='IFRAME' /&gt;&lt;webctrl type='' tag='I' class='next-icon next-icon-edit next-xs next-btn-icon next-icon-first' aaname='' /&gt;" Guid="724bf896-bf6d-49c9-a0d4-7b2110659f7c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='渠道价格详情页' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dc686639-133a-4f8c-b402-350f3f687abf" CvTextArea="1652, 618, 51, 16" CvTextArgument="MEAS" CvType="Text" DesignTimeRectangle="1654, 619, 48, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='iframe_2440aa' tag='IFRAME' /&gt;&lt;webctrl aaname='批量清空' class='next-btn-helper' tag='SPAN' type='' check:innerText='批量清空' /&gt;" Guid="162350f0-ec1b-473d-98b2-74b2362353f8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0311eeafaa6df2a0eea70ed4ee25d0e9.png" xmlns="">0asDqfWxzgkSWMedaX3AP0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "573050b5-367d-4bd5-b96c-ee9eec6f8f05",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "excelPath": {
+            "type": "string"
+          },
+          "detailPage": {
+            "type": "string"
+          },
+          "sizeChatname": {
+            "type": "string"
+          },
+          "successLog": {
+            "type": "string"
+          },
+          "storeIntr": {
+            "type": "string"
+          },
+          "shopProcess": {
+            "type": "string"
+          },
+          "fiveImg": {
+            "type": "string"
+          },
+          "forthImg": {
+            "type": "string"
+          },
+          "thirdImg": {
+            "type": "string"
+          },
+          "secondImg": {
+            "type": "string"
+          },
+          "firstImg": {
+            "type": "string"
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}

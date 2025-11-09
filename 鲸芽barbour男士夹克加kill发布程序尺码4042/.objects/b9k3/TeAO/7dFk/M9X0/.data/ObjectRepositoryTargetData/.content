@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7xGLM7K7wUa7t2dof1PZ4A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="205baf5c-c845-484f-b54e-7a0efbbd4d11" CvElementArea="708, 550, 76, 38" CvType="InputBox" DesignTimeRectangle="711, 553, 70, 34" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl type='' parentid='struct-p-122640606' tag='INPUT' class='' placeholder='数字' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9e448c6e-1e20-428a-b156-cf929e6dc713" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="205baf5c-c845-484f-b54e-7a0efbbd4d11" CvTextArea="623, 532, 50, 14" CvTextArgument="ExEEx6" CvType="Text" DesignTimeRectangle="625, 531, 240, 18" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='长x宽x高' parentid='struct-p-122640606' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='长x宽x高' parentid='struct-p-122640606' tag='DIV' type='' class='sell-rich-text info-top' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='长x宽x高' /&gt;" Guid="81a842c1-bd62-416b-9261-28088de001d8" SearchSteps="Selector, FuzzySelector, CV" />
+          <Target DesignTimeRectangle="625, 588, 240, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='小数点后最多2位' parentid='struct-p-122640606' tag='DIV' type='' class='sell-rich-text info-bottom' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='小数点后最多2位' /&gt;" Guid="1b4b725d-91b5-48bd-b7d3-871b75a09bce" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="58d57e85c1935121a7d1a6e41cd0142f.png" xmlns="">0NZ80pK1it0Or8ArD08wCGQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

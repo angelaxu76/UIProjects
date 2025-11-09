@@ -1,0 +1,6 @@
+{
+  "Name": "淘宝休闲鞋发布通用程序",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}

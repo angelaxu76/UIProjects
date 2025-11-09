@@ -1,0 +1,14 @@
+﻿{
+  "Name": "填写海关代码(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "u_Mc95DYq0KjKmIx9gFlqw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/u_Mc95DYq0KjKmIx9gFlqw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T23:28:12.8081893Z",
+  "Updated": "2025-08-16T23:28:12.8081893Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

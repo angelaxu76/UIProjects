@@ -1,0 +1,14 @@
+﻿{
+  "Name": "织物配皮",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "dVuM5AxqUUq6GSZ0R6P3Aw",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/dVuM5AxqUUq6GSZ0R6P3Aw",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-09-25T20:42:51.3771364Z",
+  "Updated": "2025-09-25T20:42:51.3771364Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

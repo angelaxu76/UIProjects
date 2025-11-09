@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vJFB7eJxhEG6JB8Jb1tx1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="jingya-x.taobao.com/wow/z/tfx/static/itemDetail" CVScreenId="a23fac10-ba2d-474b-8f27-351442cfb1b3" CvElementArea="717, 755, 501, 30" CvTextArea="941, 763, 52, 14" CvTextArgument="TZEDWACR" CvType="Button" DesignTimeRectangle="718, 757, 500, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl type='button' tag='BUTTON' class='next-btn next-medium next-btn-primary' aaname='立即铺货' check:innerText='立即铺货' /&gt;" Guid="5c148843-f74c-4813-bd0c-237fe718d2aa" ScopeSelectorArgument="&lt;html app='chrome.exe' title='选货市场-商品详情' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a23fac10-ba2d-474b-8f27-351442cfb1b3" CvElementArea="717, 755, 501, 30" CvTextArea="941, 763, 52, 14" CvTextArgument="TZEDWACR" CvType="Button" DesignTimeRectangle="944, 765, 48, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='next-btn-helper' type='' tag='SPAN' aaname='立即铺货' check:innerText='立即铺货' /&gt;" Guid="571fbd46-f116-4bc7-adae-9c34f35d5d7b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3c1279cb9687f6095680af8745828c38.png" xmlns="">0-T5i6tp83U2GG4LsLAShgQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

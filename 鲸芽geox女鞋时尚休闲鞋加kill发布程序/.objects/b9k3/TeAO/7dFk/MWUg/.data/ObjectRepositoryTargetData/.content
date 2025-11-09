@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ewRzOaL_LE26RtDcfa0FTg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="item.upload.taobao.com/tbcp/publish.htm" CVScreenId="731c205c-61e8-41c3-80e7-b83a557c39b9" CvElementArea="720, 634, 303, 38" CvType="InputBox" DesignTimeRectangle="723, 636, 298, 34" ElementType="InputBox" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl type='' tag='INPUT' class='' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fe79717f-f800-4513-930d-d3b9240c86e9" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='淘宝网 - 商品发布' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="731c205c-61e8-41c3-80e7-b83a557c39b9" CvTextArea="686, 641, 26, 14" CvTextArgument="az" CvType="Text" DesignTimeRectangle="688, 635, 24, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='品名' class='hscode-formItem-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='品名' class='hscode-formItem-label' tag='LABEL' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='品名' /&gt;" Guid="91a33a3b-5a98-4b6f-a1b0-c6eb01e00008" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0baa54171e60be9ad10f323591c68817.png" xmlns="">0Dr4BL3ixQk-IYsfmT6yPWA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

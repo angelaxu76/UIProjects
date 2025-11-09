@@ -1,0 +1,477 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" this:Main.excelPath="D:\abc.xlsx" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:this="clr-namespace:" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="excelPath" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1236,3592" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="726,3569" sap2010:WorkflowViewState.IdRef="Sequence_7">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="692,3486" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+        <ueab:ExcelProcessScopeX.Body>
+          <ActivityAction x:TypeArguments="ui:IExcelProcess">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="658,3376" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="624,3316" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="[excelPath]">
+                <ueab:ExcelApplicationCard.Body>
+                  <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                    </ActivityAction.Argument>
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="590,3020" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                      <Sequence.Variables>
+                        <Variable x:TypeArguments="sd:DataTable" Name="products" />
+                      </Sequence.Variables>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="556,203" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;).Range(&quot;&quot;)]" SaveTo="[products]" />
+                      <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[products]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="556,2757" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                        <ui:ForEachRow.Body>
+                          <ActivityAction x:TypeArguments="sd:DataRow">
+                            <ActivityAction.Argument>
+                              <DelegateInArgument x:TypeArguments="sd:DataRow" Name="product" />
+                            </ActivityAction.Argument>
+                            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="554,2584" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="520,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;before webpage&quot;+product(&quot;渠道产品id&quot;).ToString()]" />
+                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="520,2349" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <TryCatch.Try>
+                                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome 渠道价格详情页" sap:VirtualizedContainerService.HintSize="518,1846" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="b12a56a9-b11a-4b3f-8497-693746315de0" Version="V2" WindowResize="Maximize">
+                                    <uix:NApplicationCard.Body>
+                                      <ActivityAction x:TypeArguments="x:Object">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                        </ActivityAction.Argument>
+                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,1628" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                                          <Sequence.Variables>
+                                            <Variable x:TypeArguments="x:String" Name="existPricie" />
+                                            <Variable x:TypeArguments="x:String" Name="nowPrice" />
+                                          </Sequence.Variables>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <Delay Duration="00:00:20" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Delay_22">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </Delay>
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;after webpage&quot; + product(&quot;渠道产品id&quot;).ToString()]">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </ui:LogMessage>
+                                          <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(pgdn)][u(hk)]" Version="V4">
+                                            <uix:NKeyboardShortcuts.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NKeyboardShortcuts.VerifyOptions>
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                          </uix:NKeyboardShortcuts>
+                                          <Sequence DisplayName="pagedown" sap:VirtualizedContainerService.HintSize="450,267" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(pgdn)][u(hk)]" Version="V4">
+                                              <uix:NKeyboardShortcuts.VerifyOptions>
+                                                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                  <uix:VerifyExecutionOptions.Retry>
+                                                    <InArgument x:TypeArguments="x:Boolean" />
+                                                  </uix:VerifyExecutionOptions.Retry>
+                                                  <uix:VerifyExecutionOptions.Timeout>
+                                                    <InArgument x:TypeArguments="x:Double" />
+                                                  </uix:VerifyExecutionOptions.Timeout>
+                                                </uix:VerifyExecutionOptions>
+                                              </uix:NKeyboardShortcuts.VerifyOptions>
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NKeyboardShortcuts>
+                                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="Delay_17" />
+                                          </Sequence>
+                                          <Sequence DisplayName="MOUSE SCROOL" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_27">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="50" Version="V4">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NMouseScroll>
+                                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_18" />
+                                            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NMouseScroll_2" InteractionMode="HardwareEvents" MovementUnits="30" Version="V4">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NMouseScroll>
+                                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_19">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </Delay>
+                                            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Up" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="416,163" sap2010:WorkflowViewState.IdRef="NMouseScroll_3" InteractionMode="HardwareEvents" MovementUnits="60" Version="V4">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NMouseScroll>
+                                          </Sequence>
+                                          <Sequence DisplayName="模拟鼠标移动" sap:VirtualizedContainerService.HintSize="450,201" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <Delay Duration="00:00:08" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Delay_15">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </Delay>
+                                            <uix:NInjectJsScript InputParameter="{x:Null}" ScriptOutput="{x:Null}" DisplayName="Inject Js Script" sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="NInjectJsScript_13" ScriptCode="function (element, input) {&#xA;    window.scrollBy(0, Math.floor(Math.random() * (400 - 200 + 1)) + 10);&#xA;}" Version="V4">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NInjectJsScript>
+                                          </Sequence>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '立即铺货(3)'" sap:VirtualizedContainerService.HintSize="450,227" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b12a56a9-b11a-4b3f-8497-693746315de0" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="jingya-x.taobao.com/wow/z/tfx/static/itemDetail" CVScreenId="dafeeb8b-95bc-4bea-80e9-dabcbf1acedd" ContentHash="06dYcj-CxU64DDIR3lXR4w" CvElementArea="858, 368, 167, 44" CvTextArea="907, 379, 67, 19" CvTextArgument="ìZRD#XR" CvType="Button" DesignTimeRectangle="860, 370, 162, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='next-btn next-large next-btn-primary' aaname='立即铺货' check:innerText='立即铺货' /&gt;" Guid="77c7224c-9ed5-45ee-9548-02e641627130" InformativeScreenshot="11338ae69ed0685bef324b8d65cecff7.png" Reference="k8vRsHm25EiWWoJkIPAsBg/6krfnBfBbUigWqqgyHsVSA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='选货市场-商品详情' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                    <uix:Target CVScreenId="dafeeb8b-95bc-4bea-80e9-dabcbf1acedd" CvElementArea="858, 368, 167, 44" CvTextArea="907, 379, 67, 19" CvTextArgument="ìZRD#XR" CvType="Button" DesignTimeRectangle="909, 382, 64, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='next-btn-helper' tag='SPAN' type='' aaname='立即铺货' check:innerText='立即铺货' /&gt;" Guid="e264787a-0650-4c64-aeed-3004596c8e0e" SearchSteps="FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
+                                          </uix:NClick>
+                                          <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="450,123" sap2010:WorkflowViewState.IdRef="Delay_14" />
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '立即铺货(4)'" sap:VirtualizedContainerService.HintSize="450,227" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="b12a56a9-b11a-4b3f-8497-693746315de0" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="jingya-x.taobao.com/wow/z/tfx/static/itemDetail" CVScreenId="a23fac10-ba2d-474b-8f27-351442cfb1b3" ContentHash="vJFB7eJxhEG6JB8Jb1tx1A" CvElementArea="717, 755, 501, 30" CvTextArea="941, 763, 52, 14" CvTextArgument="TZEDWACR" CvType="Button" DesignTimeRectangle="718, 757, 500, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl type='button' tag='BUTTON' class='next-btn next-medium next-btn-primary' aaname='立即铺货' check:innerText='立即铺货' /&gt;" Guid="5c148843-f74c-4813-bd0c-237fe718d2aa" InformativeScreenshot="3c1279cb9687f6095680af8745828c38.png" Reference="k8vRsHm25EiWWoJkIPAsBg/YBPhlpQd3Ua_SqlbG-lsCg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='选货市场-商品详情' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                                                <uix:TargetAnchorable.Anchors>
+                                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                    <uix:Target CVScreenId="a23fac10-ba2d-474b-8f27-351442cfb1b3" CvElementArea="717, 755, 501, 30" CvTextArea="941, 763, 52, 14" CvTextArgument="TZEDWACR" CvType="Button" DesignTimeRectangle="944, 765, 48, 12" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='next-btn-helper' type='' tag='SPAN' aaname='立即铺货' check:innerText='立即铺货' /&gt;" Guid="571fbd46-f116-4bc7-adae-9c34f35d5d7b" SearchSteps="FuzzySelector, CV" />
+                                                  </scg:List>
+                                                </uix:TargetAnchorable.Anchors>
+                                              </uix:TargetAnchorable>
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
+                                          </uix:NClick>
+                                          <Sequence DisplayName="MOUSE SCROOL" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_29">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NMouseScroll_4" InteractionMode="HardwareEvents" MovementUnits="50" Version="V4">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NMouseScroll>
+                                            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_21" />
+                                            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NMouseScroll_5" InteractionMode="HardwareEvents" MovementUnits="30" Version="V4">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NMouseScroll>
+                                            <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="Delay_23">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </Delay>
+                                            <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Up" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="416,163" sap2010:WorkflowViewState.IdRef="NMouseScroll_6" InteractionMode="HardwareEvents" MovementUnits="60" Version="V4">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                            </uix:NMouseScroll>
+                                          </Sequence>
+                                          <Delay Duration="00:00:14" sap:VirtualizedContainerService.HintSize="450,116" sap2010:WorkflowViewState.IdRef="Delay_24" />
+                                        </Sequence>
+                                      </ActivityAction>
+                                    </uix:NApplicationCard.Body>
+                                    <uix:NApplicationCard.TargetApp>
+                                      <uix:TargetApp Area="-1928, -8, 1936, 1048" BrowserType="Chrome" ContentHash="jbY13tgabkKjsuJ8uMrKGQ" IconBase64="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" InformativeScreenshot="f522738ac38c0dcba4dd6233d0876fe4.jpg" Reference="k8vRsHm25EiWWoJkIPAsBg/OE_DMhToPkWed3idxsGrdg" Selector="&lt;html app='chrome.exe' title='渠道价格详情页' /&gt;" Title="渠道价格详情页" Url="[&quot;https://jingya-x.taobao.com/wow/z/tfx/static/itemDetail?pt=ascp&amp;supplierItemId=&quot;+product(&quot;渠道产品id&quot;).ToString()+&quot;&amp;version=2&quot;]" Version="V1" />
+                                    </uix:NApplicationCard.TargetApp>
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </uix:NApplicationCard>
+                                </TryCatch.Try>
+                                <TryCatch.Catches>
+                                  <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                                    <ActivityAction x:TypeArguments="s:Exception">
+                                      <ActivityAction.Argument>
+                                        <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                      </ActivityAction.Argument>
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518,226" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484,166" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[Excel.AsText]" />
+                                      </Sequence>
+                                    </ActivityAction>
+                                  </Catch>
+                                </TryCatch.Catches>
+                                <TryCatch.Finally>
+                                  <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="518,90" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </Sequence>
+                                </TryCatch.Finally>
+                              </TryCatch>
+                            </Sequence>
+                          </ActivityAction>
+                        </ui:ForEachRow.Body>
+                      </ui:ForEachRow>
+                    </Sequence>
+                  </ActivityAction>
+                </ueab:ExcelApplicationCard.Body>
+              </ueab:ExcelApplicationCard>
+            </Sequence>
+          </ActivityAction>
+        </ueab:ExcelProcessScopeX.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ueab:ExcelProcessScopeX>
+    </Sequence>
+  </Sequence>
+</Activity>

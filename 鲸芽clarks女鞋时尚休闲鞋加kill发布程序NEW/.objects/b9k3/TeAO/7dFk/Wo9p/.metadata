@@ -1,0 +1,14 @@
+﻿{
+  "Name": "制鞋工艺",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Wo9pBKcr5UK2DP2WeArVRQ",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/Wo9pBKcr5UK2DP2WeArVRQ",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-02T11:15:34.4479442Z",
+  "Updated": "2025-08-02T11:15:34.4479442Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "衣长(1)",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "JjglaY2ILkaipeNI-wuG8w",
+  "Reference": "d8TXjNWSJ0-3WMGxBOkBOg/JjglaY2ILkaipeNI-wuG8w",
+  "ParentRef": "d8TXjNWSJ0-3WMGxBOkBOg/7dFkiWHeFkajUtqo3uOBRQ",
+  "Created": "2025-08-16T22:10:19.1379858Z",
+  "Updated": "2025-08-16T22:10:19.1379858Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.10.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
